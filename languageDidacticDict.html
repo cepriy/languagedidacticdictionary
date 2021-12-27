@@ -1,0 +1,68 @@
+<form id="langSelect">
+    <p id="selectInterfaceLang">Select the interface language:</p>
+    <div>
+        <input type="radio" id="langEngl"  checked="true"
+               name="language" value="English">
+        <label for="langEngl">English</label>
+
+        <input type="radio" id="langUkr"
+               name="language" value="Ukrainian">
+        <label for="langUkr">Ukrainian</label>
+
+        <input type="radio" id="langSpanish"
+               name="language" value="Spanish">
+        <label for="langSpanish">Spanish</label>
+    </div>
+</form>
+<html>
+ 
+    <head> 
+	<title>Spanish-Ukrainian and Ukrainian-Spanish Glossary on language learning, teaching and assessment
+	 <br />
+	</title>
+        <meta charset='utf-8'>
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    </head>
+	    <style type="text/css">
+body{
+background-image: URL("CarteGeografique.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: burlywood;
+}
+</style>
+<body bgcolor="#ffd700" >
+
+	<h1 id="title"><center></center></h1>
+
+    <a id="about"; href="languageDidacticDevelopers.html"></a>
+
+<p><center><textarea style="background-color: thistle ; height: 15%; width: 60%; font-size: xx-large"  id="txtArQuery"></textarea></p>
+    <center><button style="height: 10%; width:60%" type="button" id="makeConcordance">Generate concordance</button></center>
+    <br />
+
+    <p><<div id="divOutput" style="font-size: xx-large"></div></p>
+
+        <table id="concordTable"  style="width:850px; text-align: justify">
+
+        </table>
+
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ <script src="https://code.jquery.com/jquery-1.12.4.js"> </script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="update-languages_language_didactic.js"></script>
+    <script type="text/javascript" src="dataLanguageDidactic.js"></script>
+    <script type="text/javascript" src="concordance.js"></script>
+    <script type="text/javascript" src = "mainLanguageDidactics.js"></script>
+<!--    <script type="text/javascript" src = "lang.json"></script>-->
+
+
+
+
+</script>
+
+
+
+ </body>
+</html>
