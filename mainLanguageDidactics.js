@@ -106,7 +106,6 @@ $("#makeConcordance").click (function (){
    concordanceData.forEach(function (item){
         if (new RegExp(term).test(item.original) || new RegExp(term).test(item.translation) ||
             ( item.original.length > 2 && item.original.toLowerCase().includes(txtArQuery.val())) || (item.translation.length > 2 && item.translation.toLowerCase().includes(txtArQuery.val()))){ // because 'test' will not work if the fragment contains brackets and other special symbols
-
             let row = $('<tr/>',{}).appendTo($("#concordTable"));
            $('<th/>',{
                 html: highlightString( item.original , divOutput.text(), txtArQuery.val()) + "<br/>",
@@ -115,8 +114,14 @@ $("#makeConcordance").click (function (){
                      }
             }).appendTo(row);
 
+            let translationsSet = divOutput.text().split(", ");
+            let hightlightedTranslationString = item.translation;
+            translationsSet.forEach(function (translation){
+                if (translation.length > 2)  {hightlightedTranslationString = highlightString( hightlightedTranslationString,  txtArQuery.val(),translation);}
+            })
+
            $('<th/>',{
-                html: highlightString( item.translation ,  txtArQuery.val(), divOutput.text()) + "<br/>",
+                html: hightlightedTranslationString + "<br/>",
                 css:{
                 width:"350px"
                 }
@@ -126,16 +131,26 @@ $("#makeConcordance").click (function (){
 })
 
 function findTranslation() {
+    divOutput.text("");
+    entries.forEach(function (currentEntry) {
 
-    entries.forEach(function (currentQuestion) {
-        currentQuestion.spanish.split(",").forEach(function (spName) {
+
+        currentEntry.spanish.split(",").forEach(function (spName) {
             if (txtArQuery.val() === spName.trim().replaceAll("$", ",")) {
-                divOutput.text(currentQuestion.ukrainian);
+                if (divOutput.text().length > 1){
+                    divOutput.text(divOutput.text() + ", " + currentEntry.ukrainian);}
+                else{
+                    divOutput.text(currentEntry.ukrainian);
+                }
             }
         })
-        currentQuestion.ukrainian.split(",").forEach(function (ukrainian) {
+        currentEntry.ukrainian.split(",").forEach(function (ukrainian) {
             if (txtArQuery.val() === ukrainian.trim().replaceAll("$", ",")) {
-                divOutput.text(currentQuestion.spanish);
+                if (divOutput.text().length > 1){
+                divOutput.text(divOutput.text() + ", " + currentEntry.spanish);}
+                else{
+                    divOutput.text(currentEntry.spanish);
+                }
             }
         })
            divOutput.attr('readonly', true);
