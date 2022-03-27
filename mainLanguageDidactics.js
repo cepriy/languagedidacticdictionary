@@ -15,9 +15,10 @@ $("#langSelect").change(function (){
     updateInterface();
 })
 
-$("#txtArQuery").keyup(function (event) {
+txtArQuery.keyup(function (event) {
     if (event.keyCode == 13) {
-        $("#makeConcordance").click();
+        findTranslation(txtArQuery.val().trim());
+        makeConcorddance();
     }
 });
 
@@ -47,7 +48,7 @@ function readJSONdata() {
 
 function preprocessTerm(term) {
     let result = "";
-    term = term.toLowerCase().trim().replaceAll("\\(","")
+    term = term.trim().toLowerCase().replaceAll("\\(","")
         .replaceAll(")", "")
         .replaceAll("$", ",");
     if (term.includes(" ")) {
@@ -79,16 +80,17 @@ function parseData(data) {
 
 $(document).ready(function () {
 
-    $("#txtArQuery").autocomplete(
+  txtArQuery.autocomplete(
         {
             source: names.map(function(item){
                 return item.replaceAll('$', ',');
             }),
+            minLength: 3,
             select: function (event, ui) {
                 if (ui.item) {
                     $(event.target).val(ui.item.value);
                 }
-                findTranslation();
+                findTranslation(txtArQuery.val().trim());
             }
         });
 });
@@ -100,43 +102,62 @@ function highlightString (text, string1, string2){ // the string might be either
                 .replace(new RegExp( preprocessTerm(string2),  "ig"), "<mark>$1</mark>$2");
 }
 
-$("#makeConcordance").click (function (){
-    $("#concordTable").empty();
-    let term = preprocessTerm(txtArQuery.val());
-   concordanceData.forEach(function (item){
-        if (new RegExp(term).test(item.original) || new RegExp(term).test(item.translation) ||
-            ( item.original.length > 2 && item.original.toLowerCase().includes(txtArQuery.val())) || (item.translation.length > 2 && item.translation.toLowerCase().includes(txtArQuery.val()))){ // because 'test' will not work if the fragment contains brackets and other special symbols
-            let row = $('<tr/>',{}).appendTo($("#concordTable"));
-           $('<th/>',{
-                html: highlightString( item.original , divOutput.text(), txtArQuery.val()) + "<br/>",
-                css:{
-                    width:"350px"
-                     }
-            }).appendTo(row);
+// $("#makeConcordance").click (function (){
+//
+// })
 
+function makeConcorddance(){
+    $("#concordTable").empty();
+    let term = preprocessTerm(txtArQuery.val().trim());
+    concordanceData.forEach(function (item){
+        if (new RegExp(term).test(item.original) || new RegExp(term).test(item.translation) ||
+            ( item.original.length > 2 && item.original.toLowerCase().includes(txtArQuery.val().trim())) || (item.translation.length > 2 && item.translation.toLowerCase().includes(txtArQuery.val().trim()))){ // because 'test' will not work if the fragment contains brackets and other special symbols
+
+            let originalStringSet = divOutput.text().split(", ");
+            let highlightedOriginalString = item.original;
             let translationsSet = divOutput.text().split(", ");
             let hightlightedTranslationString = item.translation;
-            translationsSet.forEach(function (translation){
-                if (translation.length > 2)  {hightlightedTranslationString = highlightString( hightlightedTranslationString,  txtArQuery.val(),translation);}
-            })
+           // alert(hightlightedTranslationString + " " + term.substring(0,4) + " swapping")
+            if (hightlightedTranslationString.includes(term.substring(1,5))){ //because the zero character is a bracket as a part of regex
 
-           $('<th/>',{
-                html: hightlightedTranslationString + "<br/>",
+                let temp = hightlightedTranslationString;
+                hightlightedTranslationString = highlightedOriginalString;
+                highlightedOriginalString = temp;
+            }
+            originalStringSet.forEach(function (original){
+                if (original.length > 2)  {highlightedOriginalString = highlightString( highlightedOriginalString,  txtArQuery.val().trim(),original);}
+
+            })
+            let row = $('<tr/>',{}).appendTo($("#concordTable"));
+            $('<th/>',{
+                html: highlightedOriginalString + "<br/>",
                 css:{
-                width:"350px"
+                    width:"350px"
                 }
             }).appendTo(row);
-         }
-    })
-})
 
-function findTranslation() {
+
+            translationsSet.forEach(function (translation){
+                if (translation.length > 2)  {hightlightedTranslationString = highlightString( hightlightedTranslationString,  txtArQuery.val().trim(),translation);}
+            })
+
+            $('<th/>',{
+                html: hightlightedTranslationString + "<br/>",
+                css:{
+                    width:"350px"
+                }
+            }).appendTo(row);
+        }
+    })
+}
+
+function findTranslation(term) {
     divOutput.text("");
     entries.forEach(function (currentEntry) {
 
 
         currentEntry.spanish.split(",").forEach(function (spName) {
-            if (txtArQuery.val() === spName.trim().replaceAll("$", ",")) {
+            if (term === spName.trim().replaceAll("$", ",")) {
                 if (divOutput.text().length > 1){
                     divOutput.text(divOutput.text() + ", " + currentEntry.ukrainian);}
                 else{
@@ -145,7 +166,7 @@ function findTranslation() {
             }
         })
         currentEntry.ukrainian.split(",").forEach(function (ukrainian) {
-            if (txtArQuery.val() === ukrainian.trim().replaceAll("$", ",")) {
+            if (term === ukrainian.trim().replaceAll("$", ",")) {
                 if (divOutput.text().length > 1){
                 divOutput.text(divOutput.text() + ", " + currentEntry.spanish);}
                 else{
@@ -154,5 +175,6 @@ function findTranslation() {
             }
         })
            divOutput.attr('readonly', true);
-    })
+    });
+    makeConcorddance();
 }

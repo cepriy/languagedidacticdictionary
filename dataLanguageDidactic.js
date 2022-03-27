@@ -1,313 +1,5 @@
 data = '[\n' +
     '  {\n' +
-    '    "spanish": "¿Adquisición o aprendizaje?",\n' +
-    '    "ukrainian": "Оволодіння чи вивчення?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "¿Qué tienen que aprender",\n' +
-    '    "ukrainian": "Чого саме учні повинні вчитись"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Actividades y estrategias de mediación",\n' +
-    '    "ukrainian": "посередницька діяльність і стратегії"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "capacidad de aprender (saber aprender)",\n' +
-    '    "ukrainian": "вміння учитися (savoir-apprendre)"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "clase social",\n' +
-    '    "ukrainian": "соціальний клас"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "competencia ortoépica",\n' +
-    '    "ukrainian": "орфоепічна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Competencia parcial",\n' +
-    '    "ukrainian": "часткова (окрема ) компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Complementariedad de los objetivos parciales",\n' +
-    '    "ukrainian": "взаємодоповнюваність окремих цілей"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "completar formularios y cuestionarios",\n' +
-    '    "ukrainian": "заповнення формулярів, анкет"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Comunicación no verbal",\n' +
-    '    "ukrainian": "невербальне спілкування"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Condiciones",\n' +
-    '    "ukrainian": "інтеракція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "conseguir información específica",\n' +
-    '    "ukrainian": "отримати спеціальну інформацію"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "conversación casual",\n' +
-    '    "ukrainian": "одинична бесіда"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "cooperación práctica centrada en los objetivos",\n' +
-    '    "ukrainian": "практична цілеспрямована кооперація"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "de lo parcial a lo transversal",\n' +
-    '    "ukrainian": "від окремого/часткового до наскрізного підходу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "debate",\n' +
-    '    "ukrainian": "дебати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "definición",\n' +
-    '    "ukrainian": "дефініція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "definición y enfoque inicial",\n' +
-    '    "ukrainian": "дефініція та основний підхід"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "descripción de las tareas",\n' +
-    '    "ukrainian": "характеристика завдань"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "descriptores de actividades comunicativas",\n' +
-    '    "ukrainian": "дескриптори комунікативних видів мовлення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "desequilibrio y variabilidad de la competencia",\n' +
-    '    "ukrainian": "різнорівнева та змінна компетенції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "destrezas",\n' +
-    '    "ukrainian": "практичні вміння"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "destrezas de descodificación",\n' +
-    '    "ukrainian": "вміння декодування"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "destrezas perceptivas",\n' +
-    '    "ukrainian": "перцептивні вміння"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dialecto",\n' +
-    '    "ukrainian": "діалект"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diccionario (monolingües y bilingües)",\n' +
-    '    "ukrainian": "словники (одно-та двомовні)"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diccionario de pronunciación",\n' +
-    '    "ukrainian": "фонетичний словник"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diccionario electrónico",\n' +
-    '    "ukrainian": "електронний словник"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "discusión formal",\n' +
-    '    "ukrainian": "формальна дискусія"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "discusión informal",\n' +
-    '    "ukrainian": "неформальна дискусія"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "entrevista",\n' +
-    '    "ukrainian": "інтерв\'ю"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "escribir artículos para revistas, periódicos, boletines informativos, etc.",\n' +
-    '    "ukrainian": "написання статей для журналів, газет, зведень новин і т.д."\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "escribir cartas personales o de negocios, etc.",\n' +
-    '    "ukrainian": "написання особистих або ділових листів тощо."\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "escribir de forma creativa e imaginativa",\n' +
-    '    "ukrainian": "творче та образне письмо"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "escribir informes, memorandos, etc.",\n' +
-    '    "ukrainian": "написання звітів (доповідей), меморандумів тощо"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "estructura social y las relaciones entre sus miembros",\n' +
-    '    "ukrainian": "класовою структурою суспільства та взаєминами між класами"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "estructuras y relaciones familiares",\n' +
-    '    "ukrainian": "сімейні структури і стосунки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "evaluación directa / evaluación indirecta",\n' +
-    '    "ukrainian": "прямий контроль/непрямий контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "evaluación formativa / evaluación sumativa",\n' +
-    '    "ukrainian": "поточний контроль/підсумковий контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "evaluación global / evaluación analítica",\n' +
-    '    "ukrainian": "глобальний/аналітичний контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "evaluación subjetiva / evaluación objetiva",\n' +
-    '    "ukrainian": "суб\'єктивний контроль/об\'єктивний контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "exploración rápida",\n' +
-    '    "ukrainian": "швидкий контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "factores afectivos",\n' +
-    '    "ukrainian": "афективний чинник"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "factores cognitivos",\n' +
-    '    "ukrainian": "когнітивний чинник"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "factores lingüísticos",\n' +
-    '    "ukrainian": "лінгвістичний чинник"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "flexibilidad de un enfoque ramificado",\n' +
-    '    "ukrainian": "гнучкість у розгалуженому підході"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "gramática de consulta",\n' +
-    '    "ukrainian": "граматичний довідник"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "grupos profesionales",\n' +
-    '    "ukrainian": "суспільно-професійні групи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "identificación del texto, completo o parcial, como adecuado",\n' +
-    '    "ukrainian": "ідентифікація тексту, повна або часткова, відповідно до ситуації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "imaginación",\n' +
-    '    "ukrainian": "уявлення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "inferencia",\n' +
-    '    "ukrainian": "узагальнення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Intercambio de saludos",\n' +
-    '    "ukrainian": "обмінятись привітаннями"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "juegos de palabras",\n' +
-    '    "ukrainian": "гра слів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "medio de enseñanza",\n' +
-    '    "ukrainian": "засобу навчання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "memoria",\n' +
-    '    "ukrainian": "пам\'ять"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "nacimiento, matrimonio y muerte",\n' +
-    '    "ukrainian": "народження, одруження, смерть"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "negociación",\n' +
-    '    "ukrainian": "переговори"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "nociones específicas",\n' +
-    '    "ukrainian": "специфічні поняття"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ortografía",\n' +
-    '    "ukrainian": "орфографія"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "parte de otros estudios de gradación",\n' +
-    '    "ukrainian": "складова інших досліджень з калібрування"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "parte del desarrollo del sistema",\n' +
-    '    "ukrainian": "складова розробки системи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "planificación conjunta",\n' +
-    '    "ukrainian": "спільне планування"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "portfolio",\n' +
-    '    "ukrainian": "портфель"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "predicción",\n' +
-    '    "ukrainian": "прогнозування"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "producir carteles para exponer",\n' +
-    '    "ukrainian": "складання підписів для дисплею"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "pruebas puntuadas objetivamente",\n' +
-    '    "ukrainian": "об\'єктивно підраховані тести"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "puntualidad",\n' +
-    '    "ukrainian": "пунктуальність"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "recurso de evaluación",\n' +
-    '    "ukrainian": "довідник для реалізації контролю"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "referencia a lo anterior y a lo posterior.",\n' +
-    '    "ukrainian": "повернення назад та забігання наперед"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "reflexión sobre el sistema fonético",\n' +
-    '    "ukrainian": "загальні фонетичні здібності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "relaciones con la autoridad, con la Administración",\n' +
-    '    "ukrainian": "стосунки між громадою та поліцією, офіційними органами"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "relaciones en situaciones de trabajo",\n' +
-    '    "ukrainian": "стосунки в ситуаціях на роботі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "tesauro",\n' +
-    '    "ukrainian": "тезаурус"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "tomar mensajes al dictado, etc.",\n' +
-    '    "ukrainian": "запис висловлювань під диктовку і т.д."\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "tomar notas para usarlas como referencias futuras",\n' +
-    '    "ukrainian": "складання записів для майбутнього використання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "transacción",\n' +
-    '    "ukrainian": "трансакція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "un objetivo del programa de aprendizaje",\n' +
-    '    "ukrainian": "одна із цілей навчальної програми"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "¿A qué objetos tendrán que referirse?",\n' +
     '    "ukrainian": "Якими цілями їм слід керуватися?"\n' +
     '  },\n' +
@@ -317,11 +9,11 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "¿Adquisición o aprendizaje?",\n' +
-    '    "ukrainian": "1 Оволодіння чи вивчення?"\n' +
+    '    "ukrainian": "Оволодіння чи вивчення?"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "¿Adquisición o aprendizaje?",\n' +
-    '    "ukrainian": "оволодіння чи вивчення?"\n' +
+    '    "ukrainian": "1 Оволодіння чи вивчення?"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "¿Bajo qué condiciones tendrán que actuar?",\n' +
@@ -346,10 +38,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "¿De cuál de las formas siguientes se espera",\n' +
     '    "ukrainian": "Якими з наступних способів учні можуть"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "¿De una",\n' +
-    '    "ukrainian": "Одним"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "¿De una o más de las siguientes formas?",\n' +
@@ -404,6 +92,10 @@ data = '[\n' +
     '    "ukrainian": "Які завдання вони матимуть виконувати?"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "¿Qué tienen que aprender",\n' +
+    '    "ukrainian": "Чого саме учні повинні вчитись"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "¿Se sopesan los errores",\n' +
     '    "ukrainian": "чи оцінюються хибні уявлення"\n' +
     '  },\n' +
@@ -424,20 +116,20 @@ data = '[\n' +
     '    "ukrainian": "про оволодіння мовою зокрема"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "a la corrección, a la hora de seleccionar",\n' +
-    '    "ukrainian": "правильності, при загальному доборі"\n' +
+    '    "spanish": "a la hora de seleccionar",\n' +
+    '    "ukrainian": "при загальному доборі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "a la forma, a la fluidez",\n' +
-    '    "ukrainian": "формі, швидкості"\n' +
+    '    "spanish": "fluidez",\n' +
+    '    "ukrainian": "швидкість"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a la formación del examinador",\n' +
     '    "ukrainian": "через підготовку експертів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "a la hora de la selección, la adaptación",\n' +
-    '    "ukrainian": "при відборі, адаптації або складанні усних"\n' +
+    '    "spanish": "a la hora de la selección",\n' +
+    '    "ukrainian": "при відборі"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a la persona o personas implicadas",\n' +
@@ -448,16 +140,16 @@ data = '[\n' +
     '    "ukrainian": "вона може стосуватись окремої сфери"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "a las diferencias esenciales",\n' +
-    '    "ukrainian": "найсуттєвіших відмінностей"\n' +
+    '    "spanish": "diferencias esenciales",\n' +
+    '    "ukrainian": "найсуттєвіші відмінності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a las personas implicadas,",\n' +
-    '    "ukrainian": "особам, які беруть в них участь,"\n' +
+    '    "ukrainian": "особи, які беруть в них участь"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a las típicas situaciones",\n' +
-    '    "ukrainian": "діяти у більшості ситуацій,"\n' +
+    '    "ukrainian": "у більшості ситуацій"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a lo posterior",\n' +
@@ -465,35 +157,23 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a los formadores de profesores",\n' +
-    '    "ukrainian": "вчителями-практиками"\n' +
+    '    "ukrainian": "вчителі-практики"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a otros, pedir y dar información personal básica",\n' +
     '    "ukrainian": "може запитувати і відповідати на запитання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "a quién elegir, etc",\n' +
-    '    "ukrainian": "що обрати і тд"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "a realizar las tareas de esta lista",\n' +
-    '    "ukrainian": "носію мови ) у виконанні названих вище завдань"\n' +
+    '    "ukrainian": "у виконанні названих вище завдань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "a través de juegos de roles y de simulaciones",\n' +
-    '    "ukrainian": "через рольову гру та уявні ситуації"\n' +
+    '    "spanish": "a través de juegos de roles",\n' +
+    '    "ukrainian": "через рольову гру"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a un grupo",\n' +
     '    "ukrainian": "групового?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "a veces de",\n' +
-    '    "ukrainian": "іноді це"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "a veces de 1 a",\n' +
-    '    "ukrainian": "іноді це 1 -"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "a veces parcial o inexacta",\n' +
@@ -688,10 +368,6 @@ data = '[\n' +
     '    "ukrainian": "А2 Може дати простий опис"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "A2 Sabe indicar",\n' +
-    '    "ukrainian": "А2 Може вказати,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "A2 Sabe indicar que comprende lo que se dice",\n' +
     '    "ukrainian": "А2 Може вказати, що він/вона розуміє"\n' +
     '  },\n' +
@@ -753,7 +429,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "aclaración",\n' +
-    '    "ukrainian": "запит роз\'яснення"\n' +
+    '    "ukrainian": "роз\'яснення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "acordar la compra",\n' +
@@ -784,8 +460,8 @@ data = '[\n' +
     '    "ukrainian": "міжкультурні навички та вмінням"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "activación del constructo, y en parte a (b",\n' +
-    '    "ukrainian": "недостатньою операціоналізацією предмета і (б"\n' +
+    '    "spanish": "activación del constructo",\n' +
+    '    "ukrainian": "операціоналізація предмета"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "activar los esquemas adecuados",\n' +
@@ -805,7 +481,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "actividades comunicativas",\n' +
-    '    "ukrainian": "Види мовленнєвої діяльності"\n' +
+    '    "ukrainian": "види мовленнєвої діяльності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "actividades comunicativas de la lengua",\n' +
@@ -813,11 +489,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "actividades concretas",\n' +
-    '    "ukrainian": "видів діяльності?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "actividades cotidianas, planes y acuerdos",\n' +
-    '    "ukrainian": "власні вчинки в минулому, плани і способи дії"\n' +
+    '    "ukrainian": "види діяльності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "actividades de explotación",\n' +
@@ -852,8 +524,12 @@ data = '[\n' +
     '    "ukrainian": "інтелектуальні та художні заняття"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "actividades intelectuales y artísticas.",\n' +
-    '    "ukrainian": "інтелектуальні та художні заняття"\n' +
+    '    "spanish": "actividades artísticas",\n' +
+    '    "ukrainian": "художні заняття"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "actividades intelectuales",\n' +
+    '    "ukrainian": "інтелектуальні заняття"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "actividades lúdicas",\n' +
@@ -1192,10 +868,6 @@ data = '[\n' +
     '    "ukrainian": "дискримінантний аналіз"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "análisis discriminante",\n' +
-    '    "ukrainian": "дискримінантний аналіз"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "analítico",\n' +
     '    "ukrainian": "аналітичний"\n' +
     '  },\n' +
@@ -1248,8 +920,8 @@ data = '[\n' +
     '    "ukrainian": "реклама"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "anuncios publicitarios, folletos, menús",\n' +
-    '    "ukrainian": "реклама, листівки, меню та розклади"\n' +
+    '    "spanish": "folleto",\n' +
+    '    "ukrainian": "листівка"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "aparato perceptivo",\n' +
@@ -1262,10 +934,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "apenas se notan",\n' +
     '    "ukrainian": "вони майже непомітні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "aperitivos, bebidas, comidas",\n' +
-    '    "ukrainian": "закуски, напої, їжа"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "apertura a nuevas experiencias culturales",\n' +
@@ -1368,8 +1036,8 @@ data = '[\n' +
     '    "ukrainian": "ті, хто мають відношення до іспитів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Aquí la cuestión de la edad",\n' +
-    '    "ukrainian": "Тут питання про вік"\n' +
+    '    "spanish": "cuestión de la edad",\n' +
+    '    "ukrainian": "питання про вік"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Aquí no se puede realizar una distinción",\n' +
@@ -1396,6 +1064,10 @@ data = '[\n' +
     '    "ukrainian": "загальні сфери"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "áreas temáticas",\n' +
+    '    "ukrainian": "тематичні сфери"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Argumentación",\n' +
     '    "ukrainian": "аргументація"\n' +
     '  },\n' +
@@ -1408,24 +1080,16 @@ data = '[\n' +
     '    "ukrainian": "аргументований"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "argumentativos",\n' +
-    '    "ukrainian": "аргументацією"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "argumento",\n' +
     '    "ukrainian": "аргумент"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "argumento",\n' +
-    '    "ukrainian": "аргументацією"\n' +
+    '    "ukrainian": "аргументація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "argumentos procedentes de varias fuentes",\n' +
     '    "ukrainian": "аргументи з певної кількості джерел"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "argumentos,",\n' +
-    '    "ukrainian": "аргументацію"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "artes (música, artes visuales, literatura, teatro, canciones y música populares).",\n' +
@@ -1520,6 +1184,10 @@ data = '[\n' +
     '    "ukrainian": "якісні аспекти"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "aspectos de las actividades",\n' +
+    '    "ukrainian": "аспекти видів діяльності"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "asuntos habituales",\n' +
     '    "ukrainian": "повсякденне звичайне життя"\n' +
     '  },\n' +
@@ -1544,28 +1212,12 @@ data = '[\n' +
     '    "ukrainian": "атестований"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Audiovisual",\n' +
-    '    "ukrainian": "Аудіо/Відео"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "audiovisual,",\n' +
-    '    "ukrainian": "аудіовізуальної"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "audiovisuales",\n' +
-    '    "ukrainian": "аудіовізуальними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "audiovisuales (el bingo",\n' +
-    '    "ukrainian": "аудіовізуальні (лото"\n' +
+    '    "spanish": "audiovisual",\n' +
+    '    "ukrainian": "аудіовізуальний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "audiovisuales (el bingo con imágenes, el juego de las películas, etc.)",\n' +
     '    "ukrainian": "аудіовізуальні (лото з картинками, фотографії і т.д.)"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "audiovisuales,",\n' +
-    '    "ukrainian": "аудіовізуальних"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "aumentan la dificultad de la comprensión",\n' +
@@ -1596,14 +1248,6 @@ data = '[\n' +
     '    "ukrainian": "підвищити мотивацію і впевненість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Aunque el conjunto de descriptores, como un todo,",\n' +
-    '    "ukrainian": "Цей набір як одне ціле, навіть будучи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Aunque esto resulte obvio, es también evidente",\n' +
-    '    "ukrainian": "Якщо вважати це очевидним, то також ясно,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "aunque haya ruido de fondo",\n' +
     '    "ukrainian": "на фоні певних шумів"\n' +
     '  },\n' +
@@ -1612,11 +1256,11 @@ data = '[\n' +
     '    "ukrainian": "хоча може вагатися при підборі структур"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "auténtica",\n' +
+    '    "spanish": "auténtico",\n' +
     '    "ukrainian": "реальний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Autoconciencia y falta de autoconciencia",\n' +
+    '    "spanish": "autoconciencia y falta de autoconciencia",\n' +
     '    "ukrainian": "з самоусвідомленням чи без нього"\n' +
     '  },\n' +
     '  {\n' +
@@ -1629,23 +1273,23 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "autoevaluación",\n' +
-    '    "ukrainian": "самооцінювання (лише з читання, аудіювання"\n' +
+    '    "ukrainian": "самооцінювання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Autoevaluación",\n' +
+    '    "spanish": "autoevaluación",\n' +
     '    "ukrainian": "самоконтроль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Autoevaluación (sólo en comprensión escrita",\n' +
-    '    "ukrainian": "самооцінювання (лише з читання, аудіювання"\n' +
+    '    "spanish": "autoevaluación en comprensión escrita",\n' +
+    '    "ukrainian": "самооцінювання з читання"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "autoevaluación estructurada",\n' +
+    '    "ukrainian": "спланований самоконтроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "autónomo",\n' +
     '    "ukrainian": "автономний"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "autónomo",\n' +
-    '    "ukrainian": "автономним"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ayuda al alumno a prever",\n' +
@@ -1653,7 +1297,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ayudar en los estudios",\n' +
-    '    "ukrainian": "допомога у навчанні,"\n' +
+    '    "ukrainian": "допомога у навчанні"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ayudas",\n' +
@@ -1666,14 +1310,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "ayuden a explicar el texto",\n' +
     '    "ukrainian": "допомагають зрозуміти текст"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "B1 (Umbral ) o B2 (Avanzado)",\n' +
-    '    "ukrainian": "В 1 (Threshold ) або В2 (Vanstage)"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "B1 (Umbral ), entre B1 (Umbral)",\n' +
-    '    "ukrainian": "між В2 та СІ (автономний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "B1 (Umbral)",\n' +
@@ -1796,10 +1432,6 @@ data = '[\n' +
     '    "ukrainian": "В2 Може впевнено передавати детальну інформацію"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "B2 Planifica lo",\n' +
-    '    "ukrainian": "В2 Може планувати те,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "B2 Planifica lo que hay que decir",\n' +
     '    "ukrainian": "В2 Може планувати те, що потрібно сказати,"\n' +
     '  },\n' +
@@ -1840,8 +1472,8 @@ data = '[\n' +
     '    "ukrainian": "B2 Я можу узагальнювати інформацію"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "B2 Tengo un amplio vocabulario de lectura,",\n' +
-    '    "ukrainian": "B2 Я маю широкий словник читання,"\n' +
+    '    "spanish": "B2 Tengo un amplio vocabulario de lectura",\n' +
+    '    "ukrainian": "B2 Я маю широкий словник читання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "B2 Utiliza circunloquios",\n' +
@@ -1864,28 +1496,8 @@ data = '[\n' +
     '    "ukrainian": "новини (інформаційні, літературні, загальна інформація і т.д.)."\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "bastante amplio por muy amplio,",\n' +
-    '    "ukrainian": "заміни \'досить широкий\' на \'дуже широкий\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Bibliografía",\n' +
-    '    "ukrainian": "бібліографічний"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "bibliografía",\n' +
     '    "ukrainian": "бібліографія"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "bien de «continuum»",\n' +
-    '    "ukrainian": "континуум"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "bien estructurados,",\n' +
-    '    "ukrainian": "добре структуровані тексти"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "bien limitado a",\n' +
-    '    "ukrainian": "спеціальний термін"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "bienes y servicios cotidianos",\n' +
@@ -1904,7 +1516,7 @@ data = '[\n' +
     '    "ukrainian": "біографія"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "boletines informativos",\n' +
+    '    "spanish": "boletín informativo",\n' +
     '    "ukrainian": "зведення новин"\n' +
     '  },\n' +
     '  {\n' +
@@ -1912,19 +1524,15 @@ data = '[\n' +
     '    "ukrainian": "стислість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "breves para transmitir información",\n' +
-    '    "ukrainian": "короткі звіти, в яких йдеться"\n' +
+    '    "spanish": "brusquedad",\n' +
+    '    "ukrainian": "різкість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Brusquedad, franqueza",\n' +
-    '    "ukrainian": "різкість, надмірна відвертість"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Buen control gramatical",\n' +
+    '    "spanish": "buen control gramatical",\n' +
     '    "ukrainian": "належний граматичний контроль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Buen dominio de expresiones idiomáticas",\n' +
+    '    "spanish": "buen dominio de expresiones idiomáticas",\n' +
     '    "ukrainian": "вільно вживає ідіоматичні вирази"\n' +
     '  },\n' +
     '  {\n' +
@@ -1932,8 +1540,8 @@ data = '[\n' +
     '    "ukrainian": "бюрократичний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Busca con rapidez en textos extensos",\n' +
-    '    "ukrainian": "Може швидко переглянути довгий"\n' +
+    '    "spanish": "buscar con rapidez en textos extensos",\n' +
+    '    "ukrainian": "видко переглянути довгий текст"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "buscar algunas palabras",\n' +
@@ -1953,7 +1561,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "buscar permisos de trabajo, etc",\n' +
-    '    "ukrainian": "шукати правила працевлаштування та ін"\n' +
+    '    "ukrainian": "шукати правила працевлаштування та ін."\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "buscar permisos de trabajo, etc. del modo más adecuado",\n' +
@@ -1964,20 +1572,8 @@ data = '[\n' +
     '    "ukrainian": "locating supports"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "C O M P R E N S I Ó N",\n' +
-    '    "ukrainian": "рецепція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "C1 (Dominio operativo eficaz",\n' +
-    '    "ukrainian": "між В2 та СІ (автономний)"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "C1 Comprende una amplia gama de material grabado",\n' +
     '    "ukrainian": "СІ Може розуміти широкий спектр записаних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "C1 Es lo bastante hábil",\n' +
-    '    "ukrainian": "СІ Рівень розглядається"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "C1 Los resultados de la prueba indican",\n' +
@@ -2036,18 +1632,6 @@ data = '[\n' +
     '    "ukrainian": "СІ (компетентний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "C2 Como B2",\n' +
-    '    "ukrainian": "С2 Як В2"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "C2 Como C1",\n' +
-    '    "ukrainian": "С2 Як С1"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "C2 Como C1",\n' +
-    '    "ukrainian": "С2 Як СІ"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "C2 Crea textos coherentes",\n' +
     '    "ukrainian": "С2 Може побудувати зв\'язний"\n' +
     '  },\n' +
@@ -2058,14 +1642,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "C2 Los resultados de la prueba indican",\n' +
     '    "ukrainian": "С2 Результати вашого тесту свідчать про те,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "C2 Nivel",\n' +
-    '    "ukrainian": "C2 Рівень"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "C2 Nivel 5 de ALTE",\n' +
-    '    "ukrainian": "C2 Рівень 5 ALTE"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "C2 Puedo entender e interpretar prácticamente",\n' +
@@ -2080,35 +1656,19 @@ data = '[\n' +
     '    "ukrainian": "С2 Може замінити еквівалентом слово,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "C2aprox Escribo lo bastante bien como para",\n' +
-    '    "ukrainian": "Припуск С2 Я можу писати так добре,"\n' +
+    '    "spanish": "Escribo lo bastante bien como para",\n' +
+    '    "ukrainian": "Я можу писати так добре,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "cada cual lo interpreta de forma distinta",\n' +
     '    "ukrainian": "кожен інтерпретує їх по-своєму"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Cada escala incluye especificaciones",\n' +
-    '    "ukrainian": "Кожна шкала включає твердження,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Cada una de ellas comprende hasta tres escalas",\n' +
-    '    "ukrainian": "Кожна з них включає до трьох шкал"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "cada uno de ellos",\n' +
-    '    "ukrainian": "кожен із них"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Cada uno de estos componentes",\n' +
     '    "ukrainian": "Кожен з цих компонентів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "cada uno se establece",\n' +
-    '    "ukrainian": "їх досягнень у порівнянні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Cálculo del resultado",\n' +
+    '    "spanish": "cálculo del resultado",\n' +
     '    "ukrainian": "підрахування результату"\n' +
     '  },\n' +
     '  {\n' +
@@ -2176,27 +1736,27 @@ data = '[\n' +
     '    "ukrainian": "засоби зв’язку"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "canales de comunicación comprenden",\n' +
-    '    "ukrainian": "Носії мовлення включають"\n' +
+    '    "spanish": "canales de comunicación",\n' +
+    '    "ukrainian": "носії мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "candidatos",\n' +
-    '    "ukrainian": "кандидатом"\n' +
+    '    "spanish": "candidato",\n' +
+    '    "ukrainian": "кандидат"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "cantar",\n' +
     '    "ukrainian": "спів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "capaces de ver",\n' +
-    '    "ukrainian": "здатними бачити"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "capaces de ver con la necesaria agudeza visual",\n' +
-    '    "ukrainian": "здатними бачити з необхідною гостротою"\n' +
+    '    "ukrainian": "здатність бачити з необхідною гостротою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "capacidad de aprender (saber aprender",\n' +
+    '    "spanish": "capacidad",\n' +
+    '    "ukrainian": "здібність"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "capacidad de aprender (saber aprender)",\n' +
     '    "ukrainian": "вміння учитися (savoir-apprendre)"\n' +
     '  },\n' +
     '  {\n' +
@@ -2212,8 +1772,8 @@ data = '[\n' +
     '    "ukrainian": "вміння справлятись з незнайомими темами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "capacidades",\n' +
-    '    "ukrainian": "здібності"\n' +
+    '    "spanish": "capaz de ver",\n' +
+    '    "ukrainian": "здатний бачити"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "captar implicaciones, etc",\n' +
@@ -2228,6 +1788,10 @@ data = '[\n' +
     '    "ukrainian": "один на один"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "característica de la competencia plurilingüe",\n' +
+    '    "ukrainian": "подальша характеристика плюрилінгвальної компетенції"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "características del alumno",\n' +
     '    "ukrainian": "характерні особливості учнів"\n' +
     '  },\n' +
@@ -2236,32 +1800,36 @@ data = '[\n' +
     '    "ukrainian": "характерних особливостей учнів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Características paratextuales",\n' +
+    '    "spanish": "características paratextuales",\n' +
     '    "ukrainian": "паратекстуальний засіб"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Características vocales (ritmo, volumen, etc",\n' +
-    '    "ukrainian": "вокальні характеристики (ритм, гучність тощо"\n' +
+    '    "spanish": "volumen",\n' +
+    '    "ukrainian": "гучність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "caracteriza",\n' +
-    '    "ukrainian": "характеризується"\n' +
+    '    "spanish": "ritmo",\n' +
+    '    "ukrainian": "ритм"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "características vocales",\n' +
+    '    "ukrainian": "вокальні характеристики"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "caracterización",\n' +
-    '    "ukrainian": "характеристики"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "caracterizan",\n' +
-    '    "ukrainian": "характерні"\n' +
+    '    "ukrainian": "характеристика"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "caracterizar",\n' +
-    '    "ukrainian": "характеристики"\n' +
+    '    "ukrainian": "охарактеризувати"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "caracterizar el grado de precisión, propiedad",\n' +
     '    "ukrainian": "намір охарактеризувати ступінь точності, легкості"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "caracterizarse",\n' +
+    '    "ukrainian": "характеризуватися"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "carrera, juego",\n' +
@@ -2276,14 +1844,6 @@ data = '[\n' +
     '    "ukrainian": "особисті листи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "cartas personales",\n' +
-    '    "ukrainian": "особисті листи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "cartas y faxes comerciales y profesionales",\n' +
-    '    "ukrainian": "бізнес-та професійні листи, факси"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "cartas y faxes comerciales y profesionales",\n' +
     '    "ukrainian": "бізнес-та професійні листи, факси"\n' +
     '  },\n' +
@@ -2292,16 +1852,16 @@ data = '[\n' +
     '    "ukrainian": "участь у навчальних контактах"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "cartas, folletos",\n' +
-    '    "ukrainian": "листи, брошури"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "cartas, folletos y documentos oficiales breves",\n' +
     '    "ukrainian": "листи, брошури та короткі офіційні документи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "carteles y señales públicas",\n' +
-    '    "ukrainian": "знаки та написи у громадських місцях"\n' +
+    '    "spanish": "carteles",\n' +
+    '    "ukrainian": "напис у громадських місцях"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "señales públicas",\n' +
+    '    "ukrainian": "знак"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "carteles y señales públicas",\n' +
@@ -2316,24 +1876,12 @@ data = '[\n' +
     '    "ukrainian": "майже не докладаючи зусиль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "casi todas las personas (aunque no todas",\n' +
-    '    "ukrainian": "в більшості (якщо не у всіх"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "caso particular",\n' +
     '    "ukrainian": "окремий випадок"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "catálogos",\n' +
-    '    "ukrainian": "каталогах"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "catálogos, prospectos",\n' +
-    '    "ukrainian": "брошури, проспекти"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "catálogos, prospectos",\n' +
-    '    "ukrainian": "брошури, проспекти"\n' +
+    '    "spanish": "catálogo",\n' +
+    '    "ukrainian": "каталог"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "categoría",\n' +
@@ -2344,8 +1892,8 @@ data = '[\n' +
     '    "ukrainian": "категорій до числа лише тих, що є релевантними"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "categorías más adecuadas de la parrilla y evalúa",\n' +
-    '    "ukrainian": "найбільш відповідними категоріями сітки і здійснює оцінювання"\n' +
+    '    "spanish": "categorías más adecuadas de la parrilla",\n' +
+    '    "ukrainian": "найбільш відповідними категоріями сітки"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "categorías que pueden resultar útiles",\n' +
@@ -2353,27 +1901,15 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "categorización",\n' +
-    '    "ukrainian": "категоризацію"\n' +
+    '    "ukrainian": "категоризація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ccompetencia comunicativa",\n' +
     '    "ukrainian": "комунікативна мовленнєва компетенція (КМК)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "CD-ROM,",\n' +
-    '    "ukrainian": "CD-ROM"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "cederlo, formular el tema",\n' +
-    '    "ukrainian": "пов\'язані з управлінням кооперацією"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "celebraciones, festividades, bailes, discotecas, etc.",\n' +
     '    "ukrainian": "урочистості, фестивалі, танці, дискотеки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "centrada en el usuario",\n' +
-    '    "ukrainian": "орієнтований на користувача"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "centrado en el examinador",\n' +
@@ -2381,30 +1917,26 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "centrado en el usuario",\n' +
-    '    "ukrainian": "орієнтація на користувача"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "centrado en el usuario",\n' +
     '    "ukrainian": "орієнтований на користувача"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "centró mucho la atención del estudio",\n' +
-    '    "ukrainian": "було головним фокусом дослідження,"\n' +
+    '    "spanish": "centrado en el usuario",\n' +
+    '    "ukrainian": "орієнтація на користувача"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "cercana al original,",\n' +
-    '    "ukrainian": "близько до оригіналу,"\n' +
+    '    "spanish": "centrar la atención del estudio",\n' +
+    '    "ukrainian": "бути головним фокусом дослідження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "ceremonias",\n' +
-    '    "ukrainian": "церемоніях"\n' +
+    '    "spanish": "cercana al original",\n' +
+    '    "ukrainian": "близько до оригіналу"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ceremonia",\n' +
+    '    "ukrainian": "церемонія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Ceremonias y prácticas religiosas",\n' +
-    '    "ukrainian": "релігійна практика і ритуали"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ceremonias y prácticas religiosas.",\n' +
     '    "ukrainian": "релігійна практика і ритуали"\n' +
     '  },\n' +
     '  {\n' +
@@ -2413,11 +1945,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "certificación",\n' +
-    '    "ukrainian": "сертифікації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "certificaciones",\n' +
-    '    "ukrainian": "кваліфікацій"\n' +
+    '    "ukrainian": "кваліфікація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "certificado",\n' +
@@ -2425,31 +1953,27 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "certificados",\n' +
-    '    "ukrainian": "сертифікатів"\n' +
+    '    "ukrainian": "сертифікат"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "charada",\n' +
     '    "ukrainian": "шарада"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "charadas, mímica, etc",\n' +
-    '    "ukrainian": "шаради, мімічні ігри тощо"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "charadas, mímica, etc.",\n' +
-    '    "ukrainian": "шарада, мімічні ігри"\n' +
+    '    "spanish": "charla",\n' +
+    '    "ukrainian": "бесіда"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "chsss\' para pedir silencio",\n' +
     '    "ukrainian": "sh\' / \'тс-с-с\' прохання/вимога тиші"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "circunloquios",\n' +
+    '    "spanish": "circunloquios¡",\n' +
     '    "ukrainian": "інакомовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "circunloquios sobre temas",\n' +
-    '    "ukrainian": "невпевненістю на такі теми"\n' +
+    '    "spanish": "circunstancias presentes",\n' +
+    '    "ukrainian": "превалюючі обставини"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "claridad",\n' +
@@ -2457,7 +1981,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "claridad",\n' +
-    '    "ukrainian": "аргументація"\n' +
+    '    "ukrainian": "чіткість"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "claridad de pronunciación",\n' +
@@ -2472,7 +1996,7 @@ data = '[\n' +
     '    "ukrainian": "клас"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Clase social",\n' +
+    '    "spanish": "clase social",\n' +
     '    "ukrainian": "соціальний клас"\n' +
     '  },\n' +
     '  {\n' +
@@ -2513,7 +2037,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "coherencia",\n' +
-    '    "ukrainian": "Зв\'язність"\n' +
+    '    "ukrainian": "зв\'язність"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "coherencia didáctica",\n' +
@@ -2521,19 +2045,11 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "coherencia respecto a las opciones elegidas",\n' +
-    '    "ukrainian": "логічність згідно з обраним напрямом,"\n' +
+    '    "ukrainian": "логічність згідно з обраним напрямом"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Coherencia y cohesión",\n' +
-    '    "ukrainian": "Зв\'язність і злитність"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Coherencia y cohesión",\n' +
-    '    "ukrainian": "Зв\'язність та злитність"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "coherencia, una herramienta",\n' +
-    '    "ukrainian": "зв\'язності, пропонує інструмент"\n' +
+    '    "spanish": "cohesión",\n' +
+    '    "ukrainian": "злитність"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "coherente",\n' +
@@ -2552,23 +2068,31 @@ data = '[\n' +
     '    "ukrainian": "зв\'язно висловитись на знайомі теми"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "cohesión",\n' +
-    '    "ukrainian": "злитність"\n' +
+    '    "spanish": "texto cohesionado",\n' +
+    '    "ukrainian": "злитний текст"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "cohesionados haciendo un uso completo",\n' +
-    '    "ukrainian": "злитний текст, повноцінно"\n' +
+    '    "spanish": "haciendo un uso completo",\n' +
+    '    "ukrainian": "повноцінно"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "coincidir",\n' +
+    '    "ukrainian": "погоджуватись"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "discrepar",\n' +
+    '    "ukrainian": "не погоджуватись"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Coincide o discrepa con otras personas",\n' +
     '    "ukrainian": "Може погодитись або не погодитись з іншими"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Colaboración del interlocutor o interlocutores",\n' +
+    '    "spanish": "colaboración del interlocutor o interlocutores",\n' +
     '    "ukrainian": "співпраця співрозмовника (-ків )"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Colaborar con eficacia en parejas",\n' +
+    '    "spanish": "colaborar con eficacia en parejas",\n' +
     '    "ukrainian": "ефективно співпрацювати у парній"\n' +
     '  },\n' +
     '  {\n' +
@@ -2576,15 +2100,15 @@ data = '[\n' +
     '    "ukrainian": "цілеспрямованої співпраці"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Colaborar para alcanzar un objetivo",\n' +
+    '    "spanish": "colaborar para alcanzar un objetivo",\n' +
     '    "ukrainian": "цілеспрямована співпраця"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "colectiva",\n' +
-    '    "ukrainian": "колективне"\n' +
+    '    "spanish": "colectivo",\n' +
+    '    "ukrainian": "колективний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "colegas del trabajo",\n' +
+    '    "spanish": "colega del trabajo",\n' +
     '    "ukrainian": "іншими співробітниками"\n' +
     '  },\n' +
     '  {\n' +
@@ -2592,27 +2116,23 @@ data = '[\n' +
     '    "ukrainian": "правильно вживати фразовий наголос"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "colonias",\n' +
-    '    "ukrainian": "колоніях"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "coloquiales",\n' +
-    '    "ukrainian": "колоквіалізми"\n' +
+    '    "spanish": "colonia",\n' +
+    '    "ukrainian": "колонія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "coloquialismos",\n' +
     '    "ukrainian": "колоквіалізм"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "combinaciones",\n' +
+    '    "spanish": "combinación",\n' +
     '    "ukrainian": "комбінація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "combinadas,",\n' +
+    '    "spanish": "combinarse,",\n' +
     '    "ukrainian": "комбінуватись"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Comentario",\n' +
+    '    "spanish": "comentario",\n' +
     '    "ukrainian": "коментар"\n' +
     '  },\n' +
     '  {\n' +
@@ -2632,15 +2152,15 @@ data = '[\n' +
     '    "ukrainian": "зрідка трапляються помилки у вимові"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Comete errores, pero queda claro lo",\n' +
+    '    "spanish": "cometer errores",\n' +
     '    "ukrainian": "трапляються помилки"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Comillas coloquiales",\n' +
+    '    "spanish": "comillas coloquiales",\n' +
     '    "ukrainian": "знайомі цитування"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Comisión",\n' +
+    '    "spanish": "comisión",\n' +
     '    "ukrainian": "комітет"\n' +
     '  },\n' +
     '  {\n' +
@@ -2666,14 +2186,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "como en el análisis y la evaluación a posteriori?",\n' +
     '    "ukrainian": "само як і в наступному аналізі та оцінюванні?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "como entrevistado, ampliando",\n' +
-    '    "ukrainian": "з іншого, викладаючи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Cómo fomentar en los alumnos la no segmentación",\n' +
-    '    "ukrainian": "як сприяти уникненню цими учнями роз\'єднаності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "como ítems de pruebas",\n' +
@@ -2720,16 +2232,16 @@ data = '[\n' +
     '    "ukrainian": "мають наскрізний характер"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "comparativa",\n' +
-    '    "ukrainian": "компаративної"\n' +
+    '    "spanish": "comparativo",\n' +
+    '    "ukrainian": "компаративний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "compartimentado de una lengua extranjera,",\n' +
-    '    "ukrainian": "відокремленого володіння учнем іноземною мовою"\n' +
+    '    "spanish": "compartimentado de una lengua extranjera",\n' +
+    '    "ukrainian": "відокремлене володіння учнем іноземною мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Compartir experiencias y preocupaciones, «charla",\n' +
-    '    "ukrainian": "обмін враженнями, інтересами, \'бесіда"\n' +
+    '    "spanish": "compartir experiencias y preocupaciones",\n' +
+    '    "ukrainian": "обмін враженнями, інтересами"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "compendio de subescalas de esta categoría",\n' +
@@ -2742,10 +2254,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "compensación",\n' +
     '    "ukrainian": "компенсація"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "competencia",\n' +
-    '    "ukrainian": "компетенція"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "competencia",\n' +
@@ -2800,26 +2308,6 @@ data = '[\n' +
     '    "ukrainian": "орфоепічна компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "competencia ortoépica",\n' +
-    '    "ukrainian": "орфоепічна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "competencia ortoépica",\n' +
-    '    "ukrainian": "орфоепічна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "competencia ortográfica",\n' +
-    '    "ukrainian": "орфографічна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "competencia ortográfica",\n' +
-    '    "ukrainian": "орфографічна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "competencia ortográfica",\n' +
-    '    "ukrainian": "орфографічна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "competencia ortográfica",\n' +
     '    "ukrainian": "орфографічна компетенція"\n' +
     '  },\n' +
@@ -2837,10 +2325,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "competencia sociocultural",\n' +
-    '    "ukrainian": "соціокультурна компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Competencia sociocultural",\n' +
     '    "ukrainian": "соціокультурна компетенція"\n' +
     '  },\n' +
     '  {\n' +
@@ -2901,6 +2385,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "complementariedad de los objetivos parciales",\n' +
+    '    "ukrainian": "взаємодоповнюваність окремих цілей"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "complementariedad de los objetivos parciales",\n' +
     '    "ukrainian": "2 Взаємодоповнюваність окремих цілей"\n' +
     '  },\n' +
     '  {\n' +
@@ -2913,6 +2401,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "completar formularios",\n' +
+    '    "ukrainian": "заповнення формулярів, анкет"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "completar formularios y cuestionarios",\n' +
     '    "ukrainian": "заповнення формулярів, анкет"\n' +
     '  },\n' +
     '  {\n' +
@@ -2981,10 +2473,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "compras",\n' +
-    '    "ukrainian": "покупки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Compras",\n' +
     '    "ukrainian": "покупки"\n' +
     '  },\n' +
     '  {\n' +
@@ -3205,6 +2693,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "comunicación no verbal",\n' +
+    '    "ukrainian": "невербальне спілкування"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "comunicación no verbal",\n' +
     '    "ukrainian": "5 Невербальне спілкування"\n' +
     '  },\n' +
     '  {\n' +
@@ -3302,6 +2794,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "comunidades en las que se habla el idioma",\n' +
     '    "ukrainian": "спільнот країни, мова якої вивчається,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "con circunloquios",\n' +
+    '    "ukrainian": "з непевненістю"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "con claridad y esté dispuesto a cooperar",\n' +
@@ -3432,10 +2928,6 @@ data = '[\n' +
     '    "ukrainian": "негативний підхід"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "concepto negativo",\n' +
-    '    "ukrainian": "Негативний підхід"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "conceptos",\n' +
     '    "ukrainian": "чинники,"\n' +
     '  },\n' +
@@ -3513,6 +3005,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "condiciones",\n' +
+    '    "ukrainian": "інтеракція"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "condiciones",\n' +
     '    "ukrainian": "21 Інтеракція"\n' +
     '  },\n' +
     '  {\n' +
@@ -3560,6 +3056,10 @@ data = '[\n' +
     '    "ukrainian": "конференціях"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "conferencias",\n' +
+    '    "ukrainian": "лекція"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "confirmación de",\n' +
     '    "ukrainian": "підтвердження того,"\n' +
     '  },\n' +
@@ -3598,6 +3098,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "conjuntamente con la Guía",\n' +
     '    "ukrainian": "разом з більш спеціальним посібником"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "conjunto común de niveles",\n' +
+    '    "ukrainian": "встановлення загального набору рівнів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "conlleva significados",\n' +
@@ -3644,6 +3148,10 @@ data = '[\n' +
     '    "ukrainian": "Знання можуть бути усвідомлені"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "conocimientos relativos a la cocina",\n' +
+    '    "ukrainian": "знання, пов\'язані з кухнею"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "conocimientos socioculturales pertinentes",\n' +
     '    "ukrainian": "відповідними соціокультурними знаннями, напр"\n' +
     '  },\n' +
@@ -3666,6 +3174,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "consecuencias metodológicas",\n' +
     '    "ukrainian": "методологічні рішення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "conseguir información específica",\n' +
+    '    "ukrainian": "отримати спеціальну інформацію"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "conseguir información específica",\n' +
@@ -3698,10 +3210,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "conserva información extraordinaria",\n' +
     '    "ukrainian": "містить фундаментальну інформацію"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "considerados a la hora de planificar",\n' +
-    '    "ukrainian": "враховуватись під час планування"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "considerados a la hora de planificar",\n' +
@@ -3796,10 +3304,6 @@ data = '[\n' +
     '    "ukrainian": "побудова речень за даною моделлю"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "construir oraciones con un modelo dado",\n' +
-    '    "ukrainian": "побудова речень за даною моделлю"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "construir su identidad lingüística",\n' +
     '    "ukrainian": "будувати їх лінгвістичну"\n' +
     '  },\n' +
@@ -3854,6 +3358,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "contactos",\n' +
     '    "ukrainian": "контактам"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "contar y escribir historias, etc",\n' +
+    '    "ukrainian": "усний та письмовий переказ історій,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "contenidos son tipos de texto diferentes",\n' +
@@ -4076,10 +3584,6 @@ data = '[\n' +
     '    "ukrainian": "оцінювання результатів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "controlar los resultados",\n' +
-    '    "ukrainian": "оцінювання результатів"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "controlarlas",\n' +
     '    "ukrainian": "контролювати"\n' +
     '  },\n' +
@@ -4133,6 +3637,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "conversación casual",\n' +
+    '    "ukrainian": "одинична бесіда"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "conversación casual",\n' +
     '    "ukrainian": "одиничні бесіди"\n' +
     '  },\n' +
     '  {\n' +
@@ -4176,10 +3684,6 @@ data = '[\n' +
     '    "ukrainian": "розмови по телефону"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "conversaciones telefónicas",\n' +
-    '    "ukrainian": "розмови по телефону"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "convertir",\n' +
     '    "ukrainian": "конвертований"\n' +
     '  },\n' +
@@ -4206,6 +3710,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "cooperación interpersonal",\n' +
     '    "ukrainian": "міжособистісна співпраця"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "cooperación práctica centrada en los objetivos",\n' +
+    '    "ukrainian": "практична цілеспрямована кооперація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "COOPERAR",\n' +
@@ -4342,6 +3850,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "creen",\n' +
     '    "ukrainian": "вважає,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "creencias",\n' +
+    '    "ukrainian": "ідеали"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Criteria",\n' +
@@ -4672,10 +4184,6 @@ data = '[\n' +
     '    "ukrainian": "програма і варіювання цілей"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "currículo y variedad de objetivos",\n' +
-    '    "ukrainian": "програма і варіювання цілей"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "cursiva, tanto mayúsculas como minúsculas",\n' +
     '    "ukrainian": "малих літер у вигляді прямого шрифту і курсиву"\n' +
     '  },\n' +
@@ -4854,10 +4362,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "De concepto negativo",\n' +
     '    "ukrainian": "негативний підхід"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "De concepto negativo",\n' +
-    '    "ukrainian": "Негативний підхід"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "de constancia",\n' +
@@ -5181,6 +4685,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "de lo parcial a lo transversal",\n' +
+    '    "ukrainian": "від окремого/часткового до наскрізного підходу"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "de lo parcial a lo transversal",\n' +
     '    "ukrainian": "2 Від окремого/часткового до наскрізного підходу"\n' +
     '  },\n' +
     '  {\n' +
@@ -5373,19 +4881,15 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "debate",\n' +
-    '    "ukrainian": "дискусія"\n' +
+    '    "ukrainian": "дебати"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "debate",\n' +
-    '    "ukrainian": "дебати"\n' +
+    '    "ukrainian": "дискусія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Debate informal",\n' +
     '    "ukrainian": "Неформальна дискусія"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "debates y discusiones públicas",\n' +
-    '    "ukrainian": "публічні дебати і дискусії"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "debates y discusiones públicas",\n' +
@@ -5472,10 +4976,6 @@ data = '[\n' +
     '    "ukrainian": "публічні оголошення та інструкції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "declaraciones e instrucciones públicas",\n' +
-    '    "ukrainian": "публічні оголошення та інструкції"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "DECLARACIONES PÚBLICAS",\n' +
     '    "ukrainian": "Публічні виступи"\n' +
     '  },\n' +
@@ -5513,11 +5013,15 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "definición",\n' +
+    '    "ukrainian": "дефініція"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "definición",\n' +
     '    "ukrainian": "дефініцію"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Definición",\n' +
-    '    "ukrainian": "Дефініція"\n' +
+    '    "spanish": "definición y enfoque inicial",\n' +
+    '    "ukrainian": "дефініція та основний підхід"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "definición,",\n' +
@@ -5896,12 +5400,12 @@ data = '[\n' +
     '    "ukrainian": "дескриптори"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "descriptores",\n' +
-    '    "ukrainian": "Дескриптори"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "descriptores bastante imprecisos",\n' +
     '    "ukrainian": "нечіткими дескрипторами,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "descriptores de actividades comunicativas",\n' +
+    '    "ukrainian": "дескриптори комунікативних видів мовлення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Descriptores de actividades comunicativas",\n' +
@@ -6020,6 +5524,10 @@ data = '[\n' +
     '    "ukrainian": "6131 Різнорівнева"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "desequilibrio y variabilidad de la competencia",\n' +
+    '    "ukrainian": "різнорівнева та змінна компетенції"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Desfacer entuertos, válgame Dios",\n' +
     '    "ukrainian": "Be off with you! Забирайтеся геть!"\n' +
     '  },\n' +
@@ -6058,6 +5566,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "destreza",\n' +
     '    "ukrainian": "вміння"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "destrezas",\n' +
+    '    "ukrainian": "практичні вміння"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "destrezas",\n' +
@@ -6252,10 +5764,6 @@ data = '[\n' +
     '    "ukrainian": "Діаграма,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "diagramas",\n' +
-    '    "ukrainian": "Діаграма,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "diagramas,",\n' +
     '    "ukrainian": "діаграми,"\n' +
     '  },\n' +
@@ -6274,6 +5782,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "dialectales,",\n' +
     '    "ukrainian": "діалектні"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "dialecto",\n' +
+    '    "ukrainian": "діалект"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dialecto",\n' +
@@ -6296,16 +5808,20 @@ data = '[\n' +
     '    "ukrainian": "міжособистісні діалоги та бесіди/розмови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "diálogos y conversaciones",\n' +
-    '    "ukrainian": "міжособистісні діалоги та бесіди/розмови"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "días de la semana, meses del año, pesos",\n' +
     '    "ukrainian": "дні тижня, місяці року, міри ваги"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Días festivos",\n' +
     '    "ukrainian": "публічні свята"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "diccionario (monolingües y bilingües)",\n' +
+    '    "ukrainian": "словники (одно-та двомовні)"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "diccionario de pronunciación",\n' +
+    '    "ukrainian": "фонетичний словник"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "diccionario electrónico",\n' +
@@ -6352,116 +5868,32 @@ data = '[\n' +
     '    "ukrainian": "ви реально можете робити,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Dicha autoevaluación estructurada",\n' +
-    '    "ukrainian": "Такий спланований самоконтроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dicha descripción",\n' +
-    '    "ukrainian": "подібного описання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dicha escala de calificación se",\n' +
-    '    "ukrainian": "Подібна градуйована шкала"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dicha escala de calificación se puede utilizar",\n' +
-    '    "ukrainian": "Подібна градуйована шкала може бути застосована"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dicha polarización nunca",\n' +
-    '    "ukrainian": "така поляризація ніколи не"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "dicha polarización nunca puede",\n' +
     '    "ukrainian": "така поляризація ніколи не може"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Dicha variación se conoce",\n' +
-    '    "ukrainian": "Такий варіант відомий"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dichas actividades incluyen",\n' +
-    '    "ukrainian": "Така діяльність включає"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dicho enfoque supone",\n' +
-    '    "ukrainian": "Такий підхід передбачає"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dicho enfoque, sin embargo,",\n' +
-    '    "ukrainian": "До того ж цей підхід"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dicho enfoque, sin embargo, tiene",\n' +
-    '    "ukrainian": "До того ж цей підхід має"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dichos enfoques",\n' +
-    '    "ukrainian": "Такі підходи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dichos marcadores comprenden",\n' +
-    '    "ukrainian": "До таких маркерів відносяться"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dichos sonidos (o sílabas",\n' +
-    '    "ukrainian": "Такі звуки (або склади"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "diferenciación",\n' +
-    '    "ukrainian": "диференціацією"\n' +
+    '    "ukrainian": "диференціація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "diferenciación a la hora de diseñar",\n' +
-    '    "ukrainian": "диференціації при розробці"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diferenciada",\n' +
-    '    "ukrainian": "Диференційна"\n' +
+    '    "spanish": "diferenciado",\n' +
+    '    "ukrainian": "диференційний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "diferenciado",\n' +
     '    "ukrainian": "диференційований"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "diferenciados",\n' +
-    '    "ukrainian": "диференційованих"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Diferencial",\n' +
-    '    "ukrainian": "диференціювання\'"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "diferencial",\n' +
-    '    "ukrainian": "диференційної"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diferencian al estudiante",\n' +
-    '    "ukrainian": "відрізняють того, хто вивчає мову,"\n' +
+    '    "ukrainian": "диференційний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "diferenciar",\n' +
-    '    "ukrainian": "диференціюючи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Diferencias de registro",\n' +
-    '    "ukrainian": "Реєстрові відмінності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diferencien",\n' +
     '    "ukrainian": "диференціювати"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "diferentes dimensiones o de un enfoque doble",\n' +
-    '    "ukrainian": "різних вимірів або \'двоярусний\' підхід до різниці"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diferentes grados de logro del mismo objetivo",\n' +
-    '    "ukrainian": "різні ступені досягнень на шляху до однієї і тієї ж мети"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "diferentes por su formación lingüística",\n' +
-    '    "ukrainian": "різними напрямами мовної практики"\n' +
+    '    "spanish": "diferencias de registro",\n' +
+    '    "ukrainian": "реєстрові відмінності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "diferentes presiones",\n' +
@@ -6488,80 +5920,64 @@ data = '[\n' +
     '    "ukrainian": "Можу сказати мою адресу французькою мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Diligencia y pereza",\n' +
-    '    "ukrainian": "працьовитий/ледачий"\n' +
+    '    "spanish": "diligencia",\n' +
+    '    "ukrainian": "працьовитий"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "dimensiones lingüística, sociolingüística",\n' +
-    '    "ukrainian": "лінгвістичному, соціолінгвістичному"\n' +
+    '    "spanish": "dimensión",\n' +
+    '    "ukrainian": "вимір"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "directamente",\n' +
-    '    "ukrainian": "повільно"\n' +
+    '    "spanish": "dimensión sociolingüística",\n' +
+    '    "ukrainian": "соціолінгвістичний вимір"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "directo de información",\n' +
-    '    "ukrainian": "звичайні теми і стосуються роботи"\n' +
+    '    "spanish": "dimensiones lingüística",\n' +
+    '    "ukrainian": "лінгвістичний вимір"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discotecas,",\n' +
-    '    "ukrainian": "дискотеки"\n' +
+    '    "spanish": "directo",\n' +
+    '    "ukrainian": "простий"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discrepa con otras personas",\n' +
+    '    "spanish": "discrepar con otras personas",\n' +
     '    "ukrainian": "не погодитись з іншими"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discriminación",\n' +
-    '    "ukrainian": "дискримінаційної"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "discriminante",\n' +
-    '    "ukrainian": "Дискримінантний"\n' +
+    '    "ukrainian": "дискримінантний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discriminatorias",\n' +
-    '    "ukrainian": "дискримінант"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "discursiva",\n' +
-    '    "ukrainian": "Дискурсивна"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "discursivo (auténtico",\n' +
-    '    "ukrainian": "висловлювання, автентичний"\n' +
+    '    "spanish": "discursivo",\n' +
+    '    "ukrainian": "дискурсивний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "discurso en un aula",\n' +
     '    "ukrainian": "класне мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discurso en un aula",\n' +
-    '    "ukrainian": "класного мовлення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "discursos, conferencias, presentaciones públicas y sermones",\n' +
-    '    "ukrainian": "публічні промови, лекції, презентації, проповіді"\n' +
+    '    "spanish": "discursos",\n' +
+    '    "ukrainian": "публічна промова"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "discusión formal",\n' +
-    '    "ukrainian": "формальну дискусію"\n' +
+    '    "ukrainian": "формальна дискусія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "discusión informal",\n' +
-    '    "ukrainian": "неформальну дискусію"\n' +
+    '    "ukrainian": "неформальна дискусія"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discutiéndolos?",\n' +
-    '    "ukrainian": "обговорення?"\n' +
+    '    "spanish": "discutir",\n' +
+    '    "ukrainian": "обговорення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "discutir las ventajas",\n' +
-    '    "ukrainian": "33 Обговорити \'за\'"\n' +
+    '    "ukrainian": "обговорювати \'за\'"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "discutirlo",\n' +
-    '    "ukrainian": "обговорення її"\n' +
+    '    "spanish": "diseñar",\n' +
+    '    "ukrainian": "розробка"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "diseño de tareas de evaluación",\n' +
@@ -6749,19 +6165,19 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dogmático",\n' +
-    '    "ukrainian": "догматичного"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dogmatismo",\n' +
-    '    "ukrainian": "догматизму"\n' +
+    '    "ukrainian": "догматичний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dogmatismo",\n' +
     '    "ukrainian": "догматизм"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "dominar, qué fórmulas, locuciones",\n' +
-    '    "ukrainian": "вирази, ідіоматичні звороти"\n' +
+    '    "spanish": "",\n' +
+    '    "ukrainian": "ідіоматичний зворот"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "fórmula",\n' +
+    '    "ukrainian": "вирази"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dominio",\n' +
@@ -6772,24 +6188,16 @@ data = '[\n' +
     '    "ukrainian": "рівень володіння мовою у межах однієї категорії"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "DOMINIO DE LA ORTOGRAFÍA",\n' +
-    '    "ukrainian": "Орфографічний контроль"\n' +
+    '    "spanish": "dominio de la ortografía",\n' +
+    '    "ukrainian": "орфографічний контроль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "DOMINIO DE LA PRONUNCIACIÓN",\n' +
-    '    "ukrainian": "Фонологічний контроль"\n' +
+    '    "spanish": "dominio de la pronunciación",\n' +
+    '    "ukrainian": "фонетичний контроль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Dominio de la pronunciación",\n' +
-    '    "ukrainian": "Фонетичний контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Dominio de vocabulario",\n' +
-    '    "ukrainian": "Лексичний контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "DOMINIO DEL VOCABULARIO",\n' +
-    '    "ukrainian": "Лексичний контроль"\n' +
+    '    "spanish": "dominio de vocabulario",\n' +
+    '    "ukrainian": "лексичний контроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dominio extenso",\n' +
@@ -6812,28 +6220,12 @@ data = '[\n' +
     '    "ukrainian": "в яких відбувається його/її навчання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Dos factores genéricos y cualitativos",\n' +
-    '    "ukrainian": "Двома загальними якісними чинниками,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dos inconvenientes",\n' +
-    '    "ukrainian": "два недоліки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dos o más personas",\n' +
-    '    "ukrainian": "двома або кількома особами,"\n' +
+    '    "spanish": "factores genéricos y cualitativos",\n' +
+    '    "ukrainian": "загальні якісні чинники"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dos palabras de descripciones contiguas",\n' +
-    '    "ukrainian": "два слова в сусідніх дескрипторах,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dos pantallas, u hojas de papel",\n' +
-    '    "ukrainian": "двома екранами або аркушами паперу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "dos textos puede",\n' +
-    '    "ukrainian": "двома текстами можуть"\n' +
+    '    "ukrainian": "два слова в сусідніх дескрипторах"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "dudar mientras busca estructuras",\n' +
@@ -6850,10 +6242,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "duración de la estancia.",\n' +
     '    "ukrainian": "тривалість візиту"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Duración de la tarea",\n' +
-    '    "ukrainian": "тривалість завдання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "duración del contrato",\n' +
@@ -6929,10 +6317,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "educación",\n' +
-    '    "ukrainian": "освіта"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Educación",\n' +
     '    "ukrainian": "освіта"\n' +
     '  },\n' +
     '  {\n' +
@@ -7120,10 +6504,6 @@ data = '[\n' +
     '    "ukrainian": "перцептивний апарат"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el aparato perceptivo",\n' +
-    '    "ukrainian": "перцептивний апарат"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el apoyo",\n' +
     '    "ukrainian": "Опори"\n' +
     '  },\n' +
@@ -7268,32 +6648,28 @@ data = '[\n' +
     '    "ukrainian": "знання про світ і життєвий досвід"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El conocimiento, la percepción",\n' +
-    '    "ukrainian": "Знання, усвідомлення"\n' +
+    '    "spanish": "conocimiento",\n' +
+    '    "ukrainian": "знання"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "percepción",\n' +
+    '    "ukrainian": "усвідомлення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el contacto con las demás lenguas del currículo",\n' +
     '    "ukrainian": "контакт з іншими мовами програми"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El contenido del cuadro se enuncia",\n' +
-    '    "ukrainian": "Зміст блоку сформульовано"\n' +
+    '    "spanish": "contenido del cuadro se enuncia",\n' +
+    '    "ukrainian": "зміст блоку сформульовано"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el contenido sociocultural?",\n' +
-    '    "ukrainian": "соціокультурному змісті?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el contexto",\n' +
-    '    "ukrainian": "цього контексту"\n' +
+    '    "spanish": "contenido sociocultural",\n' +
+    '    "ukrainian": "соціокультурний зміст"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El contexto del uso de la lengua",\n' +
-    '    "ukrainian": "Контекст користування мовою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el contexto externo observable",\n' +
-    '    "ukrainian": "одночасним зовнішнім контекстом"\n' +
+    '    "ukrainian": "контекст користування мовою"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el control de la gramática, el vocabulario",\n' +
@@ -7304,12 +6680,8 @@ data = '[\n' +
     '    "ukrainian": "організацією діяльності, пов\'язаної"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El cuadro",\n' +
-    '    "ukrainian": "У Табл"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El cuadro 3,ya presentado en este capítulo,",\n' +
-    '    "ukrainian": "Табл З, представлена у цьому розділі раніше,"\n' +
+    '    "spanish": "cuadro",\n' +
+    '    "ukrainian": "табл"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el currículo educativo",\n' +
@@ -7317,15 +6689,15 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El dependiente da las gracias",\n' +
-    '    "ukrainian": "451 вдячність з боку продавця"\n' +
+    '    "ukrainian": "вдячність з боку продавця"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El dependiente saluda",\n' +
-    '    "ukrainian": ".1 привітання службовця"\n' +
+    '    "ukrainian": "привітання службовця"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el desarrollo",\n' +
-    '    "ukrainian": "розробкою"\n' +
+    '    "spanish": "desarrollo",\n' +
+    '    "ukrainian": "розробка"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el desarrollo de criterios de evaluación",\n' +
@@ -7356,164 +6728,112 @@ data = '[\n' +
     '    "ukrainian": "дескриптор представляє вихідний рівень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El discurso",\n' +
+    '    "spanish": "discurso",\n' +
     '    "ukrainian": "мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El discurso auténtico",\n' +
-    '    "ukrainian": "Автентичне усне мовлення"\n' +
+    '    "spanish": "discurso auténtico",\n' +
+    '    "ukrainian": "автентичне усне мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El discurso auténtico y los textos escritos pueden",\n' +
-    '    "ukrainian": "Автентичне усне мовлення та письмові тексти можуть"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el discurso en un aula",\n' +
+    '    "spanish": "discurso en un aula",\n' +
     '    "ukrainian": "класного мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El discurso es acumulativo",\n' +
-    '    "ukrainian": "мовлення є сукупним продуктом"\n' +
+    '    "spanish": "acumulativo",\n' +
+    '    "ukrainian": "сукупний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El documento C1 presenta las",\n' +
-    '    "ukrainian": "Документ В1 представляє"\n' +
+    '    "spanish": "dominio lingüístico",\n' +
+    '    "ukrainian": "рівень володіння"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el dominio lingüístico, la evaluación",\n' +
-    '    "ukrainian": "рівень володіння контроль"\n' +
+    '    "spanish": "efecto",\n' +
+    '    "ukrainian": "результат"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El efecto –y a menudo toda la función",\n' +
-    '    "ukrainian": "Результат а часто й уся функція"\n' +
+    '    "spanish": "énfasis vertical",\n' +
+    '    "ukrainian": "вертикальний наголос"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El ejemplo del Cuadro 2 (págs",\n' +
-    '    "ukrainian": "Приклад, поданий у Табл"\n' +
+    '    "spanish": "énfasis",\n' +
+    '    "ukrainian": "наголос"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El ejemplo del Cuadro 2 (págs 30 y 31 )",\n' +
-    '    "ukrainian": "Приклад, поданий у Табл,2,"\n' +
+    '    "spanish": "comunicación oral básica",\n' +
+    '    "ukrainian": "базова усна комунікація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El ejemplo más evidente",\n' +
-    '    "ukrainian": "Найбільш очевидним прикладом"\n' +
+    '    "spanish": "énfasis  horizontal",\n' +
+    '    "ukrainian": "горизонтальний наголос"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El ejemplo más evidente es lo",\n' +
-    '    "ukrainian": "Найбільш очевидним прикладом є те,"\n' +
+    '    "spanish": "enfoque de maestría",\n' +
+    '    "ukrainian": "підхід \'володіння\'"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El énfasis es, por tanto, vertical",\n' +
-    '    "ukrainian": "Цей наголос є вертикальним"\n' +
+    '    "spanish": "evidencia",\n' +
+    '    "ukrainian": "спостереження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el énfasis puesto en la comunicación oral básica",\n' +
-    '    "ukrainian": "наголосом на базовій усній комунікації"\n' +
+    '    "spanish": "ensayo de la tarea",\n' +
+    '    "ukrainian": "повторення завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el énfasis, en este caso, es horizontal",\n' +
-    '    "ukrainian": "тобто наголос є горизонтальним"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el enfoque analítico esbozado en",\n' +
-    '    "ukrainian": "аналітичний підхід описано в розділі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el enfoque analítico esbozado en 9",\n' +
-    '    "ukrainian": "аналітичний підхід описано в розділі 9"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el enfoque analítico esbozado en 93",\n' +
-    '    "ukrainian": "аналітичний підхід описано в розділі 93"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el enfoque analítico esbozado en 9311",\n' +
-    '    "ukrainian": "аналітичний підхід описано в розділі 9311"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el enfoque de maestría",\n' +
-    '    "ukrainian": "підходом \'володіння\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El enfoque está basado en la evidencia de",\n' +
-    '    "ukrainian": "Підхід базується на спостереженні,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el ensayo de la tarea",\n' +
-    '    "ukrainian": "повторенню завдання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "él es una situación nueva",\n' +
-    '    "ukrainian": "користувача новою ситуацією"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el escalonamiento de niveles",\n' +
+    '    "spanish": "escalonamiento de niveles",\n' +
     '    "ukrainian": "вимірювання рівнів володіння"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el esquema general que se ofrece",\n' +
-    '    "ukrainian": "загальна схема, запропонована"\n' +
+    '    "spanish": "esquema general",\n' +
+    '    "ukrainian": "загальна схема"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el establecimiento de una relación eficaz",\n' +
-    '    "ukrainian": "встановленню ефективних взаємозв\'язків"\n' +
+    '    "spanish": "establecimiento de una relación eficaz",\n' +
+    '    "ukrainian": "встановлення ефективних взаємозв\'язків"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el estado de ánimo (fatiga, excitación, etc",\n' +
-    '    "ukrainian": "стан розуму (втома, збудження і тд"\n' +
+    '    "spanish": "estado de ánimo (fatiga, excitación)",\n' +
+    '    "ukrainian": "стан розуму (втома, збудження)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el estatus relativo, b",\n' +
-    '    "ukrainian": "відповідний статус, б"\n' +
+    '    "spanish": "estatus relativo",\n' +
+    '    "ukrainian": "відповідний статус"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El estímulo textual",\n' +
-    '    "ukrainian": "Текстуальним стимулом"\n' +
+    '    "spanish": "estímulo textual",\n' +
+    '    "ukrainian": "текстуальний стимул"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El estímulo textual puede",\n' +
-    '    "ukrainian": "Текстуальним стимулом може"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El estímulo textual puede ser una pregunta oral",\n' +
-    '    "ukrainian": "Текстуальним стимулом може бути усне запитання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El examen «Y»",\n' +
-    '    "ukrainian": "Іспит \'Y\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el fin de adecuar las competencias",\n' +
-    '    "ukrainian": "метою узгодження компетенцій"\n' +
+    '    "spanish": "adecuar las competencias",\n' +
+    '    "ukrainian": "узгодження компетенцій"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de alcanzar un objetivo comunicativo",\n' +
-    '    "ukrainian": "метою реалізації комунікативної мети"\n' +
+    '    "ukrainian": "мета реалізації комунікативної мети"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de contar una historia",\n' +
-    '    "ukrainian": "метою розповіді історії"\n' +
+    '    "ukrainian": "мета розповіді історії"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de identificar descriptores",\n' +
-    '    "ukrainian": "метою їх використання у холістичних шкалах,"\n' +
+    '    "ukrainian": "мета їх використання у холістичних шкалах,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de maximizar la eficacia",\n' +
-    '    "ukrainian": "метою досягнення найкращих результатів"\n' +
+    '    "ukrainian": "мета досягнення найкращих результатів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de ofrecer una «parrilla» de evaluación",\n' +
-    '    "ukrainian": "метою отримання сітки оцінювання"\n' +
+    '    "ukrainian": "мета отримання сітки оцінювання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de perfeccionar la redacción",\n' +
-    '    "ukrainian": "метою уточнення словесного формулювання"\n' +
+    '    "ukrainian": "мета уточнення словесного формулювання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fin de ratificar su uso en la práctica",\n' +
-    '    "ukrainian": "метою її валідації на практиці"\n' +
+    '    "ukrainian": "мета її валідації на практиці"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el fomento del plurilinguismo",\n' +
@@ -7521,75 +6841,27 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el funcionamiento del universo",\n' +
-    '    "ukrainian": "законів функціонування всесвіту"\n' +
+    '    "ukrainian": "закони функціонування всесвіту"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el grado de coincidencia",\n' +
     '    "ukrainian": "ступінь спільності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El grado de inhibición",\n' +
-    '    "ukrainian": "ступінь гальмування"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el grado en que las cosas funcionan",\n' +
     '    "ukrainian": "оцінка межі, до якої все йде"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El grupo étnico",\n' +
-    '    "ukrainian": "етнічної належності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El grupo profesional",\n' +
-    '    "ukrainian": "професійної групи"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el hablante y el oyente (tiempo real",\n' +
     '    "ukrainian": "мовця/слухача (реальний час"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El hecho de",\n' +
-    '    "ukrainian": "Той факт,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el hecho de hablar, escribir, escuchar",\n' +
     '    "ukrainian": "говоріння, письмо, слухання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El hipertexto",\n' +
-    '    "ukrainian": "Гіпертекст"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El inconveniente es",\n' +
-    '    "ukrainian": "Недоліком є те,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el ingreso en la universidad",\n' +
-    '    "ukrainian": "вступу до університету"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el interés del alumno por lo que es diferente",\n' +
-    '    "ukrainian": "зацікавленість учня в \'іншості\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el interés personal por el contenido",\n' +
-    '    "ukrainian": "високий рівень мотивації розуміння, що залежить"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el interés que suscita",\n' +
-    '    "ukrainian": "його релевантність для учня"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el interlocutor apenas se da cuenta",\n' +
     '    "ukrainian": "співрозмовник ледь-ледь це помічає"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El lenguaje corporal (véase la sección",\n' +
-    '    "ukrainian": "Мова тіла (див розділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El lenguaje corporal paralingüístico se diferencia",\n' +
-    '    "ukrainian": "Паралінгвістичні засоби мови тіла відрізняються"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el linguístico",\n' +
@@ -7616,14 +6888,6 @@ data = '[\n' +
     '    "ukrainian": "Рекомендації як довідник для реалізації контролю"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El más directo",\n' +
-    '    "ukrainian": "Найбільш простою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El más directo y potente",\n' +
-    '    "ukrainian": "Найбільш простою і чіткою"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el medio o canal que los transmite",\n' +
     '    "ukrainian": "видами їх матеріальних носіїв"\n' +
     '  },\n' +
@@ -7632,80 +6896,28 @@ data = '[\n' +
     '    "ukrainian": "те, що вони ортодоксальні"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El mismo conjunto de descriptores",\n' +
-    '    "ukrainian": "Такий самий набір дескрипторів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El mismo conjunto de descriptores puede",\n' +
-    '    "ukrainian": "Такий самий набір дескрипторів може"\n' +
+    '    "spanish": "el mismo conjunto de descriptores",\n' +
+    '    "ukrainian": "такий самий набір дескрипторів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el modelo de Rasch",\n' +
     '    "ukrainian": "модель Раша"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el modelo presentado en los capítulos",\n' +
-    '    "ukrainian": "розробкою моделі, представленої у розділах"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el modelo presentado en los capítulos 4 y",\n' +
-    '    "ukrainian": "розробкою моделі, представленої у розділах 4 та"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El modo (sea breve",\n' +
-    '    "ukrainian": "стиль (будьте стислими"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El nivel A2 parece reflejar el nivel al",\n' +
-    '    "ukrainian": "Рівень А2 має відображати рівень,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el nivel educativo",\n' +
-    '    "ukrainian": "освітнім рівнем"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el nivel en cuestión",\n' +
-    '    "ukrainian": "рівня, який розглядається"\n' +
+    '    "ukrainian": "ріень, який розглядається"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el orden de los objetivos en que se",\n' +
-    '    "ukrainian": "укладання цілей, на яких базується вивчення мови,"\n' +
+    '    "spanish": "el orden de los objetivos",\n' +
+    '    "ukrainian": "укладання цілей"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el origen cultural",\n' +
     '    "ukrainian": "культурний рівень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El origen nacional",\n' +
-    '    "ukrainian": "національного походження"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el Portfolio,",\n' +
-    '    "ukrainian": "Портфелем"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el pragmático",\n' +
-    '    "ukrainian": "прагматичного"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el principio consonántico (por ejemplo, el árabe",\n' +
-    '    "ukrainian": "консонантному принципу (напр, арабська мова"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El principio de cooperación (Grice,",\n' +
-    '    "ukrainian": "кооперативного принципу (Grice"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El principio de cooperación (Grice, 1975",\n' +
-    '    "ukrainian": "кооперативного принципу (Grice 1975"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El principio de cooperación (Grice, 1975 )",\n' +
-    '    "ukrainian": "кооперативного принципу (Grice 1975 )"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El problema",\n' +
-    '    "ukrainian": "Цієї проблеми"\n' +
+    '    "ukrainian": "прагматичний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El problema de los descriptores imprecisos es",\n' +
@@ -7726,26 +6938,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "el proceso de enseñanza y aprendizaje, de manera",\n' +
     '    "ukrainian": "процеси практичного викладання і вивчення,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El proceso total se",\n' +
-    '    "ukrainian": "Весь процес повністю"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El profesor",\n' +
-    '    "ukrainian": "і вчитель"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el profesor",\n' +
-    '    "ukrainian": "учителем"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el profesor",\n' +
-    '    "ukrainian": "вчителя"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el profesor",\n' +
-    '    "ukrainian": "мовлення вчителя"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El profesor o el autor del manual",\n' +
@@ -7777,7 +6969,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el rasgo (característica, constructo",\n' +
-    '    "ukrainian": "характерною рисою (ознакою, суттю ),"\n' +
+    '    "ukrainian": "характерна риса (ознака, суть ),"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El reconocimiento de las cualidades",\n' +
@@ -7785,7 +6977,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el registro",\n' +
-    '    "ukrainian": "реєстру"\n' +
+    '    "ukrainian": "реєстр"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el registro del discurso, etc",\n' +
@@ -7793,7 +6985,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El resultado de este proceso",\n' +
-    '    "ukrainian": "Результатом цього процесу"\n' +
+    '    "ukrainian": "результат цього процесу"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El resultado de este proceso es",\n' +
@@ -7804,44 +6996,12 @@ data = '[\n' +
     '    "ukrainian": "Результатом процесу мовленнєвої продукції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "el ruido de fondo",\n' +
-    '    "ukrainian": "сторонній шум"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "él se cayó",\n' +
-    '    "ukrainian": "він упав"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el significado y utilizando una terminología",\n' +
     '    "ukrainian": "значення, вживаючи термінологію,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el sistema en general",\n' +
     '    "ukrainian": "систему в цілому"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El sistema evaluador de DIALANG",\n' +
-    '    "ukrainian": "Система оцінювання DIALANG"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el sociolinguístico",\n' +
-    '    "ukrainian": "соціолінгвістичного"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el sociolinguístico y el pragmático",\n' +
-    '    "ukrainian": "соціолінгвістичного та прагматичного"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El tema o temas",\n' +
-    '    "ukrainian": "темою (темами )"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El término «registro» se utiliza",\n' +
-    '    "ukrainian": "Термін \'реєстр\' використовується"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el término «texto» se utiliza",\n' +
-    '    "ukrainian": "текст\' застосовується"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el término general, o bien limitado a",\n' +
@@ -7852,20 +7012,12 @@ data = '[\n' +
     '    "ukrainian": "екзаменаційні завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El texto entonces funciona",\n' +
-    '    "ukrainian": "Потім текст функціонує"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el tiempo en un individuo concreto",\n' +
     '    "ukrainian": "часом для даного індивіда"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el tiempo libre",\n' +
     '    "ukrainian": "вільний час"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El tiempo permitido",\n' +
-    '    "ukrainian": "Час, відведений"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el tiempo permitido",\n' +
@@ -7877,27 +7029,19 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El tiempo permitido para la respuesta",\n' +
-    '    "ukrainian": "Час, відведений для відповіді,"\n' +
+    '    "ukrainian": "Час, відведений для відповіді"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El tipo de respuesta requerida",\n' +
     '    "ukrainian": "Тип відповіді, що вимагається,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El tipo de respuesta requerida puede",\n' +
-    '    "ukrainian": "Тип відповіді, що вимагається, може"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "El tipo de tarea",\n' +
-    '    "ukrainian": "типом завдання"\n' +
+    '    "ukrainian": "тип завдання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El tipo de texto (género )",\n' +
-    '    "ukrainian": "типом (жанром ) тексту"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el tipo de texto típico de las pruebas",\n' +
-    '    "ukrainian": "тестових та екзаменаційних завдань"\n' +
+    '    "ukrainian": "тип (жанром ) тексту"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el tipo de texto típico de las pruebas",\n' +
@@ -7932,32 +7076,12 @@ data = '[\n' +
     '    "ukrainian": "Застосування комунікативних стратегій"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El uso de la lengua",\n' +
-    '    "ukrainian": "4 Користування мовою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el uso de la lengua",\n' +
-    '    "ukrainian": "використанням мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el uso de la lengua y que",\n' +
-    '    "ukrainian": "використанням мови і"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El uso de las de Sociedad",\n' +
-    '    "ukrainian": "Використання шкал \'Соціальна сфера"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "el uso de textos transcritos fonéticamente",\n' +
     '    "ukrainian": "використанням фонетичної транскрипції текстів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el uso de una",\n' +
     '    "ukrainian": "з відкриттям"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "El uso de una lengua extranjera",\n' +
-    '    "ukrainian": "Використання іноземної мови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "el uso de una o más lenguas",\n' +
@@ -7968,20 +7092,8 @@ data = '[\n' +
     '    "ukrainian": "використанням однієї або кількох мов та"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "El uso eficaz",\n' +
-    '    "ukrainian": "На відміну"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el uso funcional del discurso hablado",\n' +
-    '    "ukrainian": "функціонального використання усного мовлення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "el uso,",\n' +
-    '    "ukrainian": "вживанні"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "El usuario de la lengua",\n' +
-    '    "ukrainian": "Користувач мовою"\n' +
+    '    "ukrainian": "користувач мовою"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "El usuario de la lengua puede leer",\n' +
@@ -8004,28 +7116,12 @@ data = '[\n' +
     '    "ukrainian": "вибір привітань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "electrónica",\n' +
-    '    "ukrainian": "електронне"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "electrónica,",\n' +
-    '    "ukrainian": "Електронне"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "electrónico,",\n' +
-    '    "ukrainian": "електронною"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "electrónicos,",\n' +
-    '    "ukrainian": "електронні"\n' +
+    '    "spanish": "electrónico",\n' +
+    '    "ukrainian": "електронний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Elegir bienes o servicios",\n' +
-    '    "ukrainian": "3 Вибрати товари/послуги"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "elegir entre tipos",\n' +
-    '    "ukrainian": "передбачає вибір між видами"\n' +
+    '    "ukrainian": "вибрати товари/послуги"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "elegir entre tipos y niveles de objetivos",\n' +
@@ -8053,39 +7149,23 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "elemental",\n' +
-    '    "ukrainian": "елементарного"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "elemental,",\n' +
-    '    "ukrainian": "елементарної"\n' +
+    '    "ukrainian": "елементарний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "elemento",\n' +
     '    "ukrainian": "елемента"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "elementos",\n' +
-    '    "ukrainian": "елементи,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "elementos",\n' +
-    '    "ukrainian": "елементів,"\n' +
+    '    "spanish": "elemento",\n' +
+    '    "ukrainian": "елемент"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "elementos gramaticales",\n' +
     '    "ukrainian": "граматичні елементи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "elementos gramaticales",\n' +
-    '    "ukrainian": "граматичних елементів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "elementos léxicos comprenden",\n' +
-    '    "ukrainian": "Лексичні елементи включають"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "elementos,",\n' +
-    '    "ukrainian": "елементи,"\n' +
+    '    "spanish": "elementos léxicos",\n' +
+    '    "ukrainian": "лексичні елементи"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "eligen las personas",\n' +
@@ -8100,16 +7180,16 @@ data = '[\n' +
     '    "ukrainian": "обирають люди, і має бути розширений"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "eligió los",\n' +
-    '    "ukrainian": "вибрала ті,"\n' +
+    '    "spanish": "eliminar del análisis",\n' +
+    '    "ukrainian": "вилучити з аналізу"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "eliminar la ambigüedad",\n' +
     '    "ukrainian": "уникати двозначності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Elisión",\n' +
-    '    "ukrainian": "елізії"\n' +
+    '    "spanish": "elisión",\n' +
+    '    "ukrainian": "елізія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ella y vuelve a formular lo",\n' +
@@ -8140,68 +7220,12 @@ data = '[\n' +
     '    "ukrainian": "написи на упаковці та бирках товарів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "embalaje y etiquetado de mercancías",\n' +
-    '    "ukrainian": "написи на упаковці та бирках товарів"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "emigración",\n' +
-    '    "ukrainian": "еміграції,"\n' +
+    '    "ukrainian": "еміграція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "emisor y receptor",\n' +
-    '    "ukrainian": "того, хто сприймає"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en adelante, LE",\n' +
-    '    "ukrainian": "і третьої (FL"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en ambas",\n' +
-    '    "ukrainian": "в обох"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en áreas temáticas necesarias",\n' +
-    '    "ukrainian": "а ) в тематичних сферах, необхідних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en Australia,",\n' +
-    '    "ukrainian": "Австралії"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en c",\n' +
-    '    "ukrainian": "(в"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en c ),",\n' +
-    '    "ukrainian": "(в ),"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en c ), pero",\n' +
-    '    "ukrainian": "(в ), але"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en c ), pero con una",\n' +
-    '    "ukrainian": "(в ), але з одним"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "En cada caso, el usuario",\n' +
-    '    "ukrainian": "У кожному випадку користувач"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "En concreto,",\n' +
-    '    "ukrainian": "Зокрема, вона"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "En concreto, no",\n' +
-    '    "ukrainian": "Зокрема, вона не"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en conocimientos relativos a la cocina",\n' +
-    '    "ukrainian": "виділенні знань, пов\'язаних з кухнею"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "En consecuencia, los capítulos 4 y",\n' +
-    '    "ukrainian": "Відповідно, розділи 4 і"\n' +
+    '    "spanish": "en concreto",\n' +
+    '    "ukrainian": "зокрема"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "en conversaciones breves siempre",\n' +
@@ -8364,14 +7388,6 @@ data = '[\n' +
     '    "ukrainian": "а з точки зору того, що контролюється"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "en función de lo que se busca",\n' +
-    '    "ukrainian": "з точки зору того, що контролюється"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en función del contexto",\n' +
-    '    "ukrainian": "залежно від контексту"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "en función del contexto",\n' +
     '    "ukrainian": "залежно від контексту"\n' +
     '  },\n' +
@@ -8457,10 +7473,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "en la mediación",\n' +
-    '    "ukrainian": "при перекладі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en la mediación",\n' +
     '    "ukrainian": "d ) при перекладі"\n' +
     '  },\n' +
     '  {\n' +
@@ -8508,20 +7520,12 @@ data = '[\n' +
     '    "ukrainian": "при плануванні курсів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "en la planificación del curso",\n' +
-    '    "ukrainian": "при плануванні курсів"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "en la segunda lengua –algo",\n' +
     '    "ukrainian": "L2, як це часто трапляється, так"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "en la situación específica de aprendizaje",\n' +
     '    "ukrainian": "у специфічній навчальній ситуації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en la valoración",\n' +
-    '    "ukrainian": "при оцінюванні"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "en la valoración",\n' +
@@ -8612,6 +7616,10 @@ data = '[\n' +
     '    "ukrainian": "По-друге, вони можуть бути представлені"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "en sentidos restringidos",\n' +
+    '    "ukrainian": "у вузьких значеннях"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "en su práctica",\n' +
     '    "ukrainian": "у своїй практиці"\n' +
     '  },\n' +
@@ -8662,10 +7670,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "en un conjunto concreto de categorías",\n' +
     '    "ukrainian": "на окремому наборі категорій"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "en un contexto diferente",\n' +
-    '    "ukrainian": "в іншому контексті"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "en un contexto diferente",\n' +
@@ -8752,8 +7756,8 @@ data = '[\n' +
     '    "ukrainian": "наголос на зростанні швидкості,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "enfoque de maestría",\n' +
-    '    "ukrainian": "підхід \'володіння\'"\n' +
+    '    "spanish": "enfoque doble",\n' +
+    '    "ukrainian": "двоярусний\' підхід"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "enfoque holístico",\n' +
@@ -8912,10 +7916,6 @@ data = '[\n' +
     '    "ukrainian": "один до одного не є прямим"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "entre sí no es sencillo",\n' +
-    '    "ukrainian": "один до одного не є прямим"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "entre tipos y niveles de objetivos",\n' +
     '    "ukrainian": "між видами та рівнями цілей"\n' +
     '  },\n' +
@@ -8946,10 +7946,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "enunciados suelen hablar de lo",\n' +
     '    "ukrainian": "Визначення переважно стосуються того,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "equilibrar los recursos",\n' +
-    '    "ukrainian": "узгодження ресурсів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "equilibrar los recursos",\n' +
@@ -8998,10 +7994,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "erradicarse",\n' +
     '    "ukrainian": "викорінюватись"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "errores",\n' +
-    '    "ukrainian": "хибні уявлення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "errores",\n' +
@@ -9058,14 +8050,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Errores y faltas sintácticas",\n' +
     '    "ukrainian": "синтаксичних типових і випадкових помилок"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "errores y las faltas",\n' +
-    '    "ukrainian": "Типові і випадкові помилки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "errores y las faltas",\n' +
-    '    "ukrainian": "типові і випадкові помилки"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "errores y las faltas",\n' +
@@ -9204,6 +8188,10 @@ data = '[\n' +
     '    "ukrainian": "шкала \'Можу робити\'"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "escala de calificación",\n' +
+    '    "ukrainian": "градуйована шкала"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Escala de dominio",\n' +
     '    "ukrainian": "Шкала Рівнів Володіння"\n' +
     '  },\n' +
@@ -9234,10 +8222,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "escalas ilustrativas",\n' +
     '    "ukrainian": "ілюстративні шкали"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "escalonamiento de niveles",\n' +
-    '    "ukrainian": "вимірювання рівнів володіння"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "escalonamiento multidimensional",\n' +
@@ -9272,6 +8256,10 @@ data = '[\n' +
     '    "ukrainian": "написання статей"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "escribir artículos para revistas, periódicos, boletines informativos, etc.",\n' +
+    '    "ukrainian": "написання статей для журналів, газет, зведень новин і т.д."\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Escribir cartas",\n' +
     '    "ukrainian": "Листування"\n' +
     '  },\n' +
@@ -9284,6 +8272,22 @@ data = '[\n' +
     '    "ukrainian": "написання особистих"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "escribir cartas personales o de negocios, etc.",\n' +
+    '    "ukrainian": "написання особистих або ділових листів тощо."\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "escribir de forma creativa",\n' +
+    '    "ukrainian": "творче письмо"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "escribir de forma creativa e imaginativa",\n' +
+    '    "ukrainian": "творче та образне письмо"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "escribir de forma imaginativa",\n' +
+    '    "ukrainian": "образне письмо"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "escribir el texto a mano",\n' +
     '    "ukrainian": "писати (рукою"\n' +
     '  },\n' +
@@ -9294,6 +8298,14 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "escribir historias, etc",\n' +
     '    "ukrainian": "письмовий переказ історій,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "escribir informes, memorandos",\n' +
+    '    "ukrainian": "написання звітів (доповідей), меморандумів"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "escribir resúmenes",\n' +
+    '    "ukrainian": "писати огляди"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Escrita",\n' +
@@ -9716,12 +8728,12 @@ data = '[\n' +
     '    "ukrainian": "бути доступним"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "estar disponible",\n' +
-    '    "ukrainian": "бути доступним"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "estar dominados por la jerga",\n' +
     '    "ukrainian": "описаними на жаргоні"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "estar en un nivel",\n' +
+    '    "ukrainian": "знаходитись на певному рівні"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "estar escuchando",\n' +
@@ -10140,7 +9152,7 @@ data = '[\n' +
     '    "ukrainian": "синтаксичних конструкцій"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Estructuras y relaciones familiares",\n' +
+    '    "spanish": "estructuras y relaciones familiares",\n' +
     '    "ukrainian": "сімейні структури і стосунки"\n' +
     '  },\n' +
     '  {\n' +
@@ -10172,16 +9184,12 @@ data = '[\n' +
     '    "ukrainian": "стадія"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "etapas del diseño curricular",\n' +
+    '    "ukrainian": "етапів укладання програми"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "etcétera",\n' +
     '    "ukrainian": "та інше"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "etnocéntrico",\n' +
-    '    "ukrainian": "етноцентризму"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "etnocentrismo,",\n' +
-    '    "ukrainian": "етноцентризму,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Eurocentres Certificate Scale",\n' +
@@ -10220,6 +9228,10 @@ data = '[\n' +
     '    "ukrainian": "наступне оцінювання"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "evaluación analítica",\n' +
+    '    "ukrainian": "аналітичний контроль"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "evaluación centrada en niveles",\n' +
     '    "ukrainian": "стандартизований контроль"\n' +
     '  },\n' +
@@ -10256,8 +9268,8 @@ data = '[\n' +
     '    "ukrainian": "вчительське оцінювання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Evaluación directa Evaluación indirecta",\n' +
-    '    "ukrainian": "Прямий контроль Непрямий контроль"\n' +
+    '    "spanish": "evaluación directa",\n' +
+    '    "ukrainian": "прямий контроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "evaluación en su sentido más amplio",\n' +
@@ -10272,12 +9284,24 @@ data = '[\n' +
     '    "ukrainian": "Поточний контроль Підсумковий контроль"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "evaluación global",\n' +
+    '    "ukrainian": "прямий контроль"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "evaluación global / evaluación analítica",\n' +
     '    "ukrainian": "11 Глобальний/аналітичний контроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Evaluación global Evaluación analítica",\n' +
     '    "ukrainian": "Глобальний контроль Аналітичний контроль"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "evaluación indirecta",\n' +
+    '    "ukrainian": "непрямий контроль"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "evaluación objetiva",\n' +
+    '    "ukrainian": "об\'єктивний контроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "evaluación por el profesor",\n' +
@@ -10288,12 +9312,20 @@ data = '[\n' +
     '    "ukrainian": "вчительський контроль"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "evaluación subjetiva",\n' +
+    '    "ukrainian": "суб\'єктивний контроль"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "evaluación subjetiva / evaluación objetiva",\n' +
     '    "ukrainian": "8 Суб\'єктивний контроль/об\'єктивний контроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Evaluación subjetiva Evaluación objetiva",\n' +
     '    "ukrainian": "Суб\'єктивний контроль Об\'єктивний контроль"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "evaluación sumativa",\n' +
+    '    "ukrainian": "підсумковий контроль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "evaluación sumativa",\n' +
@@ -10342,6 +9374,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "evitar errores importantes de formulación",\n' +
     '    "ukrainian": "уникати грубих помилок при формулюванні"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "evitar la oscuridad",\n' +
+    '    "ukrainian": "уникати неясності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "evitar las preferencias o el dogmatismo",\n' +
@@ -10609,6 +9645,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "exploración rápida",\n' +
+    '    "ukrainian": "об\'єктивний контроль"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "exploración rápida",\n' +
     '    "ukrainian": "швидкий контроль"\n' +
     '  },\n' +
     '  {\n' +
@@ -10800,6 +9840,10 @@ data = '[\n' +
     '    "ukrainian": "коротких фраз, вивчених напам\'ять (Trim"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "expresiones coloquiales",\n' +
+    '    "ukrainian": "колоквіалізми"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Expresiones de",\n' +
     '    "ukrainian": "вираження"\n' +
     '  },\n' +
@@ -10880,6 +9924,10 @@ data = '[\n' +
     '    "ukrainian": "дружній"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "facilidad",\n' +
+    '    "ukrainian": "легкість"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "facilitador, aceptando",\n' +
     '    "ukrainian": "помічника, сприймаючи"\n' +
     '  },\n' +
@@ -10910,6 +9958,18 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "facilitar la vida en un país extranjero",\n' +
     '    "ukrainian": "полегшення життя в іноземній країні"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "factor afectivo",\n' +
+    '    "ukrainian": "афективний чинник"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "factor cognitivo",\n' +
+    '    "ukrainian": "когнітивний чинник"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "factor lingüístico",\n' +
+    '    "ukrainian": "лінгвістичний чинник"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "factores",\n' +
@@ -11129,6 +10189,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "flexibilidad de un enfoque ramificado",\n' +
+    '    "ukrainian": "гнучкість у розгалуженому підході"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "flexibilidad de un enfoque ramificado",\n' +
     '    "ukrainian": "35 Гнучкість у розгалуженому підході"\n' +
     '  },\n' +
     '  {\n' +
@@ -11164,16 +10228,8 @@ data = '[\n' +
     '    "ukrainian": "зв\'язно"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Fluidez",\n' +
-    '    "ukrainian": "Швидкість"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "fluidez y con un estilo adecuado",\n' +
     '    "ukrainian": "зв\'язно та у певному стилі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "folletos",\n' +
-    '    "ukrainian": "листівки"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "folletos",\n' +
@@ -11186,6 +10242,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "fomentar el aprendizaje de lenguas",\n' +
     '    "ukrainian": "інтенсифікації вивчення мови"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "fomentar en los alumnos la no segmentación",\n' +
+    '    "ukrainian": "сприяти уникненню цими учнями роз\'єднаності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "fomentarse las economías de escala",\n' +
@@ -11328,10 +10388,6 @@ data = '[\n' +
     '    "ukrainian": "формуляри та списки запитань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "formularios y cuestionarios",\n' +
-    '    "ukrainian": "формуляри та списки запитань"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Fórmulas fijas, que comprenden",\n' +
     '    "ukrainian": "розмовні вирази/формули, у тому числі"\n' +
     '  },\n' +
@@ -11342,6 +10398,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "fragmento en una lengua (Lx",\n' +
     '    "ukrainian": "кодом, сприймаючи текст однією мовою (Lx"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "franqueza",\n' +
+    '    "ukrainian": "різкість, надмірна відвертість"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "frases",\n' +
@@ -11516,6 +10576,14 @@ data = '[\n' +
     '    "ukrainian": "ступінь їхнього знайомства"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "grado de inhibición",\n' +
+    '    "ukrainian": "ступінь гальмування"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "grados de logro del mismo objetivo",\n' +
+    '    "ukrainian": "ступені досягнень на шляху до однієї і тієї ж мети"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "gráfico",\n' +
     '    "ukrainian": "карта"\n' +
     '  },\n' +
@@ -11530,6 +10598,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "gramática",\n' +
     '    "ukrainian": "граматики"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "gramática de consulta",\n' +
+    '    "ukrainian": "граматичний довідник"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "gramática de su lengua materna",\n' +
@@ -11590,6 +10662,18 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "griega en los casos en que se utilice",\n' +
     '    "ukrainian": "грецького шрифту, якщо у мові L1 використовується"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "grupo étnico",\n' +
+    '    "ukrainian": "етнічна належність"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "grupo profesional",\n' +
+    '    "ukrainian": "суспільно-професійна група"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "grupo profesional",\n' +
+    '    "ukrainian": "професійна група"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "grupos",\n' +
@@ -11796,6 +10880,10 @@ data = '[\n' +
     '    "ukrainian": "обговорити, що буде робити увечері, на уікенді"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "hacer posible la comunicación",\n' +
+    '    "ukrainian": "робити можливим спілкування"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "hacer un mejor uso de las oportunidades",\n' +
     '    "ukrainian": "застосовувати певні можливості якнайкраще"\n' +
     '  },\n' +
@@ -11920,6 +11008,10 @@ data = '[\n' +
     '    "ukrainian": "розраховуючи на високі ставки (напр,"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "hecho",\n' +
+    '    "ukrainian": "факт"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Hechos",\n' +
     '    "ukrainian": "події"\n' +
     '  },\n' +
@@ -11942,6 +11034,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "hiperlinguística",\n' +
     '    "ukrainian": "гіперлінгвістичний"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "hipertexto",\n' +
+    '    "ukrainian": "гіпертекст"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "hipotéticas",\n' +
@@ -12000,10 +11096,6 @@ data = '[\n' +
     '    "ukrainian": "гумор"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Humor",\n' +
-    '    "ukrainian": "гумор"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "I N T E R A C C I Ó N",\n' +
     '    "ukrainian": "І H T E P А K Ц І Я"\n' +
     '  },\n' +
@@ -12018,10 +11110,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "idénticos elementos",\n' +
     '    "ukrainian": "подібн іелементи,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Identidad nacional",\n' +
-    '    "ukrainian": "національна самобутність"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Identidad nacional",\n' +
@@ -12068,16 +11156,16 @@ data = '[\n' +
     '    "ukrainian": "визначення прогалин в інформації і точках зору"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "identificación del texto, completo o parcial, como adecuado",\n' +
+    '    "ukrainian": "ідентифікація тексту, повна або часткова, відповідно до ситуації"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Identificación personal",\n' +
     '    "ukrainian": "персональна ідентифікація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Identificación personal",\n' +
     '    "ukrainian": "Особиста ідентифікація"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Identificación personal",\n' +
-    '    "ukrainian": "персональна ідентифікація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "identificadas",\n' +
@@ -12196,36 +11284,12 @@ data = '[\n' +
     '    "ukrainian": "ілюстрації цього положення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "ilustrativa",\n' +
-    '    "ukrainian": "Ілюстративна"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ilustrativas",\n' +
-    '    "ukrainian": "Ілюстративні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ilustrativas,",\n' +
-    '    "ukrainian": "ілюстративних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ilustrativo,",\n' +
-    '    "ukrainian": "ілюстративною"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ilustrativos",\n' +
-    '    "ukrainian": "ілюстративні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ilustrativos,",\n' +
-    '    "ukrainian": "ілюстративного"\n' +
+    '    "spanish": "ilustrativo",\n' +
+    '    "ukrainian": "ілюстративний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "imagen",\n' +
     '    "ukrainian": "малюнок"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "imágenes, el juego de las películas, etc",\n' +
-    '    "ukrainian": "картинками, фотографії і тд"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "imaginación",\n' +
@@ -12260,8 +11324,12 @@ data = '[\n' +
     '    "ukrainian": "неможливою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Impresión",\n' +
-    '    "ukrainian": "Враження"\n' +
+    '    "spanish": "implícito",\n' +
+    '    "ukrainian": "імпліцитний"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "impresión",\n' +
+    '    "ukrainian": "враження"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "impresión de mala calidad",\n' +
@@ -12272,15 +11340,15 @@ data = '[\n' +
     '    "ukrainian": "включатись"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "incluidos",\n' +
-    '    "ukrainian": "включатись"\n' +
+    '    "spanish": "incluir especificaciones",\n' +
+    '    "ukrainian": "включати твердження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "incluirlos en el conjunto de escalas ilustrativas",\n' +
+    '    "spanish": "incluir en el conjunto de escalas ilustrativas",\n' +
     '    "ukrainian": "включення до ілюстративного набору шкал була безуспішною"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Incluye ambas actividades",\n' +
+    '    "spanish": "incluir ambas actividades",\n' +
     '    "ukrainian": "охоплює два види діяльності"\n' +
     '  },\n' +
     '  {\n' +
@@ -12288,12 +11356,16 @@ data = '[\n' +
     '    "ukrainian": "включає повний спектр мов, які їй/йому доступні"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "inconveniente",\n' +
+    '    "ukrainian": "недолік"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "independencia",\n' +
     '    "ukrainian": "самоуправління"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Independencia",\n' +
-    '    "ukrainian": "Незалежність"\n' +
+    '    "spanish": "independencia",\n' +
+    '    "ukrainian": "незалежність"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "indicación de dominio en un ámbito dado",\n' +
@@ -12304,8 +11376,8 @@ data = '[\n' +
     '    "ukrainian": "прості вказівки та інструкції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "indicar que hay «lagunas» donde",\n' +
-    '    "ukrainian": "призвести до непорозумінь там, де"\n' +
+    '    "spanish": "indicar que hay «lagunas»",\n' +
+    '    "ukrainian": "призвести до непорозумінь"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "indique la falta de un nivel entre ambos",\n' +
@@ -12313,19 +11385,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "individual",\n' +
-    '    "ukrainian": "індивідуальним"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "individual diseñado",\n' +
-    '    "ukrainian": "групової роботи, призначеної"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "individual,",\n' +
-    '    "ukrainian": "індивідуальним"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "individual?",\n' +
-    '    "ukrainian": "індивідуальну"\n' +
+    '    "ukrainian": "індивідуальний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "individuales",\n' +
@@ -12336,32 +11396,20 @@ data = '[\n' +
     '    "ukrainian": "індивідуалізує"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "individualmente?",\n' +
-    '    "ukrainian": "індивідуальних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "individuo",\n' +
-    '    "ukrainian": "індивідуальні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "individuos",\n' +
-    '    "ukrainian": "індивідуальних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "inductivamente,",\n' +
-    '    "ukrainian": "індуктивне,"\n' +
+    '    "spanish": "inductivo",\n' +
+    '    "ukrainian": "індуктивний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "inexacta",\n' +
-    '    "ukrainian": "неточною"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "inferencia",\n' +
-    '    "ukrainian": "виведення"\n' +
+    '    "ukrainian": "неточний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "inferencia",\n' +
     '    "ukrainian": "узагальнення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "inferencia",\n' +
+    '    "ukrainian": "виведення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "inferior de un conjunto de niveles",\n' +
@@ -12384,44 +11432,20 @@ data = '[\n' +
     '    "ukrainian": "інформація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "INFORMACIÓN",\n' +
-    '    "ukrainian": "інформації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "información",\n' +
-    '    "ukrainian": "інформація,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Información adicional sobre los resultados",\n' +
-    '    "ukrainian": "Консультативний Зворотний зв\'язок"\n' +
+    '    "ukrainian": "консультативний зворотний зв\'язок"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "información de entrada",\n' +
-    '    "ukrainian": "Input\' (того, що дається учням ),"\n' +
+    '    "ukrainian": "Input\'"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "información de entrada de la fase cualitativa",\n' +
     '    "ukrainian": "вихідних даних для фази якісного опрацювання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "información,",\n' +
-    '    "ukrainian": "інформацію,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "informadores",\n' +
-    '    "ukrainian": "інформанти"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "informadores,",\n' +
-    '    "ukrainian": "інформантів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Informal, por ejemplo",\n' +
-    '    "ukrainian": "неформальний, напр,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "informales de interacción social (esquemas",\n' +
-    '    "ukrainian": "неформальних схем соціальної інтеракції"\n' +
+    '    "spanish": "esquemas informales de interacción social",\n' +
+    '    "ukrainian": "неформальні схеми соціальної інтеракції"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "informar",\n' +
@@ -12429,23 +11453,15 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "informar",\n' +
-    '    "ukrainian": "висновку"\n' +
+    '    "ukrainian": "висновок"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "informar de las puntuaciones del sistema DIALANG",\n' +
     '    "ukrainian": "звітні підрахунки за системою DIALANG"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "informar de las puntuaciones del sistema DIALANG",\n' +
-    '    "ukrainian": "звітних підрахунків за системою DIALANG"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "informar de los resultados",\n' +
     '    "ukrainian": "висновки про результати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "informar de los resultados",\n' +
-    '    "ukrainian": "висновків про результати"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "informar de un accidente",\n' +
@@ -12460,10 +11476,6 @@ data = '[\n' +
     '    "ukrainian": "звітувати про результати іспиту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "informar del resultado del examen",\n' +
-    '    "ukrainian": "звіту про результати іспиту"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "informáticos (por ejemplo",\n' +
     '    "ukrainian": "засобами комп\'ютерного зв\'язку (напр"\n' +
     '  },\n' +
@@ -12476,28 +11488,20 @@ data = '[\n' +
     '    "ukrainian": "інформаційних"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Informe",\n' +
-    '    "ukrainian": "Висновки"\n' +
+    '    "spanish": "informe",\n' +
+    '    "ukrainian": "висновки"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "informe del resultado del examen",\n' +
     '    "ukrainian": "звіт про результати іспиту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Informes",\n' +
-    '    "ukrainian": "Доповідей"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "INFORMES",\n' +
-    '    "ukrainian": "Доповіді"\n' +
+    '    "spanish": "informe",\n' +
+    '    "ukrainian": "доповідь"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "informes escritos",\n' +
     '    "ukrainian": "письмові доповіді"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "informes que transmiten información",\n' +
-    '    "ukrainian": "доповідь, викладаючи інформацію"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Informes y redacciones",\n' +
@@ -12512,20 +11516,8 @@ data = '[\n' +
     '    "ukrainian": "Звіти/Доповіді та твори"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "informes y redacciones ) no",\n' +
-    '    "ukrainian": "Звіти/Доповіді та твори ) не"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "informes y redacciones.",\n' +
-    '    "ukrainian": "доповідей та есе/творів."\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Ingram,",\n' +
+    '    "spanish": "Ingram",\n' +
     '    "ukrainian": "Ingram"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Ingram, 1985 Liskin-Gasparro,",\n' +
-    '    "ukrainian": "Ingram 1985 Liskin-Gasparro"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ingreso en la universidad",\n' +
@@ -12549,11 +11541,11 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "inmutable",\n' +
-    '    "ukrainian": "незмінним,"\n' +
+    '    "ukrainian": "незмінний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Inscripción",\n' +
-    '    "ukrainian": "Реєстрація"\n' +
+    '    "spanish": "inscripción",\n' +
+    '    "ukrainian": "реєстрація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "inspectores",\n' +
@@ -12568,48 +11560,16 @@ data = '[\n' +
     '    "ukrainian": "відповідна інституція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "institucionales",\n' +
-    '    "ukrainian": "інституцій?"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "instituciones",\n' +
     '    "ukrainian": "інституції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Instituciones",\n' +
-    '    "ukrainian": "установи"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Instituciones y organizaciones",\n' +
-    '    "ukrainian": "установи (заклади ) та організації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Instituciones.",\n' +
-    '    "ukrainian": "установи"\n' +
+    '    "spanish": "institución",\n' +
+    '    "ukrainian": "установа"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "instrucción",\n' +
     '    "ukrainian": "інструкція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "instrucción",\n' +
-    '    "ukrainian": "інструктивних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "instrucción,",\n' +
-    '    "ukrainian": "інструкції,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Instrucciones",\n' +
-    '    "ukrainian": "інструкції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "INSTRUCCIONES",\n' +
-    '    "ukrainian": "інструкцій"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "instrucciones",\n' +
-    '    "ukrainian": "інструкцію"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "instrucciones de seguridad",\n' +
@@ -12644,18 +11604,6 @@ data = '[\n' +
     '    "ukrainian": "зрозумілий"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "integrador, pero",\n' +
-    '    "ukrainian": "зрозумілими, проте"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "integrador, pero todos sus usuarios",\n' +
-    '    "ukrainian": "зрозумілими, проте всі користувачі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "integrador, presentando",\n' +
-    '    "ukrainian": "зрозумілим, представляти"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "integre varias lenguas, los objetivos",\n' +
     '    "ukrainian": "передбачає вивчення кількох мов, цілі"\n' +
     '  },\n' +
@@ -12680,6 +11628,10 @@ data = '[\n' +
     '    "ukrainian": ":інтелектуальних,"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "intención de los usuarios",\n' +
+    '    "ukrainian": "намір користувача"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "intentan establecer lo",\n' +
     '    "ukrainian": "були присвячені визначенню того,"\n' +
     '  },\n' +
@@ -12702,10 +11654,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "INTERACCIÓN",\n' +
     '    "ukrainian": "ІНТЕРАКЩЯ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interacción",\n' +
-    '    "ukrainian": "інтеракція"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Interacción (Espontánea, turnos breves",\n' +
@@ -12828,6 +11776,10 @@ data = '[\n' +
     '    "ukrainian": "4 Обміняти товари на платню"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "Intercambio de saludos",\n' +
+    '    "ukrainian": "обмінятись привітаннями"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "intercambio de saludos",\n' +
     '    "ukrainian": "21 Обмінятись привітаннями"\n' +
     '  },\n' +
@@ -12840,8 +11792,20 @@ data = '[\n' +
     '    "ukrainian": "інтеркультуру"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "interés",\n' +
+    '    "ukrainian": "релевантність"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "interés del alumno por lo que es diferente",\n' +
+    '    "ukrainian": "зацікавленість учня в \'іншості\'"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Interés para el alumno",\n' +
     '    "ukrainian": "релевантність для учня"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "interés personal por el contenido",\n' +
+    '    "ukrainian": "високий рівень мотивації розуміння, що залежить"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interés,",\n' +
@@ -12892,12 +11856,12 @@ data = '[\n' +
     '    "ukrainian": "перешкоди (натовп на вулиці, базарі, кафе, вечоринці, на дискотеці)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "interfiera en la comunicación (por ejemplo",\n' +
-    '    "ukrainian": "перешкоджає спілкуванню (напр,"\n' +
+    '    "spanish": "interferir en la comunicación",\n' +
+    '    "ukrainian": "перешкоджати спілкуванню"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interiormente",\n' +
-    '    "ukrainian": "інтеріорізованих"\n' +
+    '    "ukrainian": "інтеріорізований"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interlengua de transición",\n' +
@@ -12912,24 +11876,12 @@ data = '[\n' +
     '    "ukrainian": "співрозмовник"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "interlocutores",\n' +
-    '    "ukrainian": "співрозмовників"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "intermediario",\n' +
     '    "ukrainian": "посередник"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "internacional",\n' +
-    '    "ukrainian": "інтернаціональному"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "internacionales",\n' +
-    '    "ukrainian": "інтернаціональні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "International",\n' +
-    '    "ukrainian": "International"\n' +
+    '    "ukrainian": "інтернаціональний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "International Certificate Conference (ICC",\n' +
@@ -12944,24 +11896,8 @@ data = '[\n' +
     '    "ukrainian": "Intemational English Language Testing System"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Internet",\n' +
-    '    "ukrainian": "Інтернетом"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Internet ) como recursos de aprendizaje",\n' +
-    '    "ukrainian": "Інтернетом ) як засобом навчання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Internet–",\n' +
-    '    "ukrainian": "Інтернету,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "internos",\n' +
-    '    "ukrainian": "процесів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interpersonal",\n' +
-    '    "ukrainian": "interpersonal"\n' +
+    '    "spanish": "Internet como recurso de aprendizaje",\n' +
+    '    "ukrainian": "Інтернет як засіб навчання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interpreta",\n' +
@@ -12969,18 +11905,18 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interpretación",\n' +
-    '    "ukrainian": "інтерпретації"\n' +
+    '    "ukrainian": "інтерпретація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Interpretación",\n' +
-    '    "ukrainian": "Усний переклад"\n' +
+    '    "spanish": "interpretación",\n' +
+    '    "ukrainian": "усний переклад"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interpretación del mensaje en el contexto",\n' +
     '    "ukrainian": "інтерпретація висловлювання у певному контексті"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Interpretación informal",\n' +
+    '    "spanish": "interpretación informal",\n' +
     '    "ukrainian": "неформальний переклад"\n' +
     '  },\n' +
     '  {\n' +
@@ -12988,96 +11924,36 @@ data = '[\n' +
     '    "ukrainian": "інтуїтивна інтерпретація результатів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "interpretación intuitiva de los resultados,",\n' +
-    '    "ukrainian": "інтуїтивна інтерпретація результатів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interpretaciones",\n' +
-    '    "ukrainian": "інтерпретацією"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interpretado",\n' +
-    '    "ukrainian": "інтерпретувались"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interpretados",\n' +
-    '    "ukrainian": "інтерпретовані"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interpretan",\n' +
-    '    "ukrainian": "інтерпретації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "interpretando",\n' +
-    '    "ukrainian": "інтерпретує"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "interpretar",\n' +
-    '    "ukrainian": "інтерпретуватись"\n' +
+    '    "ukrainian": "інтерпретувати"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "interpretar ) o en la interacción cara a cara",\n' +
-    '    "ukrainian": "письмовому ), або в безпосередній інтеракції"\n' +
+    '    "ukrainian": "в безпосередній інтеракції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "interpretar,",\n' +
-    '    "ukrainian": "інтерпретувати,"\n' +
+    '    "spanish": "íntimo, por ejemplo",\n' +
+    '    "ukrainian": "інтимний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "interpretaron",\n' +
-    '    "ukrainian": "інтерпретації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Íntimo, por ejemplo",\n' +
-    '    "ukrainian": "інтимний, напр"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Intrínsecas y extrínsecas",\n' +
+    '    "spanish": "intrínsecas y extrínsecas",\n' +
     '    "ukrainian": "внутрішні/зовнішні"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Introductorio",\n' +
+    '    "spanish": "introductorio",\n' +
     '    "ukrainian": "інтродуктивний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Introversión y extraversión",\n' +
+    '    "spanish": "introversión y extraversión",\n' +
     '    "ukrainian": "інтроверт/екстраверт"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "intuitiva",\n' +
-    '    "ukrainian": "інтуїтивно"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "intuitiva,",\n' +
-    '    "ukrainian": "інтуїтивно,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "intuitivamente",\n' +
     '    "ukrainian": "інтуїтивно"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "intuitivas",\n' +
-    '    "ukrainian": "інтуїтивного,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "intuitivo",\n' +
-    '    "ukrainian": "інтуїтивним"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "intuitivo ) y del 8 y el 9 (cualitativos",\n' +
-    '    "ukrainian": "інтуїтивним ) і Методами 8 та 9 (якісними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "intuitivos",\n' +
-    '    "ukrainian": "інтуїтивних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "intuitivos,",\n' +
-    '    "ukrainian": "інтуїтивного,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "irrelevantes",\n' +
-    '    "ukrainian": "нерелевантним"\n' +
+    '    "ukrainian": "інтуїтивний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "itinerarios que se hayan seguido",\n' +
@@ -13093,7 +11969,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "juego de ahorcado",\n' +
-    '    "ukrainian": "шибениця\'"\n' +
+    '    "ukrainian": "шибениця"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "juego de veo, veo",\n' +
@@ -13106,6 +11982,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "juegos de lengua de carácter social:",\n' +
     '    "ukrainian": "соціальні мовні ігри"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "juegos de palabras",\n' +
+    '    "ukrainian": "гра слів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "juegos de tablero",\n' +
@@ -13136,1364 +12016,980 @@ data = '[\n' +
     '    "ukrainian": "гратися з іноземною мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "junto",\n' +
-    '    "ukrainian": "разом"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "junto con signos diacríticos",\n' +
-    '    "ukrainian": "разом з діакритичними"\n' +
+    '    "ukrainian": "разом з діакритичними знаками"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Kaftandjieva",\n' +
-    '    "ukrainian": "Кафтанджиєвою"\n' +
+    '    "ukrainian": "Кафтанджиєва"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Kaftandjieva (de próxima publicación",\n' +
-    '    "ukrainian": "Кафтанджиєвої (див нижче"\n' +
+    '    "spanish": "ilustrar buena parte del argumento",\n' +
+    '    "ukrainian": "передавати зміст"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Kenyon,",\n' +
-    '    "ukrainian": "Kenyon"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Kirsch",\n' +
-    '    "ukrainian": "Kirsch"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Kirsch y Mosenthal,",\n' +
-    '    "ukrainian": "Kirsch and Mosenthal"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Kirsch,",\n' +
-    '    "ukrainian": "Kirsch"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Kirsch, 1995 Kirsch y Mosenthal,",\n' +
-    '    "ukrainian": "Kirsch 1995 Kirsch and Mosenthal"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la acción conducen gran parte del argumento",\n' +
-    '    "ukrainian": "візуальний ряд розгортаються в основному лінійно,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la acción ilustran buena parte del argumento",\n' +
-    '    "ukrainian": "події в основному передають зміст,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la acción requerida para cumplirlos",\n' +
+    '    "spanish": "acción requerida",\n' +
     '    "ukrainian": "дії, які слід реалізувати"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La actitud",\n' +
-    '    "ukrainian": "Ставлення"\n' +
+    '    "spanish": "actitud de los alumnos",\n' +
+    '    "ukrainian": "ставлення учня"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La actitud de los alumnos",\n' +
-    '    "ukrainian": "ставлення до цілей учня"\n' +
+    '    "spanish": "adquisición de la lengua en concreto",\n' +
+    '    "ukrainian": "оволодіння мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la adquisición de la lengua en concreto",\n' +
-    '    "ukrainian": "оволодіння мовою зокрема"\n' +
+    '    "spanish": "alternativa",\n' +
+    '    "ukrainian": "альтернатива"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La alternativa",\n' +
-    '    "ukrainian": "Альтернативою"\n' +
+    '    "spanish": "antiguo",\n' +
+    '    "ukrainian": "попередній"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la ambigüedad )»",\n' +
-    '    "ukrainian": "двозначності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la antigua",\n' +
-    '    "ukrainian": "попередньої"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la aplicación de los principios metacognitivos",\n' +
+    '    "spanish": "aplicación de los principios metacognitivos",\n' +
     '    "ukrainian": "реалізація когнітивних принципів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la atención a los medios de comunicación",\n' +
-    '    "ukrainian": "сприймання джерел інформації"\n' +
+    '    "spanish": "atención que se presta al significado",\n' +
+    '    "ukrainian": "увага, що приділяється значенню"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la atención que se presta al significado",\n' +
-    '    "ukrainian": "увагою, що приділяється значенню"\n' +
+    '    "spanish": "autoestima",\n' +
+    '    "ukrainian": "самоповага"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La autoestima",\n' +
-    '    "ukrainian": "Самоповага"\n' +
+    '    "spanish": "base",\n' +
+    '    "ukrainian": "основа"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la autoevaluación",\n' +
-    '    "ukrainian": "самоконтроль"\n' +
+    '    "spanish": "distinción",\n' +
+    '    "ukrainian": "розрізнення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La autoevaluación",\n' +
-    '    "ukrainian": "Самооцінювання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la autoevaluación en el cuadro",\n' +
-    '    "ukrainian": "самооцінювання у Табл"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la autoevaluación en el cuadro 2 y",\n' +
-    '    "ukrainian": "самооцінювання у Табл 2 і"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La autoevaluación no está disponible",\n' +
-    '    "ukrainian": "Самооцінювання не є прийнятним"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la autoevaluación puede",\n' +
-    '    "ukrainian": "самоконтроль може"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La base",\n' +
-    '    "ukrainian": "Основою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La base para esta distinción",\n' +
-    '    "ukrainian": "Основою для такого розрізнення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La cantidad tan limitada de palabras",\n' +
+    '    "spanish": "cantidad limitada de palabras",\n' +
     '    "ukrainian": "обмежений діапазон слів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de aprender",\n' +
-    '    "ukrainian": "Здатність навчатися"\n' +
+    '    "spanish": "capacidad de aprender",\n' +
+    '    "ukrainian": "здатність навчатися"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de aprender (saber aprender",\n' +
-    '    "ukrainian": "Вміння учитися (savoir-apprendre"\n' +
+    '    "spanish": "capacidad de aprender (saber aprender",\n' +
+    '    "ukrainian": "вміння учитися (savoir-apprendre)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad de comprender",\n' +
-    '    "ukrainian": "протилежним заучуванню"\n' +
+    '    "spanish": "capacidad de comprender",\n' +
+    '    "ukrainian": "протилежний заучуванню"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de consultar un diccionario",\n' +
+    '    "spanish": "capacidad de consultar un diccionario",\n' +
     '    "ukrainian": "вміння користуватись словником"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad de controlar el conocimiento",\n' +
+    '    "spanish": "capacidad de controlar el conocimiento",\n' +
     '    "ukrainian": "здатність до контролю знань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad de controlar ese conocimiento",\n' +
-    '    "ukrainian": "здатності до контролю цих знань"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La capacidad de distinguir",\n' +
+    '    "spanish": "capacidad de distinguir",\n' +
     '    "ukrainian": "здатності розрізнювати"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad de entablar relaciones",\n' +
+    '    "spanish": "capacidad de entablar relaciones",\n' +
     '    "ukrainian": "здатність вступати у стосунки"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de estructurar",\n' +
+    '    "spanish": "capacidad de estructurar",\n' +
     '    "ukrainian": "здатності будувати"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad de identificar",\n' +
+    '    "spanish": "capacidad de identificar",\n' +
     '    "ukrainian": "здатність визначити"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de identificar las necesidades",\n' +
+    '    "spanish": "capacidad de identificar las necesidades",\n' +
     '    "ukrainian": "здатність визначати власні потреби"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de organizar",\n' +
+    '    "spanish": "capacidad de organizar",\n' +
     '    "ukrainian": "здатність організовувати"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de organizar las estrategias",\n' +
+    '    "spanish": "capacidad de organizar las estrategias",\n' +
     '    "ukrainian": "здатність організовувати свої власні стратегії"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de percibir",\n' +
-    '    "ukrainian": "здатності розуміти"\n' +
+    '    "spanish": "capacidad de percibir",\n' +
+    '    "ukrainian": "здатність розуміти"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad de pronunciar una lengua concreta",\n' +
-    '    "ukrainian": "здатності вимовляти певною мовою"\n' +
+    '    "spanish": "capacidad de pronunciar una lengua concreta",\n' +
+    '    "ukrainian": "здатність вимовляти певною мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La capacidad de utilizar materiales disponibles",\n' +
+    '    "spanish": "capacidad de utilizar materiales disponibles",\n' +
     '    "ukrainian": "здатність використовувати адекватні матеріали"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la capacidad para utilizarlos",\n' +
-    '    "ukrainian": "здатність використовувати формальні здібності,"\n' +
+    '    "spanish": "capacidad para utilizarlos",\n' +
+    '    "ukrainian": "здатність використовувати формальні здібності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La característica de las especificaciones es",\n' +
-    '    "ukrainian": "Твердження переважно виражаються у термінах,"\n' +
+    '    "spanish": "característica de las especificaciones es",\n' +
+    '    "ukrainian": "твердження переважно виражаються у термінах"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la categorización lingüística",\n' +
-    '    "ukrainian": "лінгвістичну категоризацію."\n' +
+    '    "spanish": "categorización lingüística",\n' +
+    '    "ukrainian": "лінгвістична категоризація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la categorización lingüística",\n' +
-    '    "ukrainian": "лінгвістичну категоризацію"\n' +
+    '    "spanish": "cercanía de la relación, c",\n' +
+    '    "ukrainian": "близькість стосунків"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la categorización lingüística.",\n' +
-    '    "ukrainian": "лінгвістичну категоризацію."\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la cercanía de la relación, c",\n' +
-    '    "ukrainian": "близькість стосунків, в"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la certificación",\n' +
+    '    "spanish": "certificación",\n' +
     '    "ukrainian": "сертифікації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La clase social",\n' +
-    '    "ukrainian": "соціальних класів"\n' +
+    '    "spanish": "clase social",\n' +
+    '    "ukrainian": "соціальні класи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la clase social, la ocupación",\n' +
-    '    "ukrainian": "відповідним соціальним класом, професією"\n' +
+    '    "spanish": "clase social, la ocupación",\n' +
+    '    "ukrainian": "відповідні соціальні класи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la clasificación práctica de los objetos, los acontecimientos, etc.",\n' +
-    '    "ukrainian": "практичну класифікацію об\'єктів, подій і т.д."\n' +
+    '    "spanish": "clasificación práctica de los objetos, los acontecimientos, etc.",\n' +
+    '    "ukrainian": "практична класифікація об\'єктів, подій і т.д."\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La coherencia y la cohesión",\n' +
-    '    "ukrainian": "зв\'язності та злитності"\n' +
+    '    "spanish": "coherencia y la cohesión",\n' +
+    '    "ukrainian": "зв\'язність та злитність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la coherencia, la identificación de tipos",\n' +
-    '    "ukrainian": "зв\'язності, ідентифікації типів"\n' +
+    '    "spanish": "coherencia, la identificación de tipos",\n' +
+    '    "ukrainian": "зв\'язність, ідентифікація типів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la cohesión",\n' +
-    '    "ukrainian": "злитності"\n' +
+    '    "spanish": "competencia «existencial» (saber ser",\n' +
+    '    "ukrainian": "компетенція існування\' (savoir-etre"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia «existencial» (saber ser",\n' +
-    '    "ukrainian": "Компетенція існування\' (savoir-etre"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la competencia comunicativa",\n' +
+    '    "spanish": "competencia comunicativa, pero",\n' +
     '    "ukrainian": "комунікативна компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la competencia comunicativa, pero",\n' +
-    '    "ukrainian": "комунікативною компетенцією, проте"\n' +
+    '    "spanish": "competencia discursiva",\n' +
+    '    "ukrainian": "дискурсивна компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia discursiva",\n' +
-    '    "ukrainian": "Дискурсивна компетенція"\n' +
+    '    "spanish": "competencia en la conversación",\n' +
+    '    "ukrainian": "розмовна (усномовленнєва ) competence"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia en la conversación",\n' +
-    '    "ukrainian": "Розмовна (усномовленнєва ) competence"\n' +
+    '    "spanish": "competencia existencial (saber ser ),",\n' +
+    '    "ukrainian": "Savoir-etre (екзистенціальна ) компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia en la conversación no",\n' +
-    '    "ukrainian": "Розмовна (усномовленнєва ) competence не"\n' +
+    '    "spanish": "competencia fonológica",\n' +
+    '    "ukrainian": "фонологічна компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia existencial (saber ser ),",\n' +
-    '    "ukrainian": "Savoir-etre (екзистенціальна ) компетенція,"\n' +
+    '    "spanish": "competencia fonológica supone el conocimiento",\n' +
+    '    "ukrainian": "включати знання та навички перцепції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia fonológica",\n' +
-    '    "ukrainian": "фонологічну компетенцію"\n' +
+    '    "spanish": "competencia funcional",\n' +
+    '    "ukrainian": "функціональна компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia fonológica supone el conocimiento",\n' +
-    '    "ukrainian": "включає знання та навички перцепції"\n' +
+    '    "spanish": "competencia gramatical",\n' +
+    '    "ukrainian": "граматична компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia funcional",\n' +
-    '    "ukrainian": "Функціональна компетенція"\n' +
+    '    "spanish": "competencia léxica",\n' +
+    '    "ukrainian": "лексична компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia gramatical",\n' +
-    '    "ukrainian": "граматичну компетенцію"\n' +
+    '    "spanish": "competencia ortográfica supone el conocimiento",\n' +
+    '    "ukrainian": "охоплювати знання і навички перцепції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia gramatical se",\n' +
-    '    "ukrainian": "Граматична компетенція"\n' +
+    '    "spanish": "competencia parcial en una lengua dada",\n' +
+    '    "ukrainian": "окрема компетенція у певній мові"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia gramatical se puede definir",\n' +
-    '    "ukrainian": "Граматична компетенція може бути визначена"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La competencia léxica",\n' +
-    '    "ukrainian": "лексичну компетенцію"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La competencia ortoépica",\n' +
-    '    "ukrainian": "орфоепічну компетенцію"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La competencia ortográfica",\n' +
-    '    "ukrainian": "орфографічну компетенцію"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La competencia ortográfica supone el conocimiento",\n' +
-    '    "ukrainian": "охоплює знання і навички перцепції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La competencia parcial en una lengua dada",\n' +
-    '    "ukrainian": "Окрема компетенція у певній мові"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la competencia pluricultural",\n' +
-    '    "ukrainian": "плюрикультурна компетенції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la competencia plurilingüe",\n' +
+    '    "spanish": "competencia plurilingüe",\n' +
     '    "ukrainian": "визнання часткових компетенцій"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la competencia plurilingüe y pluricultural",\n' +
+    '    "spanish": "competencia plurilingüe y pluricultural",\n' +
     '    "ukrainian": "плюрилінгвальна та плюрикультурна компетенція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia semántica",\n' +
-    '    "ukrainian": "семантичну компетенцію"\n' +
+    '    "spanish": "competencia sociolingüística",\n' +
+    '    "ukrainian": "соціолінгвістична компетенція (СЛК)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la competencia sociolingüística",\n' +
-    '    "ukrainian": "соціолінгвістична компетенція"\n' +
+    '    "spanish": "complejidad inherente",\n' +
+    '    "ukrainian": "природна складність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La competencia sociolingüística",\n' +
-    '    "ukrainian": "Соціолінгвістична компетенція (СЛК"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La complejidad inherente",\n' +
-    '    "ukrainian": "Природна складність"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La complejidad inherente no",\n' +
-    '    "ukrainian": "Природна складність не"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la comprensión como",\n' +
-    '    "ukrainian": "розуміння, так і"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la comprensión como para la expresión",\n' +
+    '    "spanish": "comprensión como para la expresión",\n' +
     '    "ukrainian": "розуміння, так і для продукції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La comprensión del discurso se dificulta",\n' +
-    '    "ukrainian": "Сприйняття усного мовлення значно утруднюється"\n' +
+    '    "spanish": "dificultarse",\n' +
+    '    "ukrainian": "утруднюватися"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la comprensión semántica y cognitiva del texto",\n' +
+    '    "spanish": "comprensión del discurso",\n' +
+    '    "ukrainian": "сприйняття усного мовлення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "comprensión del discurso se dificulta",\n' +
+    '    "ukrainian": "сприйняття усного мовлення значно утруднюється"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "comprensión semántica y cognitiva del texto",\n' +
     '    "ukrainian": "семантичне й когнітивне розуміння тексту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La comprensión, sobre todo de textos escritos,",\n' +
-    '    "ukrainian": "Розуміння, особливо письмових текстів,"\n' +
+    '    "spanish": "comprensión, sobre todo de textos escritos,",\n' +
+    '    "ukrainian": "розуміння письмових текстів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La comunicación",\n' +
-    '    "ukrainian": "Спілкування"\n' +
+    '    "spanish": "comunicación depende",\n' +
+    '    "ukrainian": "комунікація залежить"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La comunicación depende",\n' +
-    '    "ukrainian": "Комунікація залежить"\n' +
+    '    "spanish": "comunicación en el trabajo",\n' +
+    '    "ukrainian": "спілкування на роботі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La comunicación en el trabajo",\n' +
-    '    "ukrainian": "Спілкування на роботі"\n' +
+    '    "spanish": "comunicación",\n' +
+    '    "ukrainian": "комунікація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la comunicación son",\n' +
-    '    "ukrainian": "комунікація є"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la comunicación son muy complejas,",\n' +
-    '    "ukrainian": "комунікація є дуже складними явищами, які"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la comunicación,",\n' +
-    '    "ukrainian": "спілкування"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la comunicación?",\n' +
-    '    "ukrainian": "спілкування?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la congruencia de los modelos del mundo",\n' +
+    '    "spanish": "congruencia de los modelos del mundo",\n' +
     '    "ukrainian": "узгодженості моделей світу"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La consciencia intercultural",\n' +
-    '    "ukrainian": ".3 Міжкультурне усвідомлення"\n' +
+    '    "spanish": "consciencia intercultural (véase la sección",\n' +
+    '    "ukrainian": "міжкультурна свідомість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la consciencia intercultural (véase la sección",\n' +
-    '    "ukrainian": "міжкультурною свідомістю (див розділ"\n' +
+    '    "spanish": "consistencia",\n' +
+    '    "ukrainian": "послідовність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la consistencia",\n' +
-    '    "ukrainian": "послідовність,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la consistencia con que profesores",\n' +
+    '    "spanish": "consistencia con que profesores",\n' +
     '    "ukrainian": "послідовність, з якою викладачі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La correlación resultó ser",\n' +
-    '    "ukrainian": "Кореляція виявилась"\n' +
+    '    "spanish": "correlación resultó ser",\n' +
+    '    "ukrainian": "кореляція виявилась"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La correlación resultó ser muy alta",\n' +
-    '    "ukrainian": "Кореляція виявилась дуже високою"\n' +
+    '    "spanish": "correlación resultó ser muy alta",\n' +
+    '    "ukrainian": "кореляція виявилась дуже високою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La correlación resultó ser muy alta (0,83",\n' +
-    '    "ukrainian": "Кореляція виявилась дуже високою (0,83 ),"\n' +
+    '    "spanish": "correlación resultó ser muy alta (0,83",\n' +
+    '    "ukrainian": "кореляція виявилась дуже високою (0,83 ),"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la creación de situaciones",\n' +
+    '    "spanish": "creación de situaciones",\n' +
     '    "ukrainian": "здійснюватись шляхом створення ситуацій"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la cultura del alumno",\n' +
-    '    "ukrainian": "культурою учня"\n' +
+    '    "spanish": "cultura del alumno",\n' +
+    '    "ukrainian": "культура учня"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la cultura extranjera",\n' +
-    '    "ukrainian": "іноземною культурою"\n' +
+    '    "spanish": "cultura extranjera",\n' +
+    '    "ukrainian": "іноземна культура"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la cultura extranjera",\n' +
-    '    "ukrainian": "іноземну культури"\n' +
+    '    "spanish": "cultura propia",\n' +
+    '    "ukrainian": "рідна культура"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la cultura propia",\n' +
-    '    "ukrainian": "рідною культурою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la de comprender nuevas regulaciones",\n' +
+    '    "spanish": "de comprender nuevas regulaciones",\n' +
     '    "ukrainian": "усвідомлення нових розпоряджень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la de conservar el significado o no",\n' +
-    '    "ukrainian": "зберігаючими зміст або ні"\n' +
+    '    "spanish": "de conservar el significado o no",\n' +
+    '    "ukrainian": "зберігати зміст"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la de expresión,",\n' +
-    '    "ukrainian": "рецептивні,"\n' +
+    '    "spanish": "de expresión,",\n' +
+    '    "ukrainian": "рецептивний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la definición del ámbito o ámbitos adecuados",\n' +
+    '    "spanish": "definición del ámbito o ámbitos adecuados",\n' +
     '    "ukrainian": "визначення релевантної сфери"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la descripción del contenido lingüístico",\n' +
-    '    "ukrainian": "опису лінгвістичного змісту"\n' +
+    '    "spanish": "descripción del contenido lingüístico",\n' +
+    '    "ukrainian": "опис лінгвістичного змісту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la descripción del contenido lingüístico y",\n' +
-    '    "ukrainian": "опису лінгвістичного змісту та"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la descripción del uso de la lengua",\n' +
+    '    "spanish": "descripción del uso de la lengua",\n' +
     '    "ukrainian": "описання процесу використання мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la determinación de los «puntos de corte»",\n' +
-    '    "ukrainian": "ідентифікацією \'відрізаних параметрів\'"\n' +
+    '    "spanish": "determinación de puntos de corte",\n' +
+    '    "ukrainian": "встановлення додаткових підпунктів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la determinación de los «puntos de corte»",\n' +
-    '    "ukrainian": "ідентифікацією \'відрізаних параметрів\'"\n' +
+    '    "spanish": "determinación de puntos de corte entre niveles",\n' +
+    '    "ukrainian": "встановлення додаткових підпунктів між рівнями"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La determinación de puntos de corte",\n' +
-    '    "ukrainian": "Встановлення додаткових підпунктів"\n' +
+    '    "spanish": "usuario",\n' +
+    '    "ukrainian": "користувач"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La determinación de puntos de corte entre niveles",\n' +
-    '    "ukrainian": "Встановлення додаткових підпунктів між рівнями"\n' +
+    '    "spanish": "dicción",\n' +
+    '    "ukrainian": "мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la dicción sea clara",\n' +
-    '    "ukrainian": "мовлення чітке"\n' +
+    '    "spanish": "dicción sea clara y esté bien articulada",\n' +
+    '    "ukrainian": "зв\'язний, логічно структурований"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la dicción sea clara y esté bien articulada",\n' +
-    '    "ukrainian": "зв\'язне, логічно структуроване"\n' +
+    '    "spanish": "dificultad de la tarea",\n' +
+    '    "ukrainian": "складність завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La dificultad de la tarea",\n' +
-    '    "ukrainian": ". Складність завдання"\n' +
+    '    "spanish": "dimensionalidad",\n' +
+    '    "ukrainian": "вимірність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la dificultad de las tareas",\n' +
-    '    "ukrainian": "складність завдань"\n' +
+    '    "spanish": "ayuda lingüística",\n' +
+    '    "ukrainian": "мовна допомога"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La dimensionalidad se relaciona",\n' +
-    '    "ukrainian": "Вимірність співвідноситься"\n' +
+    '    "spanish": "relacionarse",\n' +
+    '    "ukrainian": "співвідноситись"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la disponibilidad de ayuda lingüística",\n' +
-    '    "ukrainian": "наявністю мовної допомоги,"\n' +
+    '    "spanish": "dimensionalidad se relaciona",\n' +
+    '    "ukrainian": "вимірність співвідноситься"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la distinción",\n' +
+    '    "spanish": "disponibilidad de ayuda lingüística",\n' +
+    '    "ukrainian": "наявність мовної допомоги"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "distinción",\n' +
     '    "ukrainian": "відмінність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La distinción más llamativa",\n' +
-    '    "ukrainian": "Найочевидшша відмінність"\n' +
+    '    "spanish": "distinción más llamativa",\n' +
+    '    "ukrainian": "найочевидшша відмінність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la diversidad lingüística",\n' +
+    '    "spanish": "diversidad lingüística",\n' +
     '    "ukrainian": "лінгвістичної різноманітності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la diversificación lingüística del currículo",\n' +
+    '    "spanish": "diversificación lingüística del currículo",\n' +
     '    "ukrainian": "лінгвістичної різноманітності у програмі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la edad o el origen cultural",\n' +
+    '    "spanish": "edad o el origen cultural",\n' +
     '    "ukrainian": "вік або культурний рівень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La eficacia depende de la motivación",\n' +
-    '    "ukrainian": "Ефективність обумовлюється мотиваціями"\n' +
+    '    "spanish": "eficacia depende de la motivación",\n' +
+    '    "ukrainian": "ефективність обумовлюється мотиваціями"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La eficacia retórica",\n' +
-    '    "ukrainian": "риторичної ефективності"\n' +
+    '    "spanish": "eficacia retórica",\n' +
+    '    "ukrainian": "риторична ефективність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la ejecución de un texto extenso hablado",\n' +
-    '    "ukrainian": "породження об\'ємного письмового"\n' +
+    '    "spanish": "ejecución de un texto extenso hablado",\n' +
+    '    "ukrainian": "породження об\'ємного письмового тексту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la elección del grupo",\n' +
+    '    "spanish": "elección del grupo",\n' +
     '    "ukrainian": "вибору соціальної групи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la enseñanza",\n' +
+    '    "spanish": "enseñanza",\n' +
     '    "ukrainian": "викладання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la enseñanza de idiomas",\n' +
+    '    "spanish": "enseñanza de idiomas",\n' +
     '    "ukrainian": "викладанні мови дається у розділі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la enseñanza de lenguas",\n' +
-    '    "ukrainian": "викладання мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la enseñanza de lenguas modernas",\n' +
-    '    "ukrainian": "викладання сучасних мов"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la escala centrada en el usuario,",\n' +
+    '    "spanish": "escala centrada en el usuario,",\n' +
     '    "ukrainian": "орієнтований на користувача"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la escala centrada en el usuario,",\n' +
-    '    "ukrainian": "орієнтований на користувача"\n' +
+    '    "spanish": "escritura alfabética",\n' +
+    '    "ukrainian": "алфавітне письмо"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La escala está basada en el cuadro",\n' +
-    '    "ukrainian": "Шкала базується на Табл №"\n' +
+    '    "spanish": "etnocentrismo",\n' +
+    '    "ukrainian": "етноцентризм"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La escala está basada en el cuadro 2 del Marco",\n' +
-    '    "ukrainian": "Шкала базується на Табл № 2 ЗЄР"\n' +
+    '    "spanish": "estructura",\n' +
+    '    "ukrainian": "структура"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la escritura",\n' +
-    '    "ukrainian": "писемне мовлення"\n' +
+    '    "spanish": "estructura",\n' +
+    '    "ukrainian": "планування"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la escritura",\n' +
-    '    "ukrainian": "писемного мовлення"\n' +
+    '    "spanish": "evaluación",\n' +
+    '    "ukrainian": "перевірка"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La escritura alfabética",\n' +
-    '    "ukrainian": "Алфавітне письмо"\n' +
+    '    "spanish": "evaluación",\n' +
+    '    "ukrainian": "експертиза"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la escuela de la pluralidad de lenguas",\n' +
-    '    "ukrainian": "етноцентризму, релятивізація,"\n' +
+    '    "spanish": "evaluación de los conocimientos",\n' +
+    '    "ukrainian": "враховувати обставини"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la estructura",\n' +
-    '    "ukrainian": "структури"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la estructura",\n' +
-    '    "ukrainian": "структурі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la estructura del discurso?",\n' +
-    '    "ukrainian": "мовленнєвих структур?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La estructura, la distribución en párrafos",\n' +
-    '    "ukrainian": "Планування, розбивка на абзаци"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la evaluación a posteriori?",\n' +
-    '    "ukrainian": "в наступному аналізі та оцінюванні?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la evaluación de cualquier actuación",\n' +
-    '    "ukrainian": "оцінювання будь-якої діяльності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la evaluación de lo",\n' +
-    '    "ukrainian": "експертизою/перевіркою того,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la evaluación de los conocimientos",\n' +
-    '    "ukrainian": "вмінь повинно враховувати обставини"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la evaluación del dominio de la lengua",\n' +
+    '    "spanish": "evaluación del dominio de la lengua",\n' +
     '    "ukrainian": "критерії оцінювання рівнів володіння мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la evaluación del dominio de la lengua",\n' +
+    '    "spanish": "evaluación del dominio de la lengua",\n' +
     '    "ukrainian": "критеріїв оцінювання рівнів володіння мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La evaluación del dominio, por otro lado,",\n' +
-    '    "ukrainian": "Контроль володіння, навпаки,"\n' +
+    '    "spanish": "evaluación del dominio, por otro lado,",\n' +
+    '    "ukrainian": "контроль володіння, навпаки,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la evaluación del grado de domino de la lengua",\n' +
+    '    "spanish": "evaluación del grado de domino de la lengua",\n' +
     '    "ukrainian": "оцінюванням рівнів володіння мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La evaluación en un momento concreto asegura",\n' +
+    '    "spanish": "evaluación en un momento concreto asegura",\n' +
     '    "ukrainian": "Фіксований контроль підтверджує,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la evaluación que realiza el profesor",\n' +
+    '    "spanish": "evaluación que realiza el profesor",\n' +
     '    "ukrainian": "самими вчителями, між тестами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la evaluación sumativa",\n' +
-    '    "ukrainian": "підсумковий контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la evaluación sumativa al final de un curso",\n' +
+    '    "spanish": "evaluación sumativa al final de un curso",\n' +
     '    "ukrainian": "підсумкового контролю в кінці курсу"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la evaluación sumativa,",\n' +
-    '    "ukrainian": "підсумкового контролю"\n' +
+    '    "spanish": "metasistema",\n' +
+    '    "ukrainian": "метасистема"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La evaluación viable",\n' +
-    '    "ukrainian": "Прийнятний контроль"\n' +
+    '    "spanish": "existencia de una serie de niveles",\n' +
+    '    "ukrainian": "існування серій рівнів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La evaluación viable y un metasistema",\n' +
-    '    "ukrainian": "Прийнятний контроль і метасистема"\n' +
+    '    "spanish": "asociaciones y connotaciones",\n' +
+    '    "ukrainian": "асоціації та конотації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La existencia de una serie de niveles presupone",\n' +
-    '    "ukrainian": "Існування серій рівнів передбачає,"\n' +
+    '    "spanish": "experiencia a largo plazo",\n' +
+    '    "ukrainian": "довгострокова пам\'ять"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la experiencia a largo plazo, que afecta a la memoria, a las asociaciones y a las connotaciones",\n' +
-    '    "ukrainian": "довгострокову пам\'ять, афективну пам\'ять, асоціації та конотації"\n' +
+    '    "spanish": "experiencia de otras culturas",\n' +
+    '    "ukrainian": "оволодіння іншими культурами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la experiencia de otras culturas",\n' +
-    '    "ukrainian": "оволодінням іншими культурами"\n' +
+    '    "spanish": "experiencia pasada",\n' +
+    '    "ukrainian": "минулий досвід"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La experiencia ha demostrado que la consistencia",\n' +
-    '    "ukrainian": "Досвід показав, що послідовність,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la experiencia pasada",\n' +
-    '    "ukrainian": "минулого досвіду"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la experiencia?",\n' +
-    '    "ukrainian": "набуттям досвіду?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la expresión",\n' +
-    '    "ukrainian": "продукції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la expresión",\n' +
+    '    "spanish": "expresión",\n' +
     '    "ukrainian": "вираження ресурсів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la expresión (oral y, en su caso, escrita",\n' +
-    '    "ukrainian": "продукція (усна або писемна"\n' +
+    '    "spanish": "expresión (oral y, en su caso, escrita",\n' +
+    '    "ukrainian": "продукція (усна або писемна)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la expresión general,",\n' +
+    '    "spanish": "expresión general,",\n' +
     '    "ukrainian": "загальний термін"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La familiaridad de la tarea",\n' +
-    '    "ukrainian": "Обізнаність із завданням"\n' +
+    '    "spanish": "familiaridad de la tarea",\n' +
+    '    "ukrainian": "обізнаність із завданням"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la fiabilidad",\n' +
+    '    "spanish": "fiabilidad",\n' +
     '    "ukrainian": "надійність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La fiabilidad, por otro lado,",\n' +
-    '    "ukrainian": "Надійність, з іншого боку,"\n' +
+    '    "spanish": "fonología",\n' +
+    '    "ukrainian": "фонетика"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la fiabilidad, pues las pruebas que",\n' +
-    '    "ukrainian": "надійністю, оскільки ненадійні тести"\n' +
+    '    "spanish": "ortografía",\n' +
+    '    "ukrainian": "орфографія"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La flexibilidad de un enfoque ramificado",\n' +
-    '    "ukrainian": "Гнучкість у розгалуженому підході"\n' +
+    '    "spanish": "forma de competencia",\n' +
+    '    "ukrainian": "зміст компетенції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la fonología",\n' +
-    '    "ukrainian": "фонетики"\n' +
+    '    "spanish": "formulación",\n' +
+    '    "ukrainian": "формулювання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la fonología o la ortografía requeridos",\n' +
-    '    "ukrainian": "фонетики або орфографії, необхідних"\n' +
+    '    "spanish": "formulación de descriptores",\n' +
+    '    "ukrainian": "формулювання дескриптора"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la forma de esta competencia",\n' +
-    '    "ukrainian": "зміст цієї компетенції"\n' +
+    '    "spanish": "función que realizan",\n' +
+    '    "ukrainian": "виконувана ними функція"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la forma de esta competencia no",\n' +
-    '    "ukrainian": "зміст цієї компетенції не"\n' +
+    '    "spanish": "gramática de su lengua materna",\n' +
+    '    "ukrainian": "граматика їх рідної мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la forma de esta competencia no es inmutable",\n' +
-    '    "ukrainian": "зміст цієї компетенції не є незмінним,"\n' +
+    '    "spanish": "identificación del texto",\n' +
+    '    "ukrainian": "ідентифікація тексту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La formulación de «1»",\n' +
-    '    "ukrainian": "Формулювання \' 1\'"\n' +
+    '    "spanish": "implicación y la motivación",\n' +
+    '    "ukrainian": "залучення та мотивація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La formulación de descriptores",\n' +
-    '    "ukrainian": "Формулювання дескриптора"\n' +
+    '    "spanish": "importancia relativa",\n' +
+    '    "ukrainian": "відносна значущість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la función que realizan",\n' +
-    '    "ukrainian": "виконуваної ними функції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la gradación empírica",\n' +
-    '    "ukrainian": "емпіричний розподіл по шкалі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la gramática de su lengua materna",\n' +
-    '    "ukrainian": "граматикою їх рідної мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la identificación de objetos, personas, etc",\n' +
-    '    "ukrainian": "ідентифікації об\'єктів, предметів, осіб,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la identificación del texto, completo",\n' +
-    '    "ukrainian": "ідентифікація тексту, повна"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La implicación y la motivación",\n' +
-    '    "ukrainian": "Залучення та мотивація"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La importancia relativa",\n' +
-    '    "ukrainian": "відносну значущість,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la indiferencia",\n' +
-    '    "ukrainian": "відповідати на них"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la información",\n' +
-    '    "ukrainian": "деяка інформація"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la información sobre exámenes (Cambridge",\n' +
-    '    "ukrainian": "деяка інформація про іспити (Cambridge"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la institución implicada",\n' +
+    '    "spanish": "institución implicada",\n' +
     '    "ukrainian": "відповідної інституції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la integridad ética y moral",\n' +
+    '    "spanish": "integridad ética y moral",\n' +
     '    "ukrainian": "етичною та моральною цілісністю"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la interacción",\n' +
-    '    "ukrainian": "інтеракцією"\n' +
+    '    "spanish": "interpretación intuitiva de los resultados,",\n' +
+    '    "ukrainian": "інтуїтивна інтерпретація результатів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la interacción oral",\n' +
-    '    "ukrainian": "усною інтеракцією"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la interpretación intuitiva de los resultados,",\n' +
-    '    "ukrainian": "інтуїтивної інтерпретації результатів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la interpretación, una paráfrasis, un resumen",\n' +
+    '    "spanish": "interpretación, una paráfrasis, un resumen",\n' +
     '    "ukrainian": "письмовий переклад, парафраз, передача змісту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la introducción de varias formas de apoyo",\n' +
+    '    "spanish": "introducción de varias formas de apoyo",\n' +
     '    "ukrainian": "Застосування різних видів опор"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la L1,",\n' +
-    '    "ukrainian": "мовою L"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la LE",\n' +
+    '    "spanish": "LE",\n' +
     '    "ukrainian": "FL"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La LE1",\n' +
+    '    "spanish": "LE1",\n' +
     '    "ukrainian": "FL"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La LE1 y la LE2",\n' +
-    '    "ukrainian": "FL 1 та FL"\n' +
+    '    "spanish": "lengua",\n' +
+    '    "ukrainian": "мова"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la LE1 y para la lengua materna",\n' +
-    '    "ukrainian": "FL 1 та, окремо, для рідної мови"\n' +
+    '    "spanish": "lengua de la enseñanza",\n' +
+    '    "ukrainian": "навчальна мова"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la LE2 (en el caso de",\n' +
-    '    "ukrainian": "прийомів навчання,"\n' +
+    '    "spanish": "lengua extranjera",\n' +
+    '    "ukrainian": "іноземна мова"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la lengua",\n' +
-    '    "ukrainian": "мовою"\n' +
+    '    "spanish": "lengua materna",\n' +
+    '    "ukrainian": "рідна мова"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la lengua de la enseñanza, incluso en Europa,",\n' +
-    '    "ukrainian": "навчальною мовою, навіть у Європі, часто є"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la lengua extranjera",\n' +
-    '    "ukrainian": "іноземною мовою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la lengua materna",\n' +
-    '    "ukrainian": "рідної мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la lengua utilizados son nuevos",\n' +
-    '    "ukrainian": "зміст предмета, так і мова, що використовується"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la lengua y de las actividades lingüísticas",\n' +
+    '    "spanish": "lengua y de las actividades lingüísticas",\n' +
     '    "ukrainian": "контекстів використання мови і видів діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la lengua y la comunicación son muy complejas,",\n' +
-    '    "ukrainian": "мова і комунікація є дуже складними явищами, які"\n' +
+    '    "spanish": "lista de control se",\n' +
+    '    "ukrainian": "контрольний лист"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La lista de control se",\n' +
-    '    "ukrainian": "Контрольний лист"\n' +
+    '    "spanish": "literatura",\n' +
+    '    "ukrainian": "художня література"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la literatura",\n' +
-    '    "ukrainian": "художню літературу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la manera en que perciben",\n' +
-    '    "ukrainian": "тим, яким чином вони усвідомлюють"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la más reciente",\n' +
+    '    "spanish": "más reciente",\n' +
     '    "ukrainian": "вид діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la mayoría de las películas en lengua estándar",\n' +
+    '    "spanish": "mayoría de las películas en lengua estándar",\n' +
     '    "ukrainian": "більшість фільмів на нормативному мовленні"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La metáfora supone que habiendo progresado lenta",\n' +
-    '    "ukrainian": "Образно кажучи, просунувшись повільно,"\n' +
+    '    "spanish": "metáfora supone",\n' +
+    '    "ukrainian": "образно кажучи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la motivación",\n' +
+    '    "spanish": "motivación",\n' +
     '    "ukrainian": "мотивація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la motivación extrínseca",\n' +
-    '    "ukrainian": "зовнішня мотивація також"\n' +
+    '    "spanish": "motivación extrínseca",\n' +
+    '    "ukrainian": "зовнішня мотивація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La multidimensionalidad",\n' +
-    '    "ukrainian": "Таким чином багатовимірність"\n' +
+    '    "spanish": "naturaleza de las especificaciones",\n' +
+    '    "ukrainian": "природа тверджень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la música y el cine",\n' +
-    '    "ukrainian": "музика, фільми"\n' +
+    '    "spanish": "naturaleza de los niveles apropiados",\n' +
+    '    "ukrainian": "природа рівнів ВМ"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la música y las películas",\n' +
-    '    "ukrainian": "як музика, фільми"\n' +
+    '    "spanish": "necesaria agudeza visual",\n' +
+    '    "ukrainian": "необхідна гострота"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la naturaleza de las especificaciones,",\n' +
-    '    "ukrainian": "природа тверджень \'Може робити\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la naturaleza de los niveles apropiados",\n' +
-    '    "ukrainian": "природу рівнів ВМ, прийнятних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la necesaria agudeza visual",\n' +
-    '    "ukrainian": "необхідною гостротою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la necesidad de coherencia y de constancia",\n' +
+    '    "spanish": "necesidad de coherencia y de constancia",\n' +
     '    "ukrainian": "потреба в узгодженості й послідовності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la necesidad de relacionar la evaluación continua",\n' +
+    '    "spanish": "necesidad de relacionar la evaluación continua",\n' +
     '    "ukrainian": "необхідність узгодити поточний контроль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la negociación",\n' +
+    '    "spanish": "negociación",\n' +
     '    "ukrainian": "спілкування"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la negociación entre examinadores",\n' +
+    '    "spanish": "negociación entre examinadores",\n' +
     '    "ukrainian": "спілкування між експертами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la negociación entre examinadores y",\n' +
-    '    "ukrainian": "спілкування між експертами та"\n' +
+    '    "spanish": "nota",\n' +
+    '    "ukrainian": "норма"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la nieve (= «puro»",\n' +
-    '    "ukrainian": "сніг (= \'чистий\'"\n' +
+    '    "spanish": "nota que representa el aprobado",\n' +
+    '    "ukrainian": "норма що представляє прохідний бал"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la nota",\n' +
-    '    "ukrainian": "нормою,"\n' +
+    '    "spanish": "ordenación del texto original",\n' +
+    '    "ukrainian": "граматика тексту-оригіналу"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la nota que representa el aprobado",\n' +
-    '    "ukrainian": "нормою, що представляє прохідний бал (Pass"\n' +
+    '    "spanish": "ordenación lógica",\n' +
+    '    "ukrainian": "логічна організація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la oferta de lenguas es menor",\n' +
-    '    "ukrainian": "пропонуються, вужчий,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la ordenación del texto original",\n' +
-    '    "ukrainian": "граматику тексту-оригіналу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ordenación lógica",\n' +
-    '    "ukrainian": "логічної організації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la organización cognitiva del vocabulario",\n' +
+    '    "spanish": "organización cognitiva del vocabulario",\n' +
     '    "ukrainian": "когнітивна організація словника"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la organización de la enseñanza",\n' +
-    '    "ukrainian": "інших аспектів та етапів укладання програми"\n' +
+    '    "spanish": "organización de la enseñanza",\n' +
+    '    "ukrainian": "аспекти та етапи укладання програми"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la organización de las tareas",\n' +
-    '    "ukrainian": "в їх плануванні та керівництві ними"\n' +
+    '    "spanish": "organización de las tareas",\n' +
+    '    "ukrainian": "планування та керівництво ними"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La organización temática",\n' +
-    '    "ukrainian": "тематичної організації"\n' +
+    '    "spanish": "organización temática",\n' +
+    '    "ukrainian": "тематична організація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la ortografía requeridos",\n' +
-    '    "ukrainian": "орфографії, необхідних"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la ortografía?",\n' +
-    '    "ukrainian": "орфографією?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la otra persona le ayude si es necesario",\n' +
+    '    "spanish": "otra persona le ayude si es necesario",\n' +
     '    "ukrainian": "співрозмовник допоможе в разі необхідності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la pared (= «pálido»",\n' +
-    '    "ukrainian": "лист (паперу ) (=блідий"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la parodia",\n' +
+    '    "spanish": "parodia",\n' +
     '    "ukrainian": "пародії"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la percepción del habla",\n' +
+    '    "spanish": "percepción del habla",\n' +
     '    "ukrainian": "сприйняття усного"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la percepción del habla y de la escritura",\n' +
+    '    "spanish": "percepción del habla y de la escritura",\n' +
     '    "ukrainian": "сприйняття усного та писемного мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la persona sabe hacer",\n' +
+    '    "spanish": "persona sabe hacer",\n' +
     '    "ukrainian": "людина вміє робити"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la persona sabe hacer ahora",\n' +
-    '    "ukrainian": "людина вміє робити зараз"\n' +
+    '    "spanish": "planificación futura",\n' +
+    '    "ukrainian": "подальше планування"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la planificación futura",\n' +
-    '    "ukrainian": "подальшого планування"\n' +
+    '    "spanish": "posibilidad de pedir aclaración",\n' +
+    '    "ukrainian": "можливість попросити надати роз\'яснення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la planificación futura y una base",\n' +
-    '    "ukrainian": "подальшого планування та основу"\n' +
+    '    "spanish": "posición respecto al conocimiento sociocultural",\n' +
+    '    "ukrainian": "позиція врахування розвитку соціокультурних знань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la posibilidad de pedir aclaración",\n' +
-    '    "ukrainian": "можливості попросити надати роз\'яснення"\n' +
+    '    "spanish": "práctica que van a seguir",\n' +
+    '    "ukrainian": "практика, якої вони дотримуються"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la posibilidad de pedir aclaración y c",\n' +
-    '    "ukrainian": "можливості попросити надати роз\'яснення і (в"\n' +
+    '    "spanish": "precisión en la autoevaluación",\n' +
+    '    "ukrainian": "правильність самооціню-вання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La posición respecto al conocimiento sociocultural",\n' +
-    '    "ukrainian": "Позиція врахування розвитку соціокультурних знань"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la práctica que van a seguir",\n' +
-    '    "ukrainian": "практику, якої вони дотримуються"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La precisión aumenta en la autoevaluación",\n' +
-    '    "ukrainian": "Правильність самооціню-вання зростає,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la precisión de las decisiones",\n' +
+    '    "spanish": "precisión de las decisiones",\n' +
     '    "ukrainian": "більш важливим, це те,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La predicción",\n' +
+    '    "spanish": "predicción",\n' +
     '    "ukrainian": "Передбачуваність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la predicción,",\n' +
+    '    "spanish": "predicción,",\n' +
     '    "ukrainian": "Передбачуваність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La pregunta «¿qué es eso?»",\n' +
+    '    "spanish": "pregunta «¿qué es eso?»",\n' +
     '    "ukrainian": "Запитання \'Що це таке?"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la preparación",\n' +
+    '    "spanish": "preparación",\n' +
     '    "ukrainian": "підготовка"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la preparación",\n' +
-    '    "ukrainian": "підготовки,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la preparación",\n' +
-    '    "ukrainian": "підготовки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La primera lengua extranjera (LE1",\n' +
+    '    "spanish": "primera lengua extranjera (LE1",\n' +
     '    "ukrainian": "Вивчення першої іноземної мови (FL"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La procedencia regional",\n' +
+    '    "spanish": "procedencia regional",\n' +
     '    "ukrainian": "регіонального походження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la progresión",\n' +
+    '    "spanish": "progresión",\n' +
     '    "ukrainian": "успішністю"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la progresión en cada una de las lenguas elegidas",\n' +
+    '    "spanish": "progresión en cada una de las lenguas elegidas",\n' +
     '    "ukrainian": "якість прогресії у кожній з обраних мов"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la puntuación son consistentes y prácticas",\n' +
+    '    "spanish": "puntuación son consistentes y prácticas",\n' +
     '    "ukrainian": "пунктуація логічні й адекватні"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la puntuación son razonablemente correctas, pero",\n' +
+    '    "spanish": "puntuación son razonablemente correctas, pero",\n' +
     '    "ukrainian": "пунктуація досить правильні, проте"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la que se ha presentado en el Cuadro",\n' +
-    '    "ukrainian": "це представлено в Табл"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la realización de la tarea concreta",\n' +
+    '    "spanish": "realización de la tarea concreta",\n' +
     '    "ukrainian": "виконання цього завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la realización de la tarea,",\n' +
+    '    "spanish": "realización de la tarea,",\n' +
     '    "ukrainian": "виконання завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La realización de tareas",\n' +
-    '    "ukrainian": "Виконання завдання"\n' +
+    '    "spanish": "referencia a este criterio externo se",\n' +
+    '    "ukrainian": "узгодження з цим зовнішнім критерієм"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La referencia a este criterio externo se",\n' +
-    '    "ukrainian": "Узгодження з цим зовнішнім критерієм"\n' +
+    '    "spanish": "referencia a la norma se",\n' +
+    '    "ukrainian": "орієнтований на норму контроль"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La referencia a la norma se",\n' +
-    '    "ukrainian": "Орієнтований на норму контроль"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la reflexión",\n' +
+    '    "spanish": "reflexión",\n' +
     '    "ukrainian": "міркування"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la reflexión",\n' +
+    '    "spanish": "reflexión",\n' +
     '    "ukrainian": "роздумів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La relación",\n' +
+    '    "spanish": "relación",\n' +
     '    "ukrainian": "взаємозв\'язок"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La relación",\n' +
-    '    "ukrainian": "Зв\'язок"\n' +
+    '    "spanish": "relación",\n' +
+    '    "ukrainian": "зв\'язок"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La relación (no diga lo",\n' +
-    '    "ukrainian": "доречність (не говорити того,"\n' +
+    '    "spanish": "relación (no diga lo",\n' +
+    '    "ukrainian": "доречність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La relación (no diga lo que no sea relevante",\n' +
-    '    "ukrainian": "доречність (не говорити того, що є недоречним"\n' +
+    '    "spanish": "relación (no diga lo que no sea relevante",\n' +
+    '    "ukrainian": "доречність (не говорити того, що є недоречним)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La relación entre estrategias, tarea",\n' +
-    '    "ukrainian": "Зв\'язок між стратегіями, завданням"\n' +
+    '    "spanish": "relación entre estrategias, tarea",\n' +
+    '    "ukrainian": "зв\'язок між стратегіями, завданням"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La relación entre los dos textos puede",\n' +
-    '    "ukrainian": "Зв\'язки між двома текстами можуть"\n' +
+    '    "spanish": "relación entre los dos textos",\n' +
+    '    "ukrainian": "зв\'язки між двома текстами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la respuesta",\n' +
-    '    "ukrainian": "відповіді,"\n' +
+    '    "spanish": "respuesta",\n' +
+    '    "ukrainian": "відповідь"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La respuesta",\n' +
-    '    "ukrainian": "Відповідь"\n' +
+    '    "spanish": "respuesta textual requerida",\n' +
+    '    "ukrainian": "необхідна текстуальна реакція/відповідь"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La respuesta puede",\n' +
-    '    "ukrainian": "Відповідь може"\n' +
+    '    "spanish": "retroalimentación",\n' +
+    '    "ukrainian": "зворотний зв\'язок"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La respuesta textual requerida",\n' +
-    '    "ukrainian": "Необхідною текстуальною реакцією/відповіддю"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la retroalimentación",\n' +
-    '    "ukrainian": "зворотний зв\'язок,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la salud",\n' +
+    '    "spanish": "salud",\n' +
     '    "ukrainian": "здоров\'я"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la sección",\n' +
-    '    "ukrainian": "розділом"\n' +
+    '    "spanish": "sección",\n' +
+    '    "ukrainian": "розділ"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la sección 46, que se ocupa de los «textos»",\n' +
-    '    "ukrainian": "розділом 46 Тексти, розділом 7 Завдання"\n' +
+    '    "spanish": "secuencia «natural»",\n' +
+    '    "ukrainian": "природна\' зв\'язність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La secuencia «natural»",\n' +
-    '    "ukrainian": "природної\' зв\'язності, напр,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La segunda lengua extranjera (LE2)",\n' +
+    '    "spanish": "segunda lengua extranjera (LE2)",\n' +
     '    "ukrainian": "друга іноземна мова (FL2)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la segunda lengua,",\n' +
-    '    "ukrainian": "мову 2 (L"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la seguridad",\n' +
+    '    "spanish": "seguridad",\n' +
     '    "ukrainian": "впевненість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la selección de temas, textos",\n' +
-    '    "ukrainian": "відбору тем, текстів"\n' +
+    '    "spanish": "selección de temas, textos",\n' +
+    '    "ukrainian": "відбір тем, текстів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la selección de temas, textos y tareas",\n' +
-    '    "ukrainian": "відбору тем, текстів і тестових завдань"\n' +
+    '    "spanish": "selección textos y tareas",\n' +
+    '    "ukrainian": "відбір текстів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La sensibilidad cultural",\n' +
-    '    "ukrainian": "культурну чуттєвість"\n' +
+    '    "spanish": "sensibilidad cultural",\n' +
+    '    "ukrainian": "культурна чуттєвість"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La sensibilidad hacia la lengua",\n' +
-    '    "ukrainian": "Сприйнятливість до мови"\n' +
+    '    "spanish": "sensibilidad hacia la lengua",\n' +
+    '    "ukrainian": "сприйнятливість до мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La siguiente sección describe",\n' +
-    '    "ukrainian": "У наступному розділі виділяються"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la sintaxis",\n' +
+    '    "spanish": "sintaxis",\n' +
     '    "ukrainian": "синтаксис"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La sintaxis de la lengua de un hablante nativo",\n' +
-    '    "ukrainian": "Синтаксис досвідченого носія мови дуже складний"\n' +
+    '    "spanish": "sintaxis de la lengua de un hablante nativo",\n' +
+    '    "ukrainian": "синтаксис досвідченого носія мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la sintaxis,",\n' +
-    '    "ukrainian": "синтаксисі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la superposición",\n' +
+    '    "spanish": "superposición",\n' +
     '    "ukrainian": "надання переваги"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la sustitución de un cuantificador",\n' +
+    '    "spanish": "sustitución de un cuantificador",\n' +
     '    "ukrainian": "заміни якісних характеристик, таких"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la sustitución de un cuantificador como «algún»",\n' +
+    '    "spanish": "sustitución de un cuantificador como «algún»",\n' +
     '    "ukrainian": "заміни якісних характеристик, таких як \'деякі\'"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La tarea",\n' +
-    '    "ukrainian": "Завдання"\n' +
+    '    "spanish": "tarea",\n' +
+    '    "ukrainian": "завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la tarea",\n' +
-    '    "ukrainian": "суті завдання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la traducción escrita, así como el resumen",\n' +
+    '    "spanish": "traducción escrita, así como el resumen",\n' +
     '    "ukrainian": "письмовий переклад, а також реферування"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La traducción siguió un procedimiento concertado,",\n' +
+    '    "spanish": "traducción siguió un procedimiento concertado,",\n' +
     '    "ukrainian": "Переклад здійснювався за узгодженою процедурою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La TRI ofrece una familia de medidas",\n' +
+    '    "spanish": "TRI ofrece una familia de medidas",\n' +
     '    "ukrainian": "IRT пропонує низку вимірювань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La validación descrita anteriormente confirma",\n' +
-    '    "ukrainian": "Перевірка, описана вище, підтверджує,"\n' +
+    '    "spanish": "validación descrita anteriormente confirma",\n' +
+    '    "ukrainian": "перевірка, описана вище"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la validez de los criterios utilizados",\n' +
-    '    "ukrainian": "валідності критеріїв, що застосовувались"\n' +
+    '    "spanish": "validez de los criterios utilizados",\n' +
+    '    "ukrainian": "валідність критеріїв, що застосовувались"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la validez, la fiabilidad",\n' +
-    '    "ukrainian": "валідність, надійність"\n' +
+    '    "spanish": "validez",\n' +
+    '    "ukrainian": "валідність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la validez, la fiabilidad y la viabilidad",\n' +
-    '    "ukrainian": "валідність, надійність і достовірність"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la velocidad de lectura a distintos textos",\n' +
-    '    "ukrainian": "швидкість читання до різних текстів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de analizar muestras de actuaciones",\n' +
-    '    "ukrainian": "Перевагами аналізу зразків діяльності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de analizar muestras de actuaciones es",\n' +
-    '    "ukrainian": "Перевагами аналізу зразків діяльності є те,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de la evaluación del aprovechamiento es",\n' +
-    '    "ukrainian": "Перевага підходу \'досягнень\' у тому,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de la evaluación del dominio es",\n' +
-    '    "ukrainian": "Перевага підходу \'володіння\' в тому,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de partir de categorías",\n' +
-    '    "ukrainian": "Перевага початку з категорій"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de un análisis de Rasch es",\n' +
-    '    "ukrainian": "Перевага аналізу за Рашем полягає в тому,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de un enfoque subjetivo es",\n' +
-    '    "ukrainian": "Перевага суб\'єктивного підходу полягає в тому,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de un método ramificado",\n' +
-    '    "ukrainian": "Перевагами розгалуженого підходу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "La ventaja de un método ramificado es",\n' +
-    '    "ukrainian": "Перевагами розгалуженого підходу є те,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "la viabilidad",\n' +
+    '    "spanish": "viabilidad",\n' +
     '    "ukrainian": "достовірність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "La vida diaria",\n' +
-    '    "ukrainian": "1 Повсякденне життя,"\n' +
+    '    "spanish": "velocidad de lectura a distintos textos",\n' +
+    '    "ukrainian": "швидкість читання до різних текстів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "la voz andaluza «quillo», por «chiquillo»",\n' +
+    '    "spanish": "ventaja de analizar muestras de actuaciones",\n' +
+    '    "ukrainian": "перевага аналізу зразків діяльності"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de analizar muestras de actuaciones es",\n' +
+    '    "ukrainian": "перевага аналізу зразків діяльності є те,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de la evaluación del aprovechamiento es",\n' +
+    '    "ukrainian": "перевага  підходу \'досягнень\' у тому,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de la evaluación del dominio es",\n' +
+    '    "ukrainian": "перевага підходу \'володіння\' в тому,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de partir de categorías",\n' +
+    '    "ukrainian": "перевага початку з категорій"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de un análisis de Rasch es",\n' +
+    '    "ukrainian": "перевага аналізу за Рашем полягає в тому,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de un enfoque subjetivo es",\n' +
+    '    "ukrainian": "перевага суб\'єктивного підходу полягає в тому,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de un método ramificado",\n' +
+    '    "ukrainian": "перевага розгалуженого підходу"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ventaja de un método ramificado es",\n' +
+    '    "ukrainian": "перевага розгалуженого підходу є те,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "vida diaria",\n' +
+    '    "ukrainian": "повсякденне життя"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "voz andaluza «quillo», por «chiquillo»",\n' +
     '    "ukrainian": "нью-йоркське boid замість \'bird\'"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "laboratorio",\n' +
-    '    "ukrainian": "лабораторії"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "laboratorios",\n' +
-    '    "ukrainian": "лабораторії"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "language",\n' +
-    '    "ukrainian": "language"\n' +
+    '    "ukrainian": "лабораторія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Language Proficiency",\n' +
@@ -14504,579 +13000,415 @@ data = '[\n' +
     '    "ukrainian": "Language Proficiency 1993 Level"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Language Proficiency 1993 Listening",\n' +
-    '    "ukrainian": "Language Proficiency 1993 Listening"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Language Proficiency 1993 Listening Level",\n' +
     '    "ukrainian": "Language Proficiency 1993 Listening Level"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "language proficiency a survey",\n' +
-    '    "ukrainian": "language proficiency a survey"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "language proficiency a survey of",\n' +
-    '    "ukrainian": "language proficiency a survey of"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Language Testers",\n' +
     '    "ukrainian": "Language Testers"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las acciones paralingüísticas comprenden",\n' +
-    '    "ukrainian": "Паралінгвістичні засоби включають"\n' +
+    '    "spanish": "acciones paralingüísticas comprenden",\n' +
+    '    "ukrainian": "паралінгвістичні засоби"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las actitudes",\n' +
-    '    "ukrainian": "поведінка,"\n' +
+    '    "spanish": "actitud",\n' +
+    '    "ukrainian": "поведінка"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las actitudes del hablante,",\n' +
+    '    "spanish": "actitudes del hablante,",\n' +
     '    "ukrainian": "визначати погляди і ставлення мовця"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las actividades",\n' +
-    '    "ukrainian": "видами діяльності"\n' +
+    '    "spanish": "actividades de enseñanza",\n' +
+    '    "ukrainian": "контрольні матеріали"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las actividades",\n' +
-    '    "ukrainian": "видів діяльності,"\n' +
+    '    "spanish": "actividades de la lengua",\n' +
+    '    "ukrainian": "види мовленнєвої діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las actividades de enseñanza",\n' +
-    '    "ukrainian": "контрольних матеріалів"\n' +
+    '    "spanish": "actividades de mediación",\n' +
+    '    "ukrainian": "посередницькі види діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las actividades de enseñanza y de examen",\n' +
-    '    "ukrainian": "контрольних матеріалів та видів роботи"\n' +
+    '    "spanish": "actividades estéticas pueden",\n' +
+    '    "ukrainian": "естетичні види діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las actividades de la lengua",\n' +
-    '    "ukrainian": "Види мовленнєвої діяльності"\n' +
+    '    "spanish": "actividades lúdicas comprenden ejemplos como",\n' +
+    '    "ukrainian": "приклади ігрової діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las actividades de mediación",\n' +
-    '    "ukrainian": "посередницькі види діяльності,"\n' +
+    '    "spanish": "afirmaciones respecto a los fines",\n' +
+    '    "ukrainian": "визначення цілей вивчення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las actividades de ocio",\n' +
-    '    "ukrainian": "організації відпочинку,"\n' +
+    '    "spanish": "autoevaluación",\n' +
+    '    "ukrainian": "само-рейтинг"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las actividades estéticas pueden",\n' +
-    '    "ukrainian": "Естетичні види діяльності можуть"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las actividades lúdicas comprenden ejemplos como",\n' +
-    '    "ukrainian": "Приклади ігрової діяльності включають"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las afirmaciones respecto a los fines",\n' +
-    '    "ukrainian": "Визначення головних та проміжних цілей вивчення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las autoevaluaciones «Puede hacer»",\n' +
-    '    "ukrainian": "само-рейтингами \'Can do \'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las calificaciones",\n' +
+    '    "spanish": "calificaciones",\n' +
     '    "ukrainian": "ступені досягнень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las calificaciones de los exámenes",\n' +
-    '    "ukrainian": "екзаменаційними оцінками"\n' +
+    '    "spanish": "calificaciones de los exámenes",\n' +
+    '    "ukrainian": "екзаменаційна оцінкама"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las capacidades, no explícitamente enseñados,",\n' +
-    '    "ukrainian": "здатності використовувати нерідну мову,"\n' +
+    '    "spanish": "características culturales de la comunidad",\n' +
+    '    "ukrainian": "культурні особливості спільноти"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las características culturales de la comunidad",\n' +
-    '    "ukrainian": "культурних особливостей спільноти"\n' +
+    '    "spanish": "características de los textos",\n' +
+    '    "ukrainian": "характеристики тексту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las características de los textos",\n' +
-    '    "ukrainian": "Характеристики тексту"\n' +
+    '    "spanish": "categoría de forma",\n' +
+    '    "ukrainian": "категорія форми"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las características del alumno",\n' +
-    '    "ukrainian": "його характерні особливості"\n' +
+    '    "spanish": "competencias comunicativas de la lengua",\n' +
+    '    "ukrainian": "комунікативні мовленнєві компетенції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las características del texto",\n' +
-    '    "ukrainian": "Характеристики тексту"\n' +
+    '    "spanish": "competencias generales",\n' +
+    '    "ukrainian": "загальні компетенції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las características paralingüísticas generalmente",\n' +
-    '    "ukrainian": "Паралінгвістичні характеристики, як правило,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las categorías",\n' +
-    '    "ukrainian": "До Категорій,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las categorías",\n' +
-    '    "ukrainian": "категоріями,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las categorías de forma",\n' +
-    '    "ukrainian": "категоріями форми"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las categorías más adecuadas de la parrilla",\n' +
-    '    "ukrainian": "найбільш відповідними категоріями сітки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las categorías propuestas",\n' +
-    '    "ukrainian": "категоріями, запровадженими"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las categorías utilizadas",\n' +
-    '    "ukrainian": "категорії, використані"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las competencias",\n' +
-    '    "ukrainian": "компетенцій,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las competencias",\n' +
-    '    "ukrainian": "компетенції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las competencias comunicativas de la lengua",\n' +
-    '    "ukrainian": "Комунікативні мовленнєві компетенції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las competencias generales",\n' +
-    '    "ukrainian": "51 Загальні компетенції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las competencias lingüísticas",\n' +
+    '    "spanish": "competencias lingüísticas",\n' +
     '    "ukrainian": "лінгвістичні компетенції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las competencias plurilingües",\n' +
-    '    "ukrainian": "одного індивіда до іншого"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las competencias plurilingües y pluriculturales",\n' +
+    '    "spanish": "competencias plurilingües y pluriculturales",\n' +
     '    "ukrainian": "одного індивіда до іншого і змінюються"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las competencias pragmáticas",\n' +
-    '    "ukrainian": "Прагматична компетенція"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las competencias pragmáticas",\n' +
+    '    "spanish": "competencias pragmáticas",\n' +
     '    "ukrainian": "прагматичні компетенції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las competencias pragmáticas tienen que ver",\n' +
-    '    "ukrainian": "Прагматичні компетенції пов\'язані"\n' +
+    '    "spanish": "competencias que necesita el usuario",\n' +
+    '    "ukrainian": "компетенції, потрібні користувачу мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las competencias que necesita el usuario",\n' +
-    '    "ukrainian": "компетенцій, які потрібні користувачу мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las competencias sociolingüísticas",\n' +
+    '    "spanish": "competencias sociolingüísticas",\n' +
     '    "ukrainian": "соціолінгвістичні компетенції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las condiciones físicas",\n' +
-    '    "ukrainian": "Фізичні (оточення/середовище )"\n' +
+    '    "spanish": "condiciones físicas",\n' +
+    '    "ukrainian": "фізичні (оточення/середовище )"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las convenciones tipográficas",\n' +
+    '    "spanish": "convenciones tipográficas",\n' +
     '    "ukrainian": "типографські засоби"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las correspondientes cualificaciones",\n' +
-    '    "ukrainian": "відповідних кваліфікаційних іспитів,"\n' +
+    '    "spanish": "correspondientes cualificaciones",\n' +
+    '    "ukrainian": "відповідний кваліфікаційний іспит"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las creencias",\n' +
-    '    "ukrainian": "ідеали, напр,"\n' +
+    '    "spanish": "creencias de esa comunidad",\n' +
+    '    "ukrainian": "ідеали цієї спільноти"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las creencias de esa comunidad",\n' +
-    '    "ukrainian": "ідеалами цієї спільноти"\n' +
+    '    "spanish": "cualidades personales",\n' +
+    '    "ukrainian": "особисті якості"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las cualidades personales (véase la sección",\n' +
-    '    "ukrainian": "особисті якості (див розділ"\n' +
+    '    "spanish": "sociedad del alumno",\n' +
+    '    "ukrainian": "спільнота, з якої походить учень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las de la sociedad del alumno",\n' +
-    '    "ukrainian": "спільноти, з якої походить учень"\n' +
+    '    "spanish": "lenguas del currículo",\n' +
+    '    "ukrainian": "мови програми"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las del cuadro 3 se han descrito",\n' +
-    '    "ukrainian": "Табл З, були описані"\n' +
+    '    "spanish": "descripciones de niveles contiguos",\n' +
+    '    "ukrainian": "опис для суміжних рівнів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las demás lenguas del currículo",\n' +
-    '    "ukrainian": "іншими мовами програми"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las descripciones de niveles contiguos",\n' +
-    '    "ukrainian": "описом для суміжних рівнів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las destrezas",\n' +
+    '    "spanish": "destrezas",\n' +
     '    "ukrainian": "навчальні вміння"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las destrezas de estudio",\n' +
-    '    "ukrainian": "Уміння вчитися"\n' +
+    '    "spanish": "destrezas de estudio",\n' +
+    '    "ukrainian": "уміння вчитися"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las destrezas fonéticas generales,",\n' +
+    '    "spanish": "destrezas fonéticas generales,",\n' +
     '    "ukrainian": "загальні фонетичні вміння/навички"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las destrezas implicadas",\n' +
-    '    "ukrainian": "володіють вміннями для участі в ньому"\n' +
+    '    "spanish": "destrezas implicadas",\n' +
+    '    "ukrainian": "вміння для участі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las destrezas necesarias",\n' +
+    '    "spanish": "destrezas necesarias",\n' +
     '    "ukrainian": "вміннями, необхідними"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las destrezas que comprende son las siguientes",\n' +
+    '    "spanish": "destrezas que comprende son las siguientes",\n' +
     '    "ukrainian": "Вміння, необхідні для цього, включають"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las desventajas de varias opciones",\n' +
+    '    "spanish": "desventajas de varias opciones",\n' +
     '    "ukrainian": "недоліки різних суджень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las diferencias distintivas",\n' +
+    '    "spanish": "diferencias distintivas",\n' +
     '    "ukrainian": "основних відмінностей"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las distinciones",\n' +
+    '    "spanish": "distinciones",\n' +
     '    "ukrainian": "відмінності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las distinciones entre las fases de una escala",\n' +
+    '    "spanish": "distinciones entre las fases de una escala",\n' +
     '    "ukrainian": "відмінності між рангами на шкалі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las distintas cualidades,",\n' +
+    '    "spanish": "distintas cualidades,",\n' +
     '    "ukrainian": "інші сильні риси учнів,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las distintas cualidades, pero depende mucho más",\n' +
+    '    "spanish": "distintas cualidades, pero depende mucho más",\n' +
     '    "ukrainian": "інші сильні риси учнів, але дуже залежить"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las dos culturas",\n' +
-    '    "ukrainian": "двома культурами"\n' +
+    '    "spanish": "prueba",\n' +
+    '    "ukrainian": "тест"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las dos pruebas respecto a lo",\n' +
-    '    "ukrainian": "обома тестами, який визначає,"\n' +
+    '    "spanish": "escala «Puede hacer»",\n' +
+    '    "ukrainian": "шкала \'Може робити\'"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las dos pruebas respecto a lo que se evalúa",\n' +
-    '    "ukrainian": "обома тестами, який визначає, що контролюється"\n' +
+    '    "spanish": "escala de autoevaluación de DIALANG",\n' +
+    '    "ukrainian": "шкала  самооцінювання DIALANG"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las escalas «Puede hacer»",\n' +
-    '    "ukrainian": "шкалами \'Може робити\'"\n' +
+    '    "spanish": "escala de Sociedad",\n' +
+    '    "ukrainian": "шкала \'Соціальна сфера"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las escalas de autoevaluación de DIALANG",\n' +
-    '    "ukrainian": "Шкали самооцінювання DIALANG"\n' +
+    '    "spanish": "escalas descriptivas",\n' +
+    '    "ukrainian": "дескриптивна шкала"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las escalas de Sociedad",\n' +
-    '    "ukrainian": "Шкали \'Соціальна сфера"\n' +
+    '    "spanish": "escalas holísticas",\n' +
+    '    "ukrainian": "холістичнима шкал"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las escalas descriptivas utilizadas",\n' +
-    '    "ukrainian": "дескриптивні шкали, що застосовуються"\n' +
+    '    "spanish": "escalas ilustrativas",\n' +
+    '    "ukrainian": "ілюстративна шкала"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las escalas holísticas, sobre todo",\n' +
-    '    "ukrainian": "холістичними шкалами, особливо"\n' +
+    '    "spanish": "estrategias se conciben",\n' +
+    '    "ukrainian": "стратегії"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las escalas ilustrativas están disponibles",\n' +
-    '    "ukrainian": "Ілюстративні шкали запроваджені"\n' +
+    '    "spanish": "estrategias son un medio",\n' +
+    '    "ukrainian": "мовленнєві засоби"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las escalas ilustrativas se proporcionan",\n' +
-    '    "ukrainian": "Ілюстративні шкали запроваджені"\n' +
+    '    "spanish": "expresiones de sabiduría popular",\n' +
+    '    "ukrainian": "вирази народної мудрості"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las escalas ilustrativas se proporcionan para",\n' +
-    '    "ukrainian": "Ілюстративні шкали запроваджені для"\n' +
+    '    "spanish": "expresiones hechas",\n' +
+    '    "ukrainian": "стійкі вирази"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las escalas utilizadas",\n' +
-    '    "ukrainian": "шкалами використаними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las estrategias (en la medida en que aún",\n' +
-    '    "ukrainian": "стратегії (якщо вони ще цього"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las estrategias (generales",\n' +
-    '    "ukrainian": "Стратегії (загальні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las estrategias (generales y comunicativas",\n' +
-    '    "ukrainian": "Стратегії (загальні та комунікативні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las estrategias analizadas",\n' +
-    '    "ukrainian": "стратегій, що обговорювались нами"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las estrategias empleadas o aplicadas",\n' +
-    '    "ukrainian": "стратегії, що використовуються"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las estrategias se conciben",\n' +
-    '    "ukrainian": "Стратегії розглядаються"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las estrategias son un medio",\n' +
-    '    "ukrainian": "Стратегії це мовленнєві засоби,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las expresiones de sabiduría popular",\n' +
-    '    "ukrainian": "Вирази народної мудрості"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Las expresiones hechas incluyen",\n' +
-    '    "ukrainian": "Стійкі вирази включають"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las faltas demuestran una enseñanza ineficaz",\n' +
+    '    "spanish": "faltas demuestran una enseñanza ineficaz",\n' +
     '    "ukrainian": "помилки свідчать про неефективне викладання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las faltas en",\n' +
-    '    "ukrainian": "помилкам у"\n' +
+    '    "spanish": "falta",\n' +
+    '    "ukrainian": "помилка"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las faltas,",\n' +
-    '    "ukrainian": "помилки,"\n' +
+    '    "spanish": "fases de una escala",\n' +
+    '    "ukrainian": "ранги на шкалі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las faltas, y bajo qué criterios?",\n' +
-    '    "ukrainian": "помилки, і якщо так, то згідно яких критеріїв?"\n' +
+    '    "spanish": "formas de controlar el proceso",\n' +
+    '    "ukrainian": "відповідні способами організації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las fases de una escala",\n' +
-    '    "ukrainian": "рангами на шкалі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las formas de controlar el proceso",\n' +
-    '    "ukrainian": "відповідними способами його організації,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las formas,",\n' +
+    '    "spanish": "formas",\n' +
     '    "ukrainian": "правила"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las formulaciones",\n' +
-    '    "ukrainian": "Ці формулювання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las funciones pragmáticas de sus realizaciones",\n' +
+    '    "spanish": "funciones pragmáticas de sus realizaciones",\n' +
     '    "ukrainian": "прагматичних функцій їх реалізації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las habilidades (saber hacer",\n' +
-    '    "ukrainian": "навички (savoir-faire"\n' +
+    '    "spanish": "habilidades (saber hacer)",\n' +
+    '    "ukrainian": "навички (savoir-faire)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las habilidades prácticas",\n' +
-    '    "ukrainian": "здібності включають"\n' +
+    '    "spanish": "idea",\n' +
+    '    "ukrainian": "думка"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las ideas",\n' +
-    '    "ukrainian": "думками"\n' +
+    '    "spanish": "instituciones u organizaciones",\n' +
+    '    "ukrainian": "установи або організації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las ideas estén sólo implícitas",\n' +
-    '    "ukrainian": "думками є лише імпліцитними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las ideas estén sólo implícitas y",\n' +
-    '    "ukrainian": "думками є лише імпліцитними та"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las instituciones u organizaciones",\n' +
-    '    "ukrainian": "установи або організації,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las instrucciones de seguridad",\n' +
+    '    "spanish": "instrucciones de seguridad",\n' +
     '    "ukrainian": "інструкції з техніки безпеки й охорони"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las insuficiencias de dicho dominio",\n' +
-    '    "ukrainian": "слабкі сторони цього володіння"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las intenciones, y prever lo",\n' +
+    '    "spanish": "intenciones, y prever lo",\n' +
     '    "ukrainian": "намірів з метою антиципації того,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las lenguas modernas se aprenden",\n' +
+    '    "spanish": "lenguas modernas se aprenden",\n' +
     '    "ukrainian": "Існує багато способів сучасного вивчення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las listas de control son menos corrientes",\n' +
+    '    "spanish": "listas de control son menos corrientes",\n' +
     '    "ukrainian": "Контрольні листи менше використовуються"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las macrofunciones son categorías",\n' +
+    '    "spanish": "macrofunciones son categorías",\n' +
     '    "ukrainian": "Мокрофункцї це категорії"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las medidas relativas a los currículos",\n' +
+    '    "spanish": "medidas relativas a los currículos",\n' +
     '    "ukrainian": "заходи, пов\'язані з укладанням програм, зовсім"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las microfunciones",\n' +
+    '    "spanish": "microfunciones",\n' +
     '    "ukrainian": "мікрофункції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las microfunciones son categorías",\n' +
+    '    "spanish": "microfunciones son categorías",\n' +
     '    "ukrainian": "Мікрофунщії є категоріями"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las normas de cortesía",\n' +
+    '    "spanish": "normas de cortesía",\n' +
     '    "ukrainian": "Правила ввічливості"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las normas de L",\n' +
+    '    "spanish": "normas de L",\n' +
     '    "ukrainian": "норм мови L"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las normas de puntuación",\n' +
+    '    "spanish": "normas de puntuación",\n' +
     '    "ukrainian": "правил пунктуації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las opciones de forma explícita",\n' +
+    '    "spanish": "opciones de forma explícita",\n' +
     '    "ukrainian": "напрями експліцитно і прозоро"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las operaciones que conlleva",\n' +
+    '    "spanish": "operaciones que conlleva",\n' +
     '    "ukrainian": "необхідними операціями"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las palabras más habituales",\n' +
+    '    "spanish": "palabras más habituales",\n' +
     '    "ukrainian": "найуживаніші слова"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las palabras que contienen",\n' +
+    '    "spanish": "palabras que contienen",\n' +
     '    "ukrainian": "слова, які в них містяться"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las palabras se pueden clasificar en",\n' +
-    '    "ukrainian": "Слова можуть бути класифіковані на"\n' +
+    '    "spanish": "palabras se pueden clasificar en",\n' +
+    '    "ukrainian": "слова можуть бути класифіковані на"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las personas todavía saben hacer cosas",\n' +
+    '    "spanish": "personas todavía saben hacer cosas",\n' +
     '    "ukrainian": "люди все ще вміють робити те,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las prácticas sociales individuales",\n' +
+    '    "spanish": "prácticas sociales individuales",\n' +
     '    "ukrainian": "індивідуальні соціальні види діяльності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las prácticas, los valores",\n' +
-    '    "ukrainian": "звичаями, цінностями"\n' +
+    '    "spanish": "valores",\n' +
+    '    "ukrainian": "цінності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las preguntas preparadas, siguiendo el hilo",\n' +
-    '    "ukrainian": "підготовлених запитань, адекватно сприймаючи"\n' +
+    '    "spanish": "prácticas",\n' +
+    '    "ukrainian": "звичаї"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las presentadas en los capítulos",\n' +
-    '    "ukrainian": "метою створення початкового фонду класифікованих"\n' +
+    '    "spanish": "preguntas preparadas, siguiendo el hilo",\n' +
+    '    "ukrainian": "підготовлені запитання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las pruebas",\n' +
-    '    "ukrainian": "тестами"\n' +
+    '    "spanish": "presentadas en los capítulos",\n' +
+    '    "ukrainian": "мета створення початкового фонду класифікованих"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las pruebas indirectas",\n' +
-    '    "ukrainian": "непрямих тестів"\n' +
+    '    "spanish": "prueba indirecta",\n' +
+    '    "ukrainian": "непрямий тест"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las pruebas y",\n' +
-    '    "ukrainian": "тестами і"\n' +
+    '    "spanish": "que más les conviene",\n' +
+    '    "ukrainian": "найприйнятніший"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las que más les convienen",\n' +
-    '    "ukrainian": "найприйнятніші для них"\n' +
+    '    "spanish": "relacionadas con el ámbito educativo",\n' +
+    '    "ukrainian": "що стосуються освітньої галузі"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las relacionadas con el ámbito educativo",\n' +
-    '    "ukrainian": "тих, що стосуються освітньої галузі"\n' +
+    '    "spanish": "relaciones",\n' +
+    '    "ukrainian": "взаємини"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las relaciones",\n' +
-    '    "ukrainian": "взаєминами"\n' +
+    '    "spanish": "relaciones entre sus miembros",\n' +
+    '    "ukrainian": "взаємини між класами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las relaciones entre sus miembros",\n' +
-    '    "ukrainian": "взаєминами між класами"\n' +
+    '    "spanish": "restricciones de las tareas",\n' +
+    '    "ukrainian": "обставини (рамки) завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las restricciones de las tareas",\n' +
-    '    "ukrainian": "обставини (рамки ) завдання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "las restricciones que limitan",\n' +
+    '    "spanish": "restricciones que limitan",\n' +
     '    "ukrainian": "обмеження, що зумовлюють"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las situaciones más predecibles",\n' +
+    '    "spanish": "situaciones más predecibles",\n' +
     '    "ukrainian": "найбільш передбачуваними ситуаціями"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las situaciones que tendrán que abordar?",\n' +
-    '    "ukrainian": "ситуації, з якими їм доведеться мати справу?"\n' +
+    '    "spanish": "situaciones que tendrán que abordar",\n' +
+    '    "ukrainian": "ситуації, з якими їм доведеться мати справу"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las suficientes pausas",\n' +
-    '    "ukrainian": "довгими паузами"\n' +
+    '    "spanish": "suficiente pausa",\n' +
+    '    "ukrainian": "довга пауза"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las tareas",\n' +
-    '    "ukrainian": "завданнях,"\n' +
+    '    "spanish": "tarea de aprendizaje",\n' +
+    '    "ukrainian": "навчальне завдання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las tareas de aprendizaje, decidir",\n' +
-    '    "ukrainian": "навчальних завдань, визначення"\n' +
+    '    "spanish": "fonema",\n' +
+    '    "ukrainian": "фонема"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las unidades de sonido (fonemas",\n' +
-    '    "ukrainian": "звукових одиниць (фонем"\n' +
+    '    "spanish": "unidad de sonido",\n' +
+    '    "ukrainian": "звукова одиниця"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Las unidades de sonido (fonemas ) de la lengua",\n' +
+    '    "spanish": "unidades de sonido (fonemas ) de la lengua",\n' +
     '    "ukrainian": "звукових одиниць (фонем ) мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las variaciones sociales, las convenciones",\n' +
+    '    "spanish": "variaciones sociales, las convenciones",\n' +
     '    "ukrainian": "їх варіанти, соціальні умовності"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las variedades de una",\n' +
+    '    "spanish": "variedades de una",\n' +
     '    "ukrainian": "варіанти однієї"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "las variedades de una o más lenguas extranjeras",\n' +
+    '    "spanish": "variedades de una o más lenguas extranjeras",\n' +
     '    "ukrainian": "варіанти однієї чи кількох іноземних мов"\n' +
     '  },\n' +
     '  {\n' +
@@ -15197,10 +13529,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "lengua extranjera",\n' +
-    '    "ukrainian": "іноземна мова"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "lengua extranjera",\n' +
     '    "ukrainian": "мова"\n' +
     '  },\n' +
     '  {\n' +
@@ -15208,8 +13536,8 @@ data = '[\n' +
     '    "ukrainian": "іноземною мовою"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "lengua materna",\n' +
-    '    "ukrainian": "рідна мова"\n' +
+    '    "spanish": "lengua extranjera (L2 )",\n' +
+    '    "ukrainian": "іноземна мова (L2 )"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "lengua sencillo",\n' +
@@ -15230,6 +13558,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "lenguaje corporal",\n' +
     '    "ukrainian": "мова тіла"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "lenguaje corporal paralingüístico",\n' +
+    '    "ukrainian": "паралінгвістичні засоби мови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "lenguas",\n' +
@@ -15390,6 +13722,14 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Liskin-Gasparro, 1984 Lowe, 1985,",\n' +
     '    "ukrainian": "Liskin-Gasparro 1984 Löwe 1985,"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "lista de aspectos",\n' +
+    '    "ukrainian": "лист тверджень"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "lista de comprobación",\n' +
+    '    "ukrainian": "контрольний лист"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Lista de control",\n' +
@@ -15632,10 +13972,6 @@ data = '[\n' +
     '    "ukrainian": "хибні уявлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "los errores",\n' +
-    '    "ukrainian": "хибні уявлення"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "lugares básicos y los parentescos más habituales",\n' +
     '    "ukrainian": "найзагальніші терміни спорідненості"\n' +
     '  },\n' +
@@ -15650,6 +13986,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "macrofunción",\n' +
     '    "ukrainian": "макрофункція"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "mala comunicación",\n' +
+    '    "ukrainian": "перешкоди спілкуванню"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "mala letra",\n' +
@@ -15716,6 +14056,10 @@ data = '[\n' +
     '    "ukrainian": "новий прилад"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "marcador",\n' +
+    '    "ukrainian": "маркерів"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "marcar claramente las relaciones existentes",\n' +
     '    "ukrainian": "виразного позначення зв\'язків"\n' +
     '  },\n' +
@@ -15764,10 +14108,6 @@ data = '[\n' +
     '    "ukrainian": "рекламні матеріали"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "material publicitario",\n' +
-    '    "ukrainian": "рекламні матеріали"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "materiales de enseñanza",\n' +
     '    "ukrainian": "навчальні засоби"\n' +
     '  },\n' +
@@ -15810,10 +14150,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Me voy pa’ casa",\n' +
     '    "ukrainian": "Хоч куди козак"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "mecanismos de atención",\n' +
-    '    "ukrainian": "механізми уваги"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "mecanismos de atención",\n' +
@@ -15872,14 +14208,6 @@ data = '[\n' +
     '    "ukrainian": "через просте ознайомлення зі словами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "mediante la simple exposición,",\n' +
-    '    "ukrainian": "шляхом простого пред\'явлення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "mediante la simple exposición,",\n' +
-    '    "ukrainian": "шляхом простого пред\'явлення,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "mediante la simple transferencia desde L1",\n' +
     '    "ukrainian": "простий перенос із мови L1"\n' +
     '  },\n' +
@@ -15900,10 +14228,6 @@ data = '[\n' +
     '    "ukrainian": "у процесі інтеракції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "mediante una interacción",\n' +
-    '    "ukrainian": "у процесі інтеракції"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "mediar en un conflicto",\n' +
     '    "ukrainian": "посередництво у конфлікті"\n' +
     '  },\n' +
@@ -15912,20 +14236,12 @@ data = '[\n' +
     '    "ukrainian": "організація соціального захисту"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "medidas, etc",\n' +
-    '    "ukrainian": "розміри і тд"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "medio de enseñanza",\n' +
     '    "ukrainian": "засобу навчання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "medio de instrucción",\n' +
     '    "ukrainian": "засіб навчання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "medios empleados",\n' +
-    '    "ukrainian": "їх матеріальних носіїв"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "medios empleados",\n' +
@@ -15938,10 +14254,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "memorando",\n' +
     '    "ukrainian": "меморандум"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "memorandos, informes y trabajos",\n' +
-    '    "ukrainian": "конспекти, доповіді та документи/папери"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "memorandos, informes y trabajos",\n' +
@@ -15968,10 +14280,6 @@ data = '[\n' +
     '    "ukrainian": "меншу кількість кроків"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "menos elaborado, más",\n' +
-    '    "ukrainian": "менш розробленим, більш"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "menos estereotipada de determinadas tareas",\n' +
     '    "ukrainian": "менш стереотипним виконанням деяких завдань,"\n' +
     '  },\n' +
@@ -15984,16 +14292,16 @@ data = '[\n' +
     '    "ukrainian": "повідомлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "mensajes sobre temas concretos",\n' +
-    '    "ukrainian": "повідомлення на конкретні"\n' +
+    '    "spanish": "mensaje",\n' +
+    '    "ukrainian": "оголошення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "mensajes sobre temas concretos",\n' +
-    '    "ukrainian": "оголошення на конкретні"\n' +
+    '    "spanish": "mentalidad abierta",\n' +
+    '    "ukrainian": "відкритість мислення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "mentalidad abierta y mentalidad cerrada",\n' +
-    '    "ukrainian": "відкритість/вузькість мислення"\n' +
+    '    "spanish": "mentalidad cerrada",\n' +
+    '    "ukrainian": "вузькість мислення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "metacategoría",\n' +
@@ -16008,23 +14316,23 @@ data = '[\n' +
     '    "ukrainian": "метакомунікативний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "metáforas",\n' +
+    '    "spanish": "metáfora",\n' +
     '    "ukrainian": "метафора"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "metáforas lexicalizadas, semánticamente opacas",\n' +
-    '    "ukrainian": "семантичне непрозорі, застиглі метафори"\n' +
+    '    "spanish": "metáforas lexicalizadas",\n' +
+    '    "ukrainian": "семантичне непрозорі"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "metáforas semánticamente opacas",\n' +
+    '    "ukrainian": "застиглі метафори"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "metalingüístico",\n' +
     '    "ukrainian": "металінгвістичний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "metasistema",\n' +
-    '    "ukrainian": "метасистема"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Meticulosidad y descuido",\n' +
+    '    "spanish": "meticulosidad y descuido",\n' +
     '    "ukrainian": "педантичний/незібраний"\n' +
     '  },\n' +
     '  {\n' +
@@ -16036,20 +14344,16 @@ data = '[\n' +
     '    "ukrainian": "жорсткий метод"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Metodología",\n' +
-    '    "ukrainian": "Методологія"\n' +
+    '    "spanish": "metodología",\n' +
+    '    "ukrainian": "методологія"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "metodológico",\n' +
     '    "ukrainian": "методологічним"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "métodos",\n' +
-    '    "ukrainian": "методів,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "métodos actuales se pueden clasificar en",\n' +
-    '    "ukrainian": "Чинні методи можуть бути розподілені на"\n' +
+    '    "spanish": "métodos actuales",\n' +
+    '    "ukrainian": "чинні методи"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "métodos cualitativos",\n' +
@@ -16090,10 +14394,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "microfuncionales",\n' +
     '    "ukrainian": "мікрофункцюнальні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "microfunciones",\n' +
-    '    "ukrainian": "мікрофункції"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "microfunciones",\n' +
@@ -16176,10 +14476,6 @@ data = '[\n' +
     '    "ukrainian": "статистичне усереднення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "moderación estadística",\n' +
-    '    "ukrainian": "статистичне усереднення"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "moderación social",\n' +
     '    "ukrainian": "соціальне усереднення"\n' +
     '  },\n' +
@@ -16206,6 +14502,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "modismos poco frecuentes",\n' +
     '    "ukrainian": "маловживаними ідіомами"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "modo",\n' +
+    '    "ukrainian": "стиль"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "módulos",\n' +
@@ -16284,20 +14584,12 @@ data = '[\n' +
     '    "ukrainian": "морфологічні"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "motivación",\n' +
-    '    "ukrainian": "мотивація"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "motivadoras como objetivos de aprendizaje",\n' +
     '    "ukrainian": "мотивуючими у ролі навчальних цілей"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "motivo, de comunicarse entre sí directamente",\n' +
     '    "ukrainian": "причина спілкуватись один з одним безпосередньо"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "motivos de ciertas acciones",\n' +
-    '    "ukrainian": "причини вчинків"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "motivos de ciertas acciones",\n' +
@@ -16420,10 +14712,6 @@ data = '[\n' +
     '    "ukrainian": "природи"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "naturaleza de las especificaciones",\n' +
-    '    "ukrainian": "природа тверджень"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "naturaleza de las relaciones interpersonales de los participantes (por ejemplo, simpatía/hostilidad, cooperación).",\n' +
     '    "ukrainian": "соціальні взаємини між учасниками (напр., дружба/ворожнеча, співпраця)."\n' +
     '  },\n' +
@@ -16448,10 +14736,6 @@ data = '[\n' +
     '    "ukrainian": "необхідні для інтеракції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "necesidad de coherencia y de constancia",\n' +
-    '    "ukrainian": "потреба в узгодженості й послідовності"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "necesidad de ensayar",\n' +
     '    "ukrainian": "потреби у вправлянні"\n' +
     '  },\n' +
@@ -16462,6 +14746,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "necesidades de tipo concreto",\n' +
     '    "ukrainian": "потреби конкретного типу"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "necesidades ortoépicas de los alumnos en relación",\n' +
+    '    "ukrainian": "орфоепічні потреби учнів у зв\'язку"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Necesidades sencillas y concretas",\n' +
@@ -16529,6 +14817,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "nivel educativo",\n' +
+    '    "ukrainian": "освітній рівнем"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "nivel educativo",\n' +
     '    "ukrainian": "освітній рівень"\n' +
     '  },\n' +
     '  {\n' +
@@ -16542,6 +14834,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Nivel holandés",\n' +
     '    "ukrainian": "Dutch Level l"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "nivel local",\n' +
+    '    "ukrainian": "локальний рівень"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "niveles",\n' +
@@ -16857,10 +15153,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "normas de cortesía",\n' +
-    '    "ukrainian": "правила ввічливості"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "normas de cortesía",\n' +
     '    "ukrainian": "правил ввічливості"\n' +
     '  },\n' +
     '  {\n' +
@@ -17132,16 +15424,8 @@ data = '[\n' +
     '    "ukrainian": "усні (історія з помилками як, коли, де тощо)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "hacer posible la comunicación",\n' +
-    '    "ukrainian": "робити можливим спілкування"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Orbis",\n' +
     '    "ukrainian": "Orbis"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "evitar la oscuridad",\n' +
-    '    "ukrainian": "уникати неясності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "ordenan las relaciones",\n' +
@@ -17152,12 +15436,12 @@ data = '[\n' +
     '    "ukrainian": "прямі накази"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "orgánico",\n' +
-    '    "ukrainian": "органічний"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "orgánicamente",\n' +
     '    "ukrainian": "органічно"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "orgánico",\n' +
+    '    "ukrainian": "органічний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "organizar un mensaje (destrezas cognitivas",\n' +
@@ -17180,6 +15464,10 @@ data = '[\n' +
     '    "ukrainian": "спеціальний довідник"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "origen nacional",\n' +
+    '    "ukrainian": "національне походження"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "original",\n' +
     '    "ukrainian": "оригінал"\n' +
     '  },\n' +
@@ -17192,36 +15480,12 @@ data = '[\n' +
     '    "ukrainian": "орфоепічний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "necesidades ortoépicas de los alumnos en relación",\n' +
-    '    "ukrainian": "орфоепічні потреби учнів у зв\'язку"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ortografía",\n' +
-    '    "ukrainian": "орфографія"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "ortográficas de palabras, oraciones, etcétera,",\n' +
     '    "ukrainian": "орфографічні форми слів, речень"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "característica de la competencia plurilingüe",\n' +
-    '    "ukrainian": "подальша характеристика плюрилінгвальної компетенції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "técnia",\n' +
-    '    "ukrainian": "прийом"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "otras dimensiones de la lengua",\n' +
     '    "ukrainian": "вміння та інші параметри мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "etapas del diseño curricular",\n' +
-    '    "ukrainian": "етапів укладання програми"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "frases hechas",\n' +
-    '    "ukrainian": "стійкі словосполучення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "otras materias",\n' +
@@ -17238,10 +15502,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "otras personas y situaciones nuevas",\n' +
     '    "ukrainian": "іншими людьми та новими ситуаціями"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "presiones",\n' +
-    '    "ukrainian": "негативні чинники"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "otro (ya evaluado",\n' +
@@ -17302,6 +15562,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "palabras polisémicas",\n' +
     '    "ukrainian": "однослівні форми"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "palabras que utiliza normalmente al hablar",\n' +
+    '    "ukrainian": "словниковий запас"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "palabras simples (sólo la raíz",\n' +
@@ -17418,10 +15682,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "para la capacidad de controlar ese conocimiento",\n' +
     '    "ukrainian": "для здатності до контролю цих знань"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "para la escritura",\n' +
-    '    "ukrainian": "для писемного мовлення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "para la escritura",\n' +
@@ -17700,6 +15960,10 @@ data = '[\n' +
     '    "ukrainian": "авторитарна,"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "pereza",\n' +
+    '    "ukrainian": "ледачий"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "perfeccionar el conocimiento",\n' +
     '    "ukrainian": "вдосконалення знань"\n' +
     '  },\n' +
@@ -17790,6 +16054,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "persona o personas implicadas",\n' +
     '    "ukrainian": "особистість співрозмовника"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "persona que tenga una conversación telefónica",\n' +
+    '    "ukrainian": "партнер під час телефонної розмови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "personajes",\n' +
@@ -17922,10 +16190,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "planificar la acción",\n' +
     '    "ukrainian": "планувати дії"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "planificar la acción",\n' +
-    '    "ukrainian": "планування дії"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Plantea y contesta preguntas",\n' +
@@ -18088,14 +16352,6 @@ data = '[\n' +
     '    "ukrainian": "екзаменатор"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "ser una ortodoxia",\n' +
-    '    "ukrainian": "ортодоксальний"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "facilidad",\n' +
-    '    "ukrainian": "легкість"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "por imitación a coro",\n' +
     '    "ukrainian": "хорова імітація"\n' +
     '  },\n' +
@@ -18106,10 +16362,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Por la naturaleza y la estructura",\n' +
     '    "ukrainian": "завдяки природі та структурі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "candidato",\n' +
-    '    "ukrainian": "кандидат"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "por medio de poemas",\n' +
@@ -18132,10 +16384,6 @@ data = '[\n' +
     '    "ukrainian": "з причин, визначити які було важко"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "intención de los usuarios",\n' +
-    '    "ukrainian": "намір користувача"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "por teléfono",\n' +
     '    "ukrainian": "по телефону"\n' +
     '  },\n' +
@@ -18146,6 +16394,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "pormenorizadas relativas a la selección",\n' +
     '    "ukrainian": "послідовність текстів, видів діяльності, словника"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "portfolio",\n' +
+    '    "ukrainian": "портфель"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "portfolio y perfil",\n' +
@@ -18192,20 +16444,16 @@ data = '[\n' +
     '    "ukrainian": "адекватний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "prácticas sociales individuales",\n' +
-    '    "ukrainian": "індивідуальні соціальні види діяльності"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "práctico, viable",\n' +
     '    "ukrainian": "практичною і достовірною"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "pragmático",\n' +
-    '    "ukrainian": "прагматичний"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "pragmática relevante",\n' +
     '    "ukrainian": "прагматична компетенція"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "pragmático",\n' +
+    '    "ukrainian": "прагматичний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "pragmatismo",\n' +
@@ -18252,6 +16500,10 @@ data = '[\n' +
     '    "ukrainian": "Може запитати, як справи,"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "pregunta oral",\n' +
+    '    "ukrainian": "усне запитання"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "pregunta respuesta",\n' +
     '    "ukrainian": "запитання відповідь"\n' +
     '  },\n' +
@@ -18272,6 +16524,10 @@ data = '[\n' +
     '    "ukrainian": "довідатись (напр, в агентстві з найму )"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "preguntar a alguien cómo se llama",\n' +
+    '    "ukrainian": "запитати когось, як його звати"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Preguntar por preferencias",\n' +
     '    "ukrainian": "запит про переваги"\n' +
     '  },\n' +
@@ -18286,10 +16542,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "prensa",\n' +
     '    "ukrainian": "преса"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "preparación",\n' +
-    '    "ukrainian": "підготовка"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "preparación de un glosario",\n' +
@@ -18342,6 +16594,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "presentación física",\n' +
     '    "ukrainian": "фізичне пред\'явлення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "presentación pública",\n' +
+    '    "ukrainian": "презентація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "presentación,",\n' +
@@ -18409,6 +16665,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "presiones",\n' +
+    '    "ukrainian": "негативні чинники"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "presiones",\n' +
     '    "ukrainian": "інші негативні чинники"\n' +
     '  },\n' +
     '  {\n' +
@@ -18470,6 +16730,14 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "principiantes",\n' +
     '    "ukrainian": "початківці"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "principio consonántico",\n' +
+    '    "ukrainian": "консонантний принципу"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "principio de cooperaciób",\n' +
+    '    "ukrainian": "максима кооперації"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "probablemente sea debido a",\n' +
@@ -18600,10 +16868,6 @@ data = '[\n' +
     '    "ukrainian": "продукувати висловлювання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "producir expresiones habladas",\n' +
-    '    "ukrainian": "продукувати висловлювання"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "producir tanto una lista",\n' +
     '    "ukrainian": "створення контрольного листа"\n' +
     '  },\n' +
@@ -18654,6 +16918,14 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "profesionales",\n' +
     '    "ukrainian": "професійних"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "profesor",\n' +
+    '    "ukrainian": "вчитель"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "profesor",\n' +
+    '    "ukrainian": "учитель"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "profesor",\n' +
@@ -18792,6 +17064,10 @@ data = '[\n' +
     '    "ukrainian": "Просодичні"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "prospecto",\n' +
+    '    "ukrainian": "проспект"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "prospectos",\n' +
     '    "ukrainian": "проспекти"\n' +
     '  },\n' +
@@ -18842,6 +17118,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "proyectos",\n' +
     '    "ukrainian": "заходи"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "prueba directa clásica",\n' +
+    '    "ukrainian": "класичний прямий тест"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "pruebas de comprensión en L1",\n' +
@@ -19224,7 +17504,7 @@ data = '[\n' +
     '    "ukrainian": "звітні підрахунки за системою DIALANG"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Puntualidad",\n' +
+    '    "spanish": "puntualidad",\n' +
     '    "ukrainian": "пунктуальність"\n' +
     '  },\n' +
     '  {\n' +
@@ -19781,6 +18061,10 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "receptor",\n' +
+    '    "ukrainian": "той, хто сприймає"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "receptor",\n' +
     '    "ukrainian": "адресат"\n' +
     '  },\n' +
     '  {\n' +
@@ -19826,6 +18110,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "recuerde o a los medios que encuentre",\n' +
     '    "ukrainian": "він/вона у змозі пригадати або знайти засоби"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "recurso de evaluación",\n' +
+    '    "ukrainian": "довідник для реалізації контролю"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "recurso en relación",\n' +
@@ -19900,6 +18188,10 @@ data = '[\n' +
     '    "ukrainian": "повернення назад та забігання наперед"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "referencia a lo anterior y a lo posterior.",\n' +
+    '    "ukrainian": "повернення назад та забігання наперед"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "referencia a lo posterios",\n' +
     '    "ukrainian": "забігання наперед"\n' +
     '  },\n' +
@@ -19916,8 +18208,16 @@ data = '[\n' +
     '    "ukrainian": "повними рекомендаціями у North, В"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "referencias futuras",\n' +
+    '    "ukrainian": "майбутнього використання"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "referirse a un ámbito concreto",\n' +
     '    "ukrainian": "стосуватись окремої сфери"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "reflexión sobre el sistema fonético",\n' +
+    '    "ukrainian": "загальні фонетичні здібності"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "reflexión sobre el sistema fonético",\n' +
@@ -19992,20 +18292,12 @@ data = '[\n' +
     '    "ukrainian": "реінтерпретуються (згори донизу/top-down"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "relación",\n' +
-    '    "ukrainian": "зв\'язок"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "relación con el aprendizaje de lenguas,",\n' +
     '    "ukrainian": "зв\'язок з процесом навчання, так само як"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Relacionadas",\n' +
     '    "ukrainian": "Пов\'язані"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Relacionadas con el trabajo",\n' +
-    '    "ukrainian": "Пов\'язані з роботою"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Relacionadas con el trabajo",\n' +
@@ -20044,6 +18336,10 @@ data = '[\n' +
     '    "ukrainian": "стосунки"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "relaciones con la autoridad, con la Administración",\n' +
+    '    "ukrainian": "стосунки між громадою та поліцією, офіційними органами"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "relaciones con otras personas",\n' +
     '    "ukrainian": "стосунки з іншими людьми"\n' +
     '  },\n' +
@@ -20060,19 +18356,11 @@ data = '[\n' +
     '    "ukrainian": "расові та громадські стосунки"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Relaciones de raza y comunidad",\n' +
-    '    "ukrainian": "расові та громадські стосунки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Relaciones en situaciones de trabajo",\n' +
+    '    "spanish": "relaciones en situaciones de trabajo",\n' +
     '    "ukrainian": "стосунки в ситуаціях на роботі"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "relaciones entre generaciones",\n' +
-    '    "ukrainian": "відносини між поколіннями"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Relaciones entre generaciones",\n' +
     '    "ukrainian": "відносини між поколіннями"\n' +
     '  },\n' +
     '  {\n' +
@@ -20101,7 +18389,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "relativización",\n' +
-    '    "ukrainian": "релятивізація,"\n' +
+    '    "ukrainian": "релятивізація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "relevancia",\n' +
@@ -20124,20 +18412,12 @@ data = '[\n' +
     '    "ukrainian": "релігія"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Religión",\n' +
-    '    "ukrainian": "релігія"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "rellenar huecos",\n' +
     '    "ukrainian": "заповнення пропусків"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "rellenar huecos",\n' +
     '    "ukrainian": "заповнювати пропуски"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "rellenar huecos",\n' +
-    '    "ukrainian": "заповнення пропусків"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "rellenar un formulario",\n' +
@@ -20316,14 +18596,6 @@ data = '[\n' +
     '    "ukrainian": "автори програм/навчальних планів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "responsables de la planificación",\n' +
-    '    "ukrainian": "автори програм/навчальних планів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "respuesta",\n' +
-    '    "ukrainian": "відповідь"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "respuestas orales a preguntas de ejercicios",\n' +
     '    "ukrainian": "усні відповіді на запитання вправи"\n' +
     '  },\n' +
@@ -20392,6 +18664,10 @@ data = '[\n' +
     '    "ukrainian": "відповідають їх характеристикам"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "resumen",\n' +
+    '    "ukrainian": "огляд"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Resumen de lo esencial (artículos de periódicos",\n' +
     '    "ukrainian": "передача основного змісту (газетні"\n' +
     '  },\n' +
@@ -20430,10 +18706,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "retransmisión de noticias",\n' +
     '    "ukrainian": "випуски новин"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "retroalimentación",\n' +
-    '    "ukrainian": "зворотний зв\'язок"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "retroalimentación sistemáticas",\n' +
@@ -20506,6 +18778,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "ruido ambiental (trenes, aviones, obras, etc.)",\n' +
     '    "ukrainian": "навколишні шуми (поїзди, літаки, атмосферні умови тощо)"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "ruido de fondo",\n' +
+    '    "ukrainian": "сторонній шум"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "sabe cómo dar las gracias",\n' +
@@ -20605,10 +18881,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "salud y cuidado corporal",\n' +
-    '    "ukrainian": "здоров\'я і догляд за тілом"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Salud y cuidado corporal",\n' +
     '    "ukrainian": "здоров\'я і догляд за тілом"\n' +
     '  },\n' +
     '  {\n' +
@@ -21264,16 +19536,8 @@ data = '[\n' +
     '    "ukrainian": "можуть бути визначені кількісно та узгоджені"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "se pueden cuantificar y adaptar",\n' +
-    '    "ukrainian": "можуть бути визначені кількісно та узгоджені"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Se pueden elaborar pruebas cuidadosamente",\n' +
     '    "ukrainian": "тести можуть бути ретельно розроблені"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Se pueden elaborar pruebas cuidadosamente",\n' +
-    '    "ukrainian": "Тести можуть бути ретельно розроблені"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "se pueden escribir redacciones",\n' +
@@ -21302,10 +19566,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Se pueden utilizar los descriptores",\n' +
     '    "ukrainian": "дескриптори можуть використовуватись"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Se pueden utilizar los descriptores",\n' +
-    '    "ukrainian": "Дескриптори можуть використовуватись"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Se quedó de piedra (se quedó asombrado",\n' +
@@ -21449,15 +19709,7 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "sección",\n' +
-    '    "ukrainian": "розділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "sección",\n' +
     '    "ukrainian": "підрозділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "sección",\n' +
-    '    "ukrainian": "розділ"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "sección de esa área",\n' +
@@ -21474,14 +19726,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "segmenten",\n' +
     '    "ukrainian": "сегментувати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "seguido de explicaciones",\n' +
-    '    "ukrainian": "у супроводі пояснення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "seguido de explicaciones",\n' +
-    '    "ukrainian": "у супроводі пояснення"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "seguido de explicaciones",\n' +
@@ -21530,10 +19774,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "Segundo escenario",\n' +
     '    "ukrainian": "другий сценарій"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Segundo escenario",\n' +
-    '    "ukrainian": "Другий сценарій"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Seguridad",\n' +
@@ -21676,6 +19916,10 @@ data = '[\n' +
     '    "ukrainian": "окремих компетенцій спілкування залежо"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "ser breve",\n' +
+    '    "ukrainian": "бути стислим"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "ser complementadas o desarrolladas",\n' +
     '    "ukrainian": "бути доповненими або розробленими"\n' +
     '  },\n' +
@@ -21736,6 +19980,10 @@ data = '[\n' +
     '    "ukrainian": "бути ефективним доповненням до тестів"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "ser una ortodoxia",\n' +
+    '    "ukrainian": "ортодоксальний"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "ser una pregunta oral",\n' +
     '    "ukrainian": "бути усне запитання"\n' +
     '  },\n' +
@@ -21750,6 +19998,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "serlo para otra",\n' +
     '    "ukrainian": "відповідати іншій"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "sermón",\n' +
+    '    "ukrainian": "проповідь"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "SERVICIOS",\n' +
@@ -21893,10 +20145,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "signos de puntuación",\n' +
-    '    "ukrainian": "пунктуаційні знаки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "signos de puntuación",\n' +
     '    "ukrainian": "пунктуаційними знаками"\n' +
     '  },\n' +
     '  {\n' +
@@ -21924,16 +20172,16 @@ data = '[\n' +
     '    "ukrainian": "Може легко справитись"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "sílaba",\n' +
+    '    "ukrainian": "склад"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "simple, compuesta",\n' +
     '    "ukrainian": "просте, складене, складне )"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "simplemente como producto del aprendizaje",\n' +
     '    "ukrainian": "просто як результат вивчення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "simplemente supervisar",\n' +
-    '    "ukrainian": "просто спостерігати"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "simplemente supervisar",\n' +
@@ -22120,6 +20368,10 @@ data = '[\n' +
     '    "ukrainian": "системі згідно із загальнорекомендованими"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "sistema evaluador de DIALANG",\n' +
+    '    "ukrainian": "система оцінювання DIALANG"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "sistema fonético, su vocabulario",\n' +
     '    "ukrainian": "фонетичної системи, словника"\n' +
     '  },\n' +
@@ -22264,10 +20516,6 @@ data = '[\n' +
     '    "ukrainian": "на знайомі теми"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "sobre temas cotidianos",\n' +
-    '    "ukrainian": "на знайомі теми"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "sobre todo,",\n' +
     '    "ukrainian": "особливо,"\n' +
     '  },\n' +
@@ -22318,6 +20566,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "sociolingüísticas",\n' +
     '    "ukrainian": "Соціолінгвістичні"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "sociolinguístico",\n' +
+    '    "ukrainian": "соціолінгвістичний"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "sociolinguístico",\n' +
@@ -22456,8 +20708,8 @@ data = '[\n' +
     '    "ukrainian": "покривається окремим тестом/модулем,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "son irrelevantes",\n' +
-    '    "ukrainian": "є нерелевантним"\n' +
+    '    "spanish": "irrelevantes",\n' +
+    '    "ukrainian": "нерелевантним"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "son la norma",\n' +
@@ -22484,12 +20736,16 @@ data = '[\n' +
     '    "ukrainian": "можливі докорінно відмінні підходи, і"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "son todavía demasiado generales como",\n' +
-    '    "ukrainian": ". все ж занадто узагальнені"\n' +
+    '    "spanish": "demasiado generales",\n' +
+    '    "ukrainian": "занадто узагальнені"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "son utilizables en el habla",\n' +
     '    "ukrainian": "підходять до усного мовлення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "sonido",\n' +
+    '    "ukrainian": "звук"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "sonoridad, nasalidad, oclusión, labialidad",\n' +
@@ -22532,15 +20788,11 @@ data = '[\n' +
     '    "ukrainian": "Stansfield"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Stansfield y Kenyon,",\n' +
-    '    "ukrainian": "Stansfield and Kenyon"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "su accesibilidad (activación, recuperación",\n' +
     '    "ukrainian": "їх доступністю (активізацією, пригадуванням"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "su apertura a ello",\n' +
+    '    "spanish": "apertura a ello",\n' +
     '    "ukrainian": "відкритість до неї"\n' +
     '  },\n' +
     '  {\n' +
@@ -22552,11 +20804,11 @@ data = '[\n' +
     '    "ukrainian": "здатності проводити дослідження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "su creador",\n' +
-    '    "ukrainian": "свого творця"\n' +
+    '    "spanish": "creador",\n' +
+    '    "ukrainian": "творця"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "su creatividad",\n' +
+    '    "spanish": "creatividad",\n' +
     '    "ukrainian": "творчості"\n' +
     '  },\n' +
     '  {\n' +
@@ -22800,10 +21052,6 @@ data = '[\n' +
     '    "ukrainian": "методичним умінням?"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "sus destrezas de enseñanza?",\n' +
-    '    "ukrainian": "методичним умінням?"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "sus estilos de enseñanza?",\n' +
     '    "ukrainian": "стилям викладання?"\n' +
     '  },\n' +
@@ -22814,10 +21062,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "sus exponentes",\n' +
     '    "ukrainian": "їх експоненти"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "sus fines comunicativos",\n' +
-    '    "ukrainian": "їх комунікативних ідей,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "sus fines comunicativos",\n' +
@@ -23000,6 +21244,18 @@ data = '[\n' +
     '    "ukrainian": "як імпліцитно, так і експліцитно"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "tarea concreta",\n' +
+    '    "ukrainian": "задача"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "tarea de comprensión",\n' +
+    '    "ukrainian": "завдання на розуміння"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "tarea lingüísticamente compleja",\n' +
+    '    "ukrainian": "лінгвістично складне завдання"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "tareas de aula",\n' +
     '    "ukrainian": "класні завдання"\n' +
     '  },\n' +
@@ -23026,6 +21282,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "tasks",\n' +
     '    "ukrainian": "tasks"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "técnia",\n' +
+    '    "ukrainian": "прийом"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "técnica",\n' +
@@ -23078,6 +21338,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "teléfono, videófono, teleconferencia",\n' +
     '    "ukrainian": "телефон, відеофон, телеконференція"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "tema",\n' +
+    '    "ukrainian": "тема"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "temas",\n' +
@@ -23280,6 +21544,10 @@ data = '[\n' +
     '    "ukrainian": "автентичних текстів, усних і письмових,"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "textos bien estructurados",\n' +
+    '    "ukrainian": "добре структуровані тексти"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "Textos escritos",\n' +
     '    "ukrainian": "Письмові, напр"\n' +
     '  },\n' +
@@ -23353,10 +21621,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "tiempo libre y ocio",\n' +
-    '    "ukrainian": "вільний час, розваги"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Tiempo libre y ocio",\n' +
     '    "ukrainian": "вільний час, розваги"\n' +
     '  },\n' +
     '  {\n' +
@@ -23448,6 +21712,10 @@ data = '[\n' +
     '    "ukrainian": "тип викладання"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "tipo de respuesta exigida",\n' +
+    '    "ukrainian": "Тип очікуваної відповіді"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "tipo de respuesta exigido",\n' +
     '    "ukrainian": "тип очікуваної відповіді"\n' +
     '  },\n' +
@@ -23510,10 +21778,6 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "tiras cómicas",\n' +
     '    "ukrainian": "комікси"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "titulares de los periódicos",\n' +
-    '    "ukrainian": "заголовках з газет,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "titulares de los periódicos",\n' +
@@ -23616,6 +21880,10 @@ data = '[\n' +
     '    "ukrainian": "запис висловлювань під диктовку і тд"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "tomar mensajes al dictado, etc.",\n' +
+    '    "ukrainian": "запис висловлювань під диктовку і т.д."\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "tomar notas",\n' +
     '    "ukrainian": "складання записів"\n' +
     '  },\n' +
@@ -23632,12 +21900,20 @@ data = '[\n' +
     '    "ukrainian": "робити відповідні записи так само вільно,"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "tomar notas para usarlas como referencias futuras",\n' +
+    '    "ukrainian": "складання записів для майбутнього використання"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "total ni se puede conseguir independientemente",\n' +
     '    "ukrainian": "тотальною або здійснюватись незалежно"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "trabajadores cualificados y manuales",\n' +
     '    "ukrainian": "робітники різних рангів/ розрядів"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "trabajar intuitivamente sobre la base",\n' +
+    '    "ukrainian": "інтуїтивно діяти на основі"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Trabajo",\n' +
@@ -23680,10 +21956,6 @@ data = '[\n' +
     '    "ukrainian": "традиції та соціальні зміни"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Tradición y cambio social",\n' +
-    '    "ukrainian": "традиції та соціальні зміни"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "Traducción",\n' +
     '    "ukrainian": "Письмовий переклад"\n' +
     '  },\n' +
@@ -23710,6 +21982,10 @@ data = '[\n' +
     '  {\n' +
     '    "spanish": "traducir oraciones de L1 a L2",\n' +
     '    "ukrainian": "перекладати зразки речень з мови L1 на мову L2"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "transacción",\n' +
+    '    "ukrainian": "трансакція"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "transacción",\n' +
@@ -24421,10 +22697,6 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una evaluación comunicativa",\n' +
-    '    "ukrainian": "контроль комунікативних умінь"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una evaluación comunicativa",\n' +
     '    "ukrainian": "контролю комунікативних умінь"\n' +
     '  },\n' +
     '  {\n' +
@@ -24473,51 +22745,27 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una interpretación cuidadosa de los resultados",\n' +
-    '    "ukrainian": "ретельну інтерпретацій результатів"\n' +
+    '    "ukrainian": "ретельна інтерпретація результатів"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "una lengua extranjera (L2 )?",\n' +
-    '    "ukrainian": "іноземну мову (L2 )?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una línea telefónica deficiente, por ejemplo,",\n' +
-    '    "ukrainian": "поганий телефонний зв\'язок, напр,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una lista de aspectos",\n' +
-    '    "ukrainian": "листом тверджень,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una lista de comprobación de lo",\n' +
-    '    "ukrainian": "контрольний лист того,"\n' +
+    '    "spanish": "una línea telefónica deficiente",\n' +
+    '    "ukrainian": "поганий телефонний зв\'язок"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una lista de control",\n' +
     '    "ukrainian": "лист самооцінюваня"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "una mala comunicación",\n' +
-    '    "ukrainian": "перешкоди спілкуванню"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "una mayor diversidad de métodos",\n' +
-    '    "ukrainian": "до ще більшої різноманітності методів"\n' +
+    '    "ukrainian": "різноманітність методів"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una película con subtítulos",\n' +
-    '    "ukrainian": "фільму із субтитрами"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una persona está en un nivel",\n' +
-    '    "ukrainian": "людина знаходиться на певному рівні"\n' +
+    '    "ukrainian": "фільм із субтитрами"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una persona plurilingüe, dependiendo",\n' +
     '    "ukrainian": "плюрилінгвіста вони залежать"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una persona que tenga una conversación telefónica",\n' +
-    '    "ukrainian": "Один із партнерів під час телефонної розмови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una perspectiva más detallada",\n' +
@@ -24536,84 +22784,16 @@ data = '[\n' +
     '    "ukrainian": "обмежена точність"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "una precisión limitada",\n' +
-    '    "ukrainian": "обмеженою точністю"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "una pregunta breve de criterio",\n' +
     '    "ukrainian": "коротке критерійне запитання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una pregunta oral",\n' +
-    '    "ukrainian": "усне запитання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una prueba directa clásica es una entrevista",\n' +
-    '    "ukrainian": "Класичний прямий тест це інтерв\'ю"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "una prueba o un procedimiento de evaluación",\n' +
     '    "ukrainian": "власне контролюється і що, у певному контексті,"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "una publicación, etc",\n' +
-    '    "ukrainian": "публікації і тд"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "una respuesta de sí o no",\n' +
     '    "ukrainian": "відповіддю Так/Ні"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una señal de",\n' +
-    '    "ukrainian": "ознакою того,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea",\n' +
-    '    "ukrainian": "Завдання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una tarea a otra",\n' +
-    '    "ukrainian": "завдання до завдання,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea concreta",\n' +
-    '    "ukrainian": "Окрема задача"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea concreta puede suponer un mayor",\n' +
-    '    "ukrainian": "Окрема задача може включати більшу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea de comprensión",\n' +
-    '    "ukrainian": "Завдання на розуміння"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea puede",\n' +
-    '    "ukrainian": "Завдання може"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea puede ser lingüísticamente compleja",\n' +
-    '    "ukrainian": "Завдання може бути лінгвістичне складним,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una tarea puede ser muy sencilla",\n' +
-    '    "ukrainian": "Задача може бути зовсім простою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una valoración",\n' +
-    '    "ukrainian": "судження"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una valoración holística",\n' +
-    '    "ukrainian": "глобальне судження"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "una valoración holística,",\n' +
-    '    "ukrainian": "глобального судження"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Una variante habitual",\n' +
-    '    "ukrainian": "Загальноприйнятим"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Union",\n' +
@@ -24621,51 +22801,23 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "universal",\n' +
-    '    "ukrainian": "універсальної"\n' +
+    '    "ukrainian": "універсальний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "universal,",\n' +
-    '    "ukrainian": "універсальний,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Universidad",\n' +
-    '    "ukrainian": "університету"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "universidades",\n' +
-    '    "ukrainian": "університетах"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "universitarias,",\n' +
-    '    "ukrainian": "університетські"\n' +
+    '    "spanish": "universidad",\n' +
+    '    "ukrainian": "університет"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "universitario",\n' +
-    '    "ukrainian": "університеті"\n' +
+    '    "ukrainian": "університетський"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "universitarios",\n' +
-    '    "ukrainian": "університетської"\n' +
+    '    "spanish": "usar la escala",\n' +
+    '    "ukrainian": "застосовувати шкалу"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "uno de ellos puede tener su propia transparencia",\n' +
-    '    "ukrainian": "із них може мати свої власні прозорість"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "uno de estos componentes",\n' +
-    '    "ukrainian": "з цих компонентів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "uno mismo, sobre personas conocidas",\n' +
-    '    "ukrainian": "самих себе знайомих їм людей"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "unos sistemas de certificación",\n' +
-    '    "ukrainian": "узгодження сертифікацій"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "usarlas como referencias futuras",\n' +
-    '    "ukrainian": "майбутнього використання"\n' +
+    '    "spanish": "uso",\n' +
+    '    "ukrainian": "використання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "uso de destrezas de inferencia",\n' +
@@ -24673,7 +22825,11 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "uso de la lengua",\n' +
-    '    "ukrainian": "З м і с т 4 Користування мовою"\n' +
+    '    "ukrainian": "користування мовою"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "uso de la lengua",\n' +
+    '    "ukrainian": "використанням мови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "uso de la lengua",\n' +
@@ -24684,8 +22840,16 @@ data = '[\n' +
     '    "ukrainian": "використання мови з ігровими цілями"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Uso de sonidos extralingüísticos en el habla",\n' +
-    '    "ukrainian": "Вживання екстралінгвістичних мовних звуків"\n' +
+    '    "spanish": "uso de las de Sociedad",\n' +
+    '    "ukrainian": "використання шкал \'Соціальна сфера"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "uso de sonidos extralingüísticos en el habla",\n' +
+    '    "ukrainian": "вживання екстралінгвістичних мовних звуків"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "uso de una lengua extranjera",\n' +
+    '    "ukrainian": "використання іноземної мови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "uso en la comunicación",\n' +
@@ -24693,131 +22857,67 @@ data = '[\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "uso en la práctica",\n' +
-    '    "ukrainian": "валідації на практиці"\n' +
+    '    "ukrainian": "валідація на практиці"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "uso específico actual",\n' +
     '    "ukrainian": "специфічне значення, прийняте нами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Uso y elección de formas de tratamiento",\n' +
+    '    "spanish": "uso funcional del discurso hablado",\n' +
+    '    "ukrainian": "функціонального використання усного мовлення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "uso y elección de formas de tratamiento",\n' +
     '    "ukrainian": "вживання та вибір форм звертання"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Uso y elección del saludo",\n' +
+    '    "spanish": "uso y elección del saludo",\n' +
     '    "ukrainian": "вживання та вибір привітань"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Usos estéticos de la lengua",\n' +
-    '    "ukrainian": "435 Естетичне використання мови"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Usos lúdicos de la lengua",\n' +
-    '    "ukrainian": "Ігрове використання мови"\n' +
+    '    "spanish": "usos estéticos de la lengua",\n' +
+    '    "ukrainian": "естетичне використання мови"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "usos lúdicos de la lengua",\n' +
     '    "ukrainian": "ігрове використання мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "usted tiene un nivel A",\n' +
-    '    "ukrainian": "ви знаходитесь на рівні"\n' +
+    '    "spanish": "usuarios competentes",\n' +
+    '    "ukrainian": "компетентний користувач"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "usted tiene un nivel C",\n' +
-    '    "ukrainian": "ви знаходитесь на рівні С2 на"\n' +
+    '    "spanish": "útil",\n' +
+    '    "ukrainian": "корисний"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "usuario adapta, modifica",\n' +
-    '    "ukrainian": "учень, як правило, сприймає, адаптує"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "usuario competente de la lengua",\n' +
-    '    "ukrainian": "компетентний користувач мовою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "usuarios",\n' +
-    '    "ukrainian": "користувачів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "usuarios competentes de la lengua",\n' +
-    '    "ukrainian": "компетентний користувач мовою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "usuarios competentes de la lengua,",\n' +
-    '    "ukrainian": "компетентний користувач мовою"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "útiles",\n' +
-    '    "ukrainian": "корисними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "útiles para informar de los resultados",\n' +
-    '    "ukrainian": "корисними для висновків про результати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Utiliza algunos saludos básicos",\n' +
-    '    "ukrainian": "може вживати елементарні привітання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utiliza el usuario de la lengua",\n' +
-    '    "ukrainian": "користувач мовою застосовує"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utiliza el usuario de la lengua para movilizar",\n' +
-    '    "ukrainian": "користувач мовою застосовує для мобілізації"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Utiliza estructuras sintácticas básicas",\n' +
-    '    "ukrainian": "Може вживати базові фрази і речення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Utiliza frases hechas (por ejemplo",\n' +
-    '    "ukrainian": "Може використовувати готові фрази (напр"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utiliza la lengua con flexibilidad",\n' +
-    '    "ukrainian": "ефективно, включаючи емоційний, алюзивний"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Utiliza los conectores más frecuentes",\n' +
-    '    "ukrainian": "Може вживати найпоширеніші конектори"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utiliza normalmente al hablar",\n' +
-    '    "ukrainian": "є у його/її словниковому запасі"\n' +
+    '    "spanish": "útil para informar de los resultados",\n' +
+    '    "ukrainian": "корисний для висновків про результати"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "Utiliza técnicas sencillas",\n' +
-    '    "ukrainian": "Може вживати прості вирази"\n' +
+    '    "ukrainian": "вживати прості вирази"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "utiliza un lenguaje sencillo y descriptivo",\n' +
     '    "ukrainian": "використовувати просте описове мовлення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Utiliza una palabra sencilla",\n' +
-    '    "ukrainian": "Може вжити просте слово,"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "utilización",\n' +
-    '    "ukrainian": "використанні"\n' +
+    '    "ukrainian": "використання"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "utilización como herramienta para la motivación",\n' +
     '    "ukrainian": "використанні як інструмента підвищення мотивації"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Utilización de esta información",\n' +
-    '    "ukrainian": "б ) використання цієї інформації"\n' +
+    '    "spanish": "utilización de esta información",\n' +
+    '    "ukrainian": "використання цієї інформації"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "utilización en Internet",\n' +
     '    "ukrainian": "використання в мережі Internet"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utilizadas",\n' +
-    '    "ukrainian": "вживаються"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "utilizadas por el usuario de la lengua",\n' +
@@ -24844,6 +22944,18 @@ data = '[\n' +
     '    "ukrainian": "з використанням лиш мови L"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "utilizar",\n' +
+    '    "ukrainian": "використовувати"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "utilizar",\n' +
+    '    "ukrainian": "застосовувати"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "utilizar algunos saludos básicos",\n' +
+    '    "ukrainian": "може вживати елементарні привітання"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "utilizar como la expresión general,",\n' +
     '    "ukrainian": "використовуватись як загальний термін"\n' +
     '  },\n' +
@@ -24856,12 +22968,36 @@ data = '[\n' +
     '    "ukrainian": "застосовуватись і після розробки шкали"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "utilizar el usuario de la lengua",\n' +
+    '    "ukrainian": "користувач мовою застосовує"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "utilizar el usuario de la lengua para movilizar",\n' +
+    '    "ukrainian": "користувач мовою застосовує для мобілізації"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "utilizar en distintos contextos",\n' +
     '    "ukrainian": "вживати у різних контекстах"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "utilizar estructuras sintácticas básicas",\n' +
+    '    "ukrainian": "вживати базові фрази і речення"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "utilizar frases hechas (por ejemplo",\n' +
+    '    "ukrainian": "використовувати готові фрази"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "utilizar la lengua con flexibilidad",\n' +
+    '    "ukrainian": "ефективно, включаючи емоційний, алюзивний"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "utilizar las claves contextuales, gramaticales",\n' +
     '    "ukrainian": "визначення ставлення, поведінки"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "utilizar los conectores más frecuentes",\n' +
+    '    "ukrainian": "вживати найпоширеніші конектори"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "utilizar para describir su sistema",\n' +
@@ -24872,48 +23008,24 @@ data = '[\n' +
     '    "ukrainian": "використовувати для звіту про результати іспиту"\n' +
     '  },\n' +
     '  {\n' +
+    '    "spanish": "utilizar una palabra sencilla",\n' +
+    '    "ukrainian": "вжити просте слово"\n' +
+    '  },\n' +
+    '  {\n' +
     '    "spanish": "utilizar una variedad de estrategias",\n' +
     '    "ukrainian": "використати різні стратегії"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Utilizar valoraciones compartidas",\n' +
-    '    "ukrainian": "використання висловлених суджень"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utilizar, o bien",\n' +
-    '    "ukrainian": "використовуватись"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "utilizaron",\n' +
-    '    "ukrainian": "застосовані"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "va a decir",\n' +
-    '    "ukrainian": "хотілось сказати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "va a decir",\n' +
-    '    "ukrainian": "слід сказати,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "va decir",\n' +
-    '    "ukrainian": "хочеш"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "vacaciones,",\n' +
-    '    "ukrainian": "канікули"\n' +
+    '    "spanish": "utilizar valoraciones compartidas",\n' +
+    '    "ukrainian": "використовувати висловлення суджень"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "vale la pena estudiarlos más detenidamente",\n' +
     '    "ukrainian": "необхідне їх більш ретельне вивчення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Validación",\n' +
-    '    "ukrainian": "валідація"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "validación",\n' +
-    '    "ukrainian": "Валідація,"\n' +
+    '    "ukrainian": "валідація"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "validación de una visión común del constructo",\n' +
@@ -24932,23 +23044,15 @@ data = '[\n' +
     '    "ukrainian": "перевантаженими описами"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Valoración de la actuación",\n' +
-    '    "ukrainian": "Контроль рівня володіння"\n' +
+    '    "spanish": "valoración de la actuación",\n' +
+    '    "ukrainian": "контроль рівня володіння"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Valoración de lo",\n' +
-    '    "ukrainian": "рішення того,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Valoración de lo que",\n' +
-    '    "ukrainian": "рішення того, що"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Valoración de lo que puede darse por supuesto",\n' +
+    '    "spanish": "valoración de lo que puede darse por supuesto",\n' +
     '    "ukrainian": "рішення того, що може прийматися як дане"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Valoración de lo que puede darse por supuesto )",\n' +
+    '    "spanish": "valoración de lo que puede darse por supuesto )",\n' +
     '    "ukrainian": "рішення того, що може прийматися як дане )"\n' +
     '  },\n' +
     '  {\n' +
@@ -24956,68 +23060,40 @@ data = '[\n' +
     '    "ukrainian": "прийняття рішення про передбачення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Valoración guiada",\n' +
-    '    "ukrainian": "Кероване судження"\n' +
+    '    "spanish": "valoración guiada",\n' +
+    '    "ukrainian": "кероване судження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "valoración holística,",\n' +
-    '    "ukrainian": "бачення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "valoración holística,",\n' +
+    '    "spanish": "valoración holística",\n' +
     '    "ukrainian": "глобальне судження"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Valoración mediante escala consiste en determinar",\n' +
-    '    "ukrainian": "Рейтинг за шкалою судження про те,"\n' +
+    '    "spanish": "valoración mediante escala consiste en determinar",\n' +
+    '    "ukrainian": "рейтинг за шкалою судження про те,"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "valoraciones comparativas",\n' +
-    '    "ukrainian": "№ 8 Порівняльні судження"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Valoraciones comparativas",\n' +
-    '    "ukrainian": "Порівняльні судження"\n' +
+    '    "ukrainian": "порівняльні судження"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "valores, las creencias y las actitudes respecto a factores",\n' +
-    '    "ukrainian": "Цінності, ідеали, норми поведінки"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "van a usar la escala que a",\n' +
-    '    "ukrainian": "будуть застосовувати шкалу, (а"\n' +
+    '    "ukrainian": "норми поведінки"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "van acompañados de enunciados en",\n' +
-    '    "ukrainian": "супроводжуються мовленням, тим,"\n' +
+    '    "ukrainian": "супроводжуються мовленням"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Vantage",\n' +
-    '    "ukrainian": "Vantage"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Varía la formulación de lo",\n' +
-    '    "ukrainian": "Може варіювати формулювання того,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "variaciones de escenarios, se describen",\n' +
-    '    "ukrainian": "варіаціях сценарію, виділяються"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Variaciones según el contexto",\n' +
-    '    "ukrainian": "Варіанти в залежності від контексту"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Variaciones según las circunstancias presentes",\n' +
-    '    "ukrainian": "Варіанти в залежності від превалюючих обставин"\n' +
+    '    "spanish": "variaciones según el contexto",\n' +
+    '    "ukrainian": "варіанти в залежності від контексту"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "variante",\n' +
-    '    "ukrainian": "варіантом"\n' +
+    '    "ukrainian": "варіант"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "variantes",\n' +
-    '    "ukrainian": "варіантів"\n' +
+    '    "spanish": "variante habitual",\n' +
+    '    "ukrainian": "загальноприйнятий варіант"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "variar de una cultura a otra",\n' +
@@ -25028,60 +23104,16 @@ data = '[\n' +
     '    "ukrainian": "варіюватись в залежності від конкретної мови"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "variar, con el fin de disminuir",\n' +
-    '    "ukrainian": "варіюватись, для того щоб зменшити"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "varias categorías de alumnos",\n' +
     '    "ukrainian": "різні категорії учнів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "varias lenguas",\n' +
-    '    "ukrainian": "кількох мов"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "varias lenguas",\n' +
-    '    "ukrainian": "кількома мовами"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "varias lenguas y culturas",\n' +
-    '    "ukrainian": "кількома мовами і культурами"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "variedad de objetivos",\n' +
     '    "ukrainian": "варіювання цілей"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "varios aspectos de las actividades",\n' +
-    '    "ukrainian": "різних аспектів видів діяльності"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "varios hablantes nativos si",\n' +
-    '    "ukrainian": "кількома носіями мови, які ніяк"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "varios hablantes nativos si éstos",\n' +
     '    "ukrainian": "носіями мови, які абсолютно"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "véase el anejo B",\n' +
-    '    "ukrainian": "див Додаток Б"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "véase la sección",\n' +
-    '    "ukrainian": "буває далеко не завжди (див"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Véase también la sección",\n' +
-    '    "ukrainian": "Див Також розділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Véase también la sección 5",\n' +
-    '    "ukrainian": "Див Також розділ 5"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Véase también la sección 52",\n' +
-    '    "ukrainian": "Див Також розділ 52"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "vencer los prejuicios y la discriminación",\n' +
@@ -25092,44 +23124,12 @@ data = '[\n' +
     '    "ukrainian": "переваги і недоліки"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "ver si ya existe una traducción,",\n' +
-    '    "ukrainian": "пошукати, чи вже існує його переклад"\n' +
+    '    "spanish": "ver televisión",\n' +
+    '    "ukrainian": "перегляд програм ТБ"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Ver televisión",\n' +
-    '    "ukrainian": "перегляду програм ТБ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Ver televisión",\n' +
-    '    "ukrainian": "Перегляд"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Ver televisión y cine",\n' +
-    '    "ukrainian": "перегляду програм ТБ і фільмів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ver televisión, un vídeo",\n' +
-    '    "ukrainian": "перегляд ТВ програм, відео"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ver, jugar al (+ nombre del deporte",\n' +
-    '    "ukrainian": "спостерігати, грати (+назва спорту"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "verbales dirigidas al profesor, etc",\n' +
-    '    "ukrainian": "висловлювання з вибаченням до вчителя тощо"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "verbos auxiliares (ser, estar, haber",\n' +
-    '    "ukrainian": "допоміжні дієслова (be, do, have, modals )/англ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Verhelst",\n' +
-    '    "ukrainian": "Verhelst"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Vestidos",\n' +
-    '    "ukrainian": "одяг"\n' +
+    '    "spanish": "verbos auxiliares",\n' +
+    '    "ukrainian": "допоміжні дієслова"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "vez en cuando pueda pedir que le repitan",\n' +
@@ -25140,22 +23140,6 @@ data = '[\n' +
     '    "ukrainian": "часу може попросити про повторення"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "viajes",\n' +
-    '    "ukrainian": "подорожі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "viajes",\n' +
-    '    "ukrainian": "подорож"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Viajes",\n' +
-    '    "ukrainian": "подорожі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "viajes utiliza el transporte público",\n' +
-    '    "ukrainian": "подорожі, користуватись громадським транспортом"\n' +
-    '  },\n' +
-    '  {\n' +
     '    "spanish": "viceversa",\n' +
     '    "ukrainian": "навпаки"\n' +
     '  },\n' +
@@ -25164,20 +23148,12 @@ data = '[\n' +
     '    "ukrainian": "повсякденне життя"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Vida cotidiana",\n' +
-    '    "ukrainian": "повсякденне життя"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Vida social",\n' +
+    '    "spanish": "vida social",\n' +
     '    "ukrainian": "соціалізація"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "vida, harán que evolucione y que cambie",\n' +
-    '    "ukrainian": "еволюціонувати і змінювати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "videófono,",\n' +
-    '    "ukrainian": "відеофон,"\n' +
+    '    "spanish": "videófono",\n' +
+    '    "ukrainian": "відеофон"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "viendo",\n' +
@@ -25192,32 +23168,20 @@ data = '[\n' +
     '    "ukrainian": "житло та домівка, оточення (найближче)"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Vocabulario restringido a ciertas áreas, tales",\n' +
+    '    "spanish": "vocabulario",\n' +
+    '    "ukrainian": "лексичний запас"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "spanish": "vocabulario restringido a ciertas áreas",\n' +
     '    "ukrainian": "словник сконцентрований у таких сферах"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "vocabulario?",\n' +
-    '    "ukrainian": "лексичний запас?"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "volumen (susurro, murmullo, grito, etc",\n' +
+    '    "spanish": "volumen (susurro, murmullo, grito, etc)",\n' +
     '    "ukrainian": "гучність (шепіт, бурмотання, крик і тд )"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "volumen (susurro, murmullo, grito, etc",\n' +
-    '    "ukrainian": "гучність (шепіт, бурмотання, крик і тд"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "Voluntad",\n' +
+    '    "spanish": "voluntad",\n' +
     '    "ukrainian": "готовність"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "volver a contar y escribir historias, etc",\n' +
-    '    "ukrainian": "усний та письмовий переказ історій,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "voz (de viva voz",\n' +
-    '    "ukrainian": "живий голос (viva voce"\n' +
     '  },\n' +
     '  {\n' +
     '    "spanish": "voz (de viva voz )",\n' +
@@ -25240,223 +23204,19 @@ data = '[\n' +
     '    "ukrainian": "придих"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "vuelve a formular lo",\n' +
-    '    "ukrainian": "переформулювати те,"\n' +
+    '    "spanish": "vuelve a formular",\n' +
+    '    "ukrainian": "переформулювати"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Waystage",\n' +
-    '    "ukrainian": "Waystage"\n' +
+    '    "spanish": "realizar una conferencia en público",\n' +
+    '    "ukrainian": "виклад публічної лекції"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Waystage,",\n' +
-    '    "ukrainian": "Waystage,"\n' +
+    '    "spanish": "perspectiva interna",\n' +
+    '    "ukrainian": "внутрішня перспектива"\n' +
     '  },\n' +
     '  {\n' +
-    '    "spanish": "Wilkins,",\n' +
-    '    "ukrainian": "Уїлкінсом"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "XVII",\n' +
-    '    "ukrainian": "XVII"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y",\n' +
-    '    "ukrainian": "та"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y «adquisición» en sus sentidos restringidos",\n' +
-    '    "ukrainian": "та \'оволодіння\' у їх вузьких значеннях"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y «macrofunciones» (sección",\n' +
-    '    "ukrainian": "та \'макрофункцій\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 11 son ejemplos de este enfoque",\n' +
-    '    "ukrainian": "та 11 є зразками цього підходу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 3 del capítulo",\n' +
-    '    "ukrainian": "і 3 у розділі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 5 ), de diferentes formas",\n' +
-    '    "ukrainian": "різними способами"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 5 de la escala",\n' +
-    '    "ukrainian": "і 5 на шкалі РВМ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 5 intentan establecer lo",\n' +
-    '    "ukrainian": "і 5 були присвячені визначенню того,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 5 mediante una interacción",\n' +
-    '    "ukrainian": "та 5 у процесі інтеракції"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 5 mediante una interacción entre (a",\n' +
-    '    "ukrainian": "та 5 у процесі інтеракції між (а"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y 514 ),",\n' +
-    '    "ukrainian": "та 514 ),"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y A",\n' +
-    '    "ukrainian": "та А"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y A22 (A2+",\n' +
-    '    "ukrainian": "та А22 (А2+"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y A22 (A2+ ) Comprensión auditiva",\n' +
-    '    "ukrainian": "та А22 (А2+ ) аудіювання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y B2 (Avanzado ), y",\n' +
-    '    "ukrainian": "та В1 (рубіжний рівень ),"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y C2 (Maestría",\n' +
-    '    "ukrainian": "та СІ (компетентний"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y competencias",\n' +
-    '    "ukrainian": "та компетенцій (розділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y competencias (5113,",\n' +
-    '    "ukrainian": "та компетенцій (розділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y competencias (5113,",\n' +
-    '    "ukrainian": "та компетенцій (розділ 5113,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y del 8 y el",\n' +
-    '    "ukrainian": "і Методами 8 та"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y del 8 y el 9 (cualitativos",\n' +
-    '    "ukrainian": "і Методами 8 та 9 (якісними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y e ),",\n' +
-    '    "ukrainian": "і (д ),"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y e ), pero",\n' +
-    '    "ukrainian": "і (д ), але"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y el 9 (cualitativos",\n' +
-    '    "ukrainian": "та 9 (якісними"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y el grado en que las cosas funcionan",\n' +
-    '    "ukrainian": "; а також оцінка межі, до якої все йде"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y el tipo de respuesta exigida",\n' +
-    '    "ukrainian": "Тип очікуваної відповіді"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y eligió los",\n' +
-    '    "ukrainian": "рік і вибрала ті,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y escolarización en la que la lengua de enseñanza",\n' +
-    '    "ukrainian": "та шкільному навчанню, коли мова навчання"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y la búsqueda en un diccionario",\n' +
-    '    "ukrainian": "можливо, за рахунок перебудови мовлення"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y la existencia de un conjunto común de niveles",\n' +
-    '    "ukrainian": "Тож встановлення загального набору рівнів"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y lo convierte a la otra (Ly",\n' +
-    '    "ukrainian": "сприймаючи текст однією мовою (Lx"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y los mejores métodos combinan los",\n' +
-    '    "ukrainian": "Найкращі підходи комбінують усі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y los niveles «de signo más» (por ejemplo, A2+",\n' +
-    '    "ukrainian": "та \'додатковими рівнями\' (напр А2+"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y más limitados (locales y pedagógicos",\n' +
-    '    "ukrainian": "та вужчими (локальними ) рівнями"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y para que",\n' +
-    '    "ukrainian": "таким чином, що"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y paratextuales (véase la sección",\n' +
-    '    "ukrainian": "та паратекстуальний (див розділ"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y Pregunto a alguien cómo se llama",\n' +
-    '    "ukrainian": "і_\'Я можу запитати когось, як його звати"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y pueden trabajar intuitivamente sobre la base",\n' +
-    '    "ukrainian": "Останні можуть інтуїтивно діяти на основі"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y R",\n' +
-    '    "ukrainian": "та R"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y realizar una conferencia en público",\n' +
-    '    "ukrainian": "та виклад публічної лекції,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y representa una perspectiva interna",\n' +
-    '    "ukrainian": "Він представляє внутрішню перспективу"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y Scarino",\n' +
-    '    "ukrainian": "та \'Scarino\'"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y se eliminaron del análisis",\n' +
-    '    "ukrainian": "їх довелось вилучити"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y se escriben resúmenes",\n' +
-    '    "ukrainian": "Вони можуть писати огляди"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y su relación",\n' +
-    '    "ukrainian": "та їх зв\'язками,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "y un cuadro de evaluación de la actuación",\n' +
-    '    "ukrainian": "і сітка оцінювання рівнів володіння,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ya existe una traducción,",\n' +
-    '    "ukrainian": "вже існує його переклад"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ya existen",\n' +
-    '    "ukrainian": "вже існують,"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "ya trabajan",\n' +
-    '    "ukrainian": "вже працюють"\n' +
-    '  },\n' +
-    '  {\n' +
-    '    "spanish": "yuxtaposición de competencias diferenciadas, sino",\n' +
-    '    "ukrainian": "протиставлення різних компетенцій, але швидше"\n' +
+    '    "spanish": "yuxtaposición de competencias diferenciadas",\n' +
+    '    "ukrainian": "протиставлення різних компетенцій"\n' +
     '  }\n' +
     ']';
