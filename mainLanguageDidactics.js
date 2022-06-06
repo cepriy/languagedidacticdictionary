@@ -3,12 +3,25 @@ var txtArQuery = $("#txtArQuery");
 var names = new Array();
 const substrMaxLength = 5;
 function updateInterface() {
-    interfaceLanguage = $("input[name='language']:checked").val();
-    txtArQuery.attr("placeholder", langUpdateArray[interfaceLanguage]["introduceTermStr"]);
-    $("#title").text(langUpdateArray[interfaceLanguage]["dictionaryNameStr"]);
-    $("#about").text(langUpdateArray[interfaceLanguage]["about"]);
-    $("#selectInterfaceLang").text(langUpdateArray[interfaceLanguage]["selectInterfaceStr"]);
-    $("#makeConcordance").text(langUpdateArray[interfaceLanguage]["generateConcordanceStr"]);
+
+    if ($('#vocabSelect').val() === "general") {
+        interfaceLanguage = $("input[name='language']:checked").val();
+        txtArQuery.attr("placeholder", langUpdateArrayEductation[interfaceLanguage]["introduceTermStr"]);
+        $("#title").text(langUpdateArrayEductation[interfaceLanguage]["dictionaryNameStr"]);
+        $("#about").text(langUpdateArrayEductation[interfaceLanguage]["about"]);
+        $("#selectInterfaceLang").text(langUpdateArrayEductation[interfaceLanguage]["selectInterfaceStr"]);
+        $("#makeConcordance").text(langUpdateArrayEductation[interfaceLanguage]["generateConcordanceStr"]);
+    }
+
+    if ($('#vocabSelect').val() === "fashionAndDesign") {
+        interfaceLanguage = $("input[name='language']:checked").val();
+        txtArQuery.attr("placeholder", langUpdateArrayMilitary[interfaceLanguage]["introduceTermStr"]);
+        $("#title").text(langUpdateArrayMilitary[interfaceLanguage]["dictionaryNameStr"]);
+        $("#about").text(langUpdateArrayMilitary[interfaceLanguage]["about"]);
+        $("#selectInterfaceLang").text(langUpdateArrayMilitary[interfaceLanguage]["selectInterfaceStr"]);
+        $("#makeConcordance").text(langUpdateArrayMilitary[interfaceLanguage]["generateConcordanceStr"]);
+    }
+
 }
 updateInterface();
 $("#langSelect").change(function (){
@@ -22,31 +35,68 @@ txtArQuery.keyup(function (event) {
     }
 });
 
+function updateAutocomplete(){
+    txtArQuery.autocomplete(
+        {
+            source: names.map(function(item){
+                return item.replaceAll('$', ',');
+            }),
+            minLength: 3,
+            select: function (event, ui) {
+                if (ui.item) {
+                    $(event.target).val(ui.item.value);
+                }
+                findTranslation(txtArQuery.val().trim());
+            }
+        });
+}
+
+
 concordanceData = JSON.parse(concordance);
+entries = JSON.parse(general);
+parseData(entries);
 
 
-$("#title").text(langUpdateArray[interfaceLanguage]["dictionaryNameStr"]);
+
+
+$('#vocabSelect').change(function (){
+   //alert($('#vocabSelect').val())
+    updateInterface();
+
+    if($('#vocabSelect').val() === 'general') {
+
+        concordanceData = JSON.parse(concordance);
+        entries = JSON.parse(data);
+        parseData(entries);
+        updateAutocomplete()
+    }
+
+    if($('#vocabSelect').val() === 'fashionAndDesign') {
+        concordanceData = JSON.parse(concordance);
+        entries = JSON.parse(fashionAndDesign);
+        parseData(entries);
+        // alert(names[12])
+        // alert(entries[2]['english'])
+        updateAutocomplete()
+
+
+    }
+})
+
+
+
 
 txtArQuery.click( function (){
     txtArQuery.val("");
     divOutput.text("");
 })
 
-let entries = readJSONdata();
-parseData(entries);
 
-function readJSONdata() {
 
-    // fetch(fileUrl)  // IMPLEMENT THIS JSON READING IF POSSIBLE HAVING PASSE THE FILEPATH AS THE ARGUMENT
-    // .then(response => {
-    //                  return response.json();})
-    //            .then(jsondata => console.log(jsondata) );
 
-    return JSON.parse(data);
-
-}
 
 function preprocessTerm(term) {
+
     let result = "";
     term = term.trim().toLowerCase().replaceAll("\\(","")
         .replaceAll(")", "")
@@ -64,13 +114,16 @@ function preprocessTerm(term) {
 
     }
     else if (term.length > substrMaxLength) { result = "(" + term.substring(0, substrMaxLength) + ".{0,17}?)([ \.,:;\\n]+)";}
-    else result = term;
-    return result;
+    else result = "(" + term + ")";
+
+    return result.trim();
 }
 
 function parseData(data) {
+
+    names = []
     data.forEach(function (item){
-        names = names.concat(item.spanish.split(","));
+        names = names.concat(item.english.split(","));
         names = names.concat(item.ukrainian.split(","))
 
     })
@@ -78,43 +131,29 @@ function parseData(data) {
     console.log(names)
 }
 
-$(document).ready(function () {
-
-  txtArQuery.autocomplete(
-        {
-            source: names.map(function(item){
-                return item.replaceAll('$', ',');
-            }),
-            minLength: 3,
-            select: function (event, ui) {
-                if (ui.item) {
-                    $(event.target).val(ui.item.value);
-                }
-                findTranslation(txtArQuery.val().trim());
-            }
-        });
-});
+$(document).ready(updateAutocomplete());
 
 function highlightString (text, string1, string2){ // the string might be either original, either translation
 
-    console.log("preprocessed string" + new RegExp( preprocessTerm(string1)))
-           return  text.replace(new RegExp( preprocessTerm(string1),  "ig"), "<mark>$1</mark>$2")
-                .replace(new RegExp( preprocessTerm(string2),  "ig"), "<mark>$1</mark>$2");
+    console.log("preprocessed string1" + new RegExp( preprocessTerm(string1)))
+    console.log("preprocessed string2" + new RegExp( preprocessTerm(string2)))
+           return  text.replace(new RegExp( preprocessTerm(string1),  "ig"), "<mark>$1</mark> ")
+                .replace(new RegExp( preprocessTerm(string2),  "ig"), "<mark>$1</mark> ");
 }
 
-// $("#makeConcordance").click (function (){
-//
-// })
+
 
 function makeConcorddance(){
     $("#concordTable").empty();
     let term = preprocessTerm(txtArQuery.val().trim());
     concordanceData.forEach(function (item){
-        if (new RegExp(term).test(item.original) || new RegExp(term).test(item.translation) ||
-            ( item.original.length > 2 && item.original.toLowerCase().includes(txtArQuery.val().trim())) || (item.translation.length > 2 && item.translation.toLowerCase().includes(txtArQuery.val().trim()))){ // because 'test' will not work if the fragment contains brackets and other special symbols
-
+        if ( ( item.original.length > 2 && item.translation.length > 2 && new RegExp(term).test(item.original))
+            || (item.original.length > 2 && item.translation.length > 2 && new RegExp(term).test(item.translation))
+                || (item.original.length > 2 && item.translation.length > 2 && item.original.toLowerCase().includes(txtArQuery.val().trim()) )
+                || (item.original.length > 2 && item.translation.length > 2  && item.translation.toLowerCase().includes(txtArQuery.val().trim()))
+            ){ // because 'test' will not work if the fragment contains brackets and other special symbols
             let originalStringSet = divOutput.text().split(", ");
-            let highlightedOriginalString = item.original;
+            let highlightedOriginalString = item.original;;
             let translationsSet = divOutput.text().split(", ");
             let hightlightedTranslationString = item.translation;
            // alert(hightlightedTranslationString + " " + term.substring(0,4) + " swapping")
@@ -130,7 +169,7 @@ function makeConcorddance(){
             })
             let row = $('<tr/>',{}).appendTo($("#concordTable"));
             $('<th/>',{
-                html: highlightedOriginalString + "<br/>",
+                html: highlightedOriginalString +  " " +  "<a href=" + item.linkToOriginal +  ">" + item.linkToOriginal + "<a>" + "<br/>",
                 css:{
                     width:"350px"
                 }
@@ -142,7 +181,7 @@ function makeConcorddance(){
             })
 
             $('<th/>',{
-                html: hightlightedTranslationString + "<br/>",
+                html: hightlightedTranslationString + " " +  "<a href=" + item.linkToTranslation +  ">" + item.linkToTranslation + "<a>" + "<br/>",
                 css:{
                     width:"350px"
                 }
@@ -156,7 +195,7 @@ function findTranslation(term) {
     entries.forEach(function (currentEntry) {
 
 
-        currentEntry.spanish.split(",").forEach(function (spName) {
+        currentEntry.english.split(",").forEach(function (spName) {
             if (term === spName.trim().replaceAll("$", ",")) {
                 if (divOutput.text().length > 1){
                     divOutput.text(divOutput.text() + ", " + currentEntry.ukrainian);}
@@ -168,9 +207,9 @@ function findTranslation(term) {
         currentEntry.ukrainian.split(",").forEach(function (ukrainian) {
             if (term === ukrainian.trim().replaceAll("$", ",")) {
                 if (divOutput.text().length > 1){
-                divOutput.text(divOutput.text() + ", " + currentEntry.spanish);}
+                divOutput.text(divOutput.text() + ", " + currentEntry.english);}
                 else{
-                    divOutput.text(currentEntry.spanish);
+                    divOutput.text(currentEntry.english);
                 }
             }
         })
